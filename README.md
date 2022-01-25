@@ -1,3 +1,3 @@
-# christian-burek.github.io
+# github.github.io
 
 this is my repsoitory
