@@ -1,0 +1,149 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.button {
+  	color: white;
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #3d3d3d;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button1 {
+  	color: white;
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #3d3d3d;
+    cursor: pointer;
+    border-radius: 4px;
+}
+            
+.button1:hover {
+    background: #505050;
+}
+
+.button1:active {
+    background-color: #aaaaaa;
+    color: black;
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button2 {
+    background: #9966ff;
+  	font-size: 13px;
+  	border-radius: 8px;
+    color: black;
+}
+
+.button2:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.button2:active {
+    background: #7733ff;
+    font-size: 13px;
+    border-radius: 8px;
+}
+
+.request {
+    background: green;
+  	font-size: 25px;
+  	border-radius: 8px;
+    box-shadow: 0 4px 0 darkgreen;
+    color: white;
+}
+
+.request:hover {
+    color: black;
+    cursor: pointer;
+}
+
+h2 {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.request:active {
+    background: darkgreen;
+}
+
+hr {
+    height: 5px;
+    background: #181818;
+    border: 0;
+}
+
+.color {
+    margin: 0;
+    background: #212121;
+}
+
+.title {
+    color: #aaaaaa;
+    float: center;
+    margin-top: 70px;
+}
+
+.left-col {
+    float: left;
+    margin-left: 40px;
+    margin-top: -122px;
+}
+
+
+.alert {
+    padding: 20px;
+    background-color: #A61414;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+}
+.alert.controls {
+    background-color: black;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black; 
+}
+
+.closebtn.black {
+    color: grey;
+}
+
+.closebtn.black:hover{
+    color: white;
+}
+
+.backgroundImg {
+        background: #303030;
+        background-image: url('img_girl.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+
+.show {display: block;}
