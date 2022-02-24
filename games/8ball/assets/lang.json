@@ -1,0 +1,78 @@
+{
+  "stringresources": {
+    "strings": {
+      "string": [
+        {
+          "-id": "YouWinKey",
+          "en": "You win!",
+          "de": "Du hast gewonnen!",
+          "es": "¡Has ganado!",
+          "fr": "Vous avez gagné !",
+          "it": "Hai vinto!",
+          "br": "Você vence",
+          "ru": "ты победил!"
+        },
+        {
+          "-id": "YouLoseKey",
+          "en": "YOU LOSE",
+          "es": "Pierdes",
+          "de": "Du hast verloren",
+          "it": "Hai perso",
+          "fr": "Vous avez perdu",
+          "br": "Você perde",
+          "ru": "Ты проиграл"
+        },
+        {
+          "-id": "PlayerKey",
+          "en": "PLAYER",
+          "de": "SPIELER",
+          "es": "JUGADOR",
+          "fr": "JOUEUR",
+          "it": "GIOCAT.",
+          "br": "JOGADOR",
+          "ru": "ИГРОК"
+        },
+        {
+          "-id": "WINS3RDPERSON_key",
+          "en": "[NAME] WINS!",
+          "de": "[NAME] GEWINNT!",
+          "es": "¡[NAME] GANA!",
+          "fr": "[NAME] L'EMPORTE !",
+          "it": "[NAME] HA VINTO!.",
+          "br": "[NAME] GANHA!",
+          "ru": "[NAME] ВЫИГРЫВАЕТ!"
+        },
+        {
+          "-id": "InstructionsTitleKey",
+          "en": "Instructions",
+          "fr": "Instructions",
+          "de": "Anleitung",
+          "es": "Instrucciones",
+          "br": "Instruções",
+          "it": "Istruzioni",
+          "ru": "Инструкция"
+        },
+        {
+          "-id": "PauseKey",
+          "en": "Pause",
+          "fr": "Pause",
+          "de": "Pause",
+          "es": "Pausado",
+          "it": "Pausa",
+          "br": "Pausa",
+          "ru": "Пауза"
+        },
+        {
+          "-id": "InstructionsTextKey",
+          "en": "STANDARD EIGHT-BALL POOL RULES APPLY. AIM AND HIT THE CUE BALL TO HIT AND POT THE COLOURFUL BALLS INTO THE POCKETS. BE CAREFUL TO POT ONLY YOUR OWN BALLS (SOLIDS OR STRIPES, DEPENDING ON THE FIRST ONE YOU POT) AND THE BLACK ONE AFTERWARDS.",
+          "fr": "LES RÈGLES STANDARD DU JEU DE BILLARD À HUIT BOULES S'APPLIQUENT. VISEZ ET FRAPPEZ LA BOULE DE POINTE POUR ENVOYER LES BOULES COLORÉES DANS LES TROUS. FAITES ATTENTION DE N'ENVOYER DANS LES TROUS QUE VOS PROPRES BOULES (UNIES OU RAYÉES, SELON LA PREMIÈRE BOULE QUE VOUS ENVOYEZ DANS UN TROU) ET LA NOIRE APRÈS.",
+          "de": "ES GELTEN DIE REGELN FÜR DAS KLASSISCHE 8-BALL-POOLBILLARD. ZIELE MIT DER WEIßEN KUGEL AUF DIE FARBIGEN KUGELN UND VERSENKE SIE IN DEN TASCHEN. ACHTE DARAUF, NUR DEINE EIGENEN KUGELN EINZULOCHEN. (JE NACH ERSTEM TREFFER SIND DAS DIE EINFARBIGEN ODER GESTREIFTEN KUGELN.) AM ENDE IST DIE SCHWARZE ACHT DRAN.",
+          "es": "SE APLICAN LAS REGLAS ESTÁNDAR DEL BILLAR DE OCHO BOLAS. APUNTA Y DALE A LA BOLA BLANCA PARA METER LAS BOLAS DE COLORES EN LOS AGUJEROS. TEN CUIDADO DE METER SOLO TUS BOLAS (LISAS O RAYADAS, DEPENDIENDO DE LA PRIMERA QUE METAS) Y LA NEGRA AL FINAL.",
+          "br": "AS REGRAS APLICADAS SÃO DO BILHAR COM OITO BOLAS. MIRE E ACERTE A BOLA BRANCA E ENCAÇAPE AS BOLAS COLORIDAS NAS CAÇAPAS. PRESTE ATENÇÃO PARA ENCAÇAPAR APENAS AS SUAS BOLA (EM COR LISA OU COM LISTRAS, DEPENDENDO DA PRIMEIRA QUE VOCÊ ENCAÇAPAR) E A PRETA EM SEGUIDA.",
+          "it": "SI APPLICANO LE NORMALI REGOLE DI PALLA 8. MIRA E COLPISCI IL PALLINO PER COLPIRE E MANDARE IN BUCA LE PALLE COLORATE. FAI ATTENZIONE A MANDARE IN BUCA SOLO LE TUE PALLE (COMPLETAMENTE COLORATE O CON UNA RIGA LARGA DI COLORE NEL CENTRO, A SECONDA DELLA PRIMA CHE MANDI IN BUCA) E POI LA NERA.",
+          "ru": "ИСПОЛЬЗУЮТСЯ СТАНДАРТНЫЕ ПРАВИЛА ВОСЬМЁРКИ. ЦЕЛЬСЯ И УДАРЯЙТЕ ПО ВЫБРАННЫМ ШАРАМ, ЧТОБЫ ПОБЕДИТЬ НУЖНО ЗАБИТЬ ЦВЕТНЫЕ ШАРЫ В ЛУЗЫ. БУДЬТЕ ОСТОРОЖНЫ И ЗАБИВАЙТЕ ТОЛЬКО СВОИ СОБСТВЕННЫЕ ШАРЫ (ЦЕЛЫЕ ИЛИ ПОЛОСАТЫЕ, В ЗАВИСИМОСТИ ОТ ПЕРВОГО, КОТОРЫЙ ВЫ ЗАБЬЕТЕ) И ЧЕРНЫЙ В САМОМ КОНЦЕ."
+        }
+      ]
+    }
+  }
+}
