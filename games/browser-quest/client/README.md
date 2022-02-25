@@ -1,1 +1,0 @@
-Instructions to configure and run BrowserQuest are in the README.md file in the root of this repository.
