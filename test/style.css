@@ -21,7 +21,7 @@ body{
 .wrapper .sidebar{
   width: 200px;
   height: 100%;
-  background: #111111;
+  background: #181818;
   padding: 30px 0px;
   position: fixed;
 }
@@ -35,22 +35,19 @@ body{
 
 .wrapper .sidebar ul li{
   padding: 15px;
-  border-bottom: 1px solid #ffffff;
-  border-bottom: 1px solid rgba(0,0,0,0.05);
-  border-top: 1px solid rgba(255,255,255,0.05);
 }    
 
-.wrapper .sidebar ul li a{
+.wrapper .sidebar ul a li{
   color: #fff;
   display: block;
 }
 
-.wrapper .sidebar ul li a .fas{
+.wrapper .sidebar ul a li .fas{
   width: 25px;
 }
 
 .wrapper .sidebar ul li:hover{
-  background-color: black;
+  background-color: #aaaaaa;
 }
     
 .wrapper .sidebar ul li:hover a{
