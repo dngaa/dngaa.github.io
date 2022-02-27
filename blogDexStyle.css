@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+.bodyMain {
+  background: opacity 1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+    display: table;
+    width: 100%;
+}
+
+.blogLink {
+    background-color: white;
+    color: black;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 4px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25.00%;
+  display: table-cell;
+}
+
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.content:active {
+    background: #3d3d3d;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+@media screen and (max-width: 1000px) {
+.column {
+  float: left;
+  width: 33.33%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+.column {
+  float: left;
+  width: 50.00%;
+  }
+}
