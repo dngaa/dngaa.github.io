@@ -26,7 +26,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif; 
 }
 
 body{
@@ -131,4 +131,27 @@ body{
 
 .closebtn:hover {
   color: rgb(48, 48, 48); 
+}
+
+#progress{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: grid;
+  place-items: center;
+  z-index:105;
+}
+#progress-value{
+  display: block;
+  height: calc(100% - 5px);
+  width: calc(100% - 5px);
+  background-color: #212121;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+  font-size: 0px;
 }
