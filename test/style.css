@@ -31,7 +31,7 @@
 
 body,
 html {
-    height: 200%
+    height: 100%
 }
 
 #particles-js {
@@ -45,12 +45,12 @@ html {
 }
 
 
-.wrapper{
+.wrapper {
   display: flex;
   position: relative;
 }
 
-.wrapper .sidebar{
+.wrapper .sidebar {
   width: 200px;
   height: 100%;
   background: #181818;
@@ -58,39 +58,39 @@ html {
   position: fixed;
 }
 
-.wrapper .sidebar h2{
+.wrapper .sidebar h2 {
   color: #fff;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
 }
 
-.wrapper .sidebar ul li{
+.wrapper .sidebar ul li {
   padding: 15px;
 }    
 
-.wrapper .sidebar ul a li{
+.wrapper .sidebar ul a li {
   color: #fff;
   display: block;
 }
 
-.wrapper .sidebar ul a li:hover{
+.wrapper .sidebar ul a li:hover {
   color: black;
 }
 
-.wrapper .sidebar ul a li .fas{
+.wrapper .sidebar ul a li .fas {
   width: 25px;
 }
 
-.wrapper .sidebar ul li:hover{
+.wrapper .sidebar ul li:hover {
   background-color: #aaaaaa;
 }
     
-.wrapper .sidebar ul li:hover a{
+.wrapper .sidebar ul li:hover a {
   color: black;
 }
  
-.wrapper .sidebar .social_media{
+.wrapper .sidebar .social_media {
   position: absolute;
   bottom: 25px;
   left: 48%;
@@ -98,25 +98,25 @@ html {
   display: flex;
 }
 
-.wrapper .main_content{
+.wrapper .main_content {
   width: 100%;
   margin-left: 200px;
 }
 
-.wrapper .main_content .header{
+.wrapper .main_content .header {
   padding: 20px;
   background: #fff;
   color: #717171;
   border-bottom: 1px solid #e0e4e8;
 }
 
-.wrapper .main_content .info{
+.wrapper .main_content .info {
   margin: 20px;
   color: #717171;
   line-height: 25px;
 }
 
-.wrapper .main_content .info div{
+.wrapper .main_content .info div {
   margin-bottom: 20px;
 }
 
@@ -149,7 +149,7 @@ html {
   color: rgb(48, 48, 48); 
 }
 
-#progress{
+#progress {
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -161,7 +161,7 @@ html {
   z-index:105;
 }
 
-#progress-value{
+#progress-value {
   display: block;
   height: calc(100% - 5px);
   width: calc(100% - 5px);
@@ -221,7 +221,7 @@ h1 {
   display: inline-block;
   }
   
-li a{
+li a {
   display: inline-block;
   color: white;
   text-align: center;
@@ -230,21 +230,21 @@ li a{
   font-size: initial;
 }
 
-li a:hover{
+li a:hover {
   background-color: #aaaaaa;
   color: black;
 }
 
-.search-bar{
+.search-bar {
   display: inline-block;
 }
 
 input[type=text] {
   outline: none;
   width: 130px;
+  float:top;
   box-sizing: border-box;
   border: 2px solid darkgrey;
-  border-radius: 10px;
   font-size: 16px;
   background-color: #ccc;
   background-image: url('https://img.icons8.com/material-outlined/24/000000/search--v1.png');
@@ -252,9 +252,8 @@ input[type=text] {
   background-repeat: no-repeat;
   padding: 12px 20px 12px 48px;
   transition: width 0.4s ease-in-out;
-  float: inline-start;
-  }
+}
 
-  input[type=text]:focus {
+input[type=text]:focus {
   width: 100%;
-  }
+}
