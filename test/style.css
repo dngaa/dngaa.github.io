@@ -175,8 +175,9 @@ html {
 
 .title {
   color: #aaaaaa;
-  float: center;
+  text-align: left;
   margin-top: 70px;
+  padding-left: 30px;
 }
 
 h1 {
@@ -184,14 +185,12 @@ h1 {
   font-size: 65px;
   font-weight: 400;
   top: 250px;
-  text-align: center;
   text-transform: uppercase;
 }
 
 .left-col {
   float: left;
   margin-left: 20px;
-  margin-top: -112px;
 }
 
 .right-col {
