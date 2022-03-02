@@ -5,7 +5,7 @@
 }
 
 ::-webkit-scrollbar-track {  
-  background: linear-gradient(#212121, #21313A);
+  background-color: #212121;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -52,8 +52,9 @@ html {
 
 .wrapper .sidebar {
   width: 200px;
-  height: 100%;
-  background: #181818;
+  height: 100%;  
+  background: rgb(24, 24, 24, .8);
+  backdrop-filter: blur(2.5px);
   padding: 30px 0px;
   position: fixed;
 }
@@ -121,8 +122,10 @@ html {
 }
 
 .alert {
+  
   padding: 20px;
-  background-color: #A61414;
+  background-color: rgb(166,20,20, .6);
+  backdrop-filter: blur(2.5px);
   color: white;
   margin-bottom: 15px;
   text-align: center;
@@ -204,7 +207,8 @@ h1 {
   list-style-type: none;
   margin:	0;
   padding: 0;
-  background-color: #181818;
+  background: rgb(24, 24, 24, .7);
+  backdrop-filter: blur(2.5px);
   font-size: 0;
   list-style-type: none;
   top: 0;
