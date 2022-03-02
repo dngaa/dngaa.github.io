@@ -14,11 +14,6 @@
   margin: auto;
 }
 
-h1 {
-  font-size: 50px;
-  word-break: break-all;
-}
-
 .row {
   margin: 10px -16px;
     display: table;
@@ -59,7 +54,7 @@ h1 {
 }
 
 .content:active {
-    background: #3d3d3d;
+  background: rgba(61, 61, 61, .4);
 }
 
 /* The "show" class is added to the filtered elements */
