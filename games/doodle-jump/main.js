@@ -117,7 +117,9 @@ function Platform() {
   this.cy = 0;
   this.cwidth = 105;
   this.cheight = 31;
-
+  
+  // G-98DP5VKS42
+  
   //Function to draw it
   this.draw = function() {
     try {
@@ -444,12 +446,6 @@ function init() {
       showGoMenu();
       hideScore();
       player.isDead = "lol";
-
-      var tweet = document.getElementById("tweetBtn");
-      tweet.href='http://twitter.com/share?url=http://is.gd/PnFFzu&text=I just scored ' +score+ ' points in the HTML5 Doodle Jump game!&count=horiztonal&via=cssdeck&related=solitarydesigns';
-    
-      var facebook = document.getElementById("fbBtn");
-      facebook.href='http://facebook.com/sharer.php?s=100&p[url]=http://cssdeck.com/labs/html5-doodle-jump/8&p[title]=I just scored ' +score+ ' points in the HTML5 Doodle Jump game!&p[summary]=Can you beat me in this awesome recreation of Doodle Jump created in HTML5?';
 
     }
   }

@@ -135,8 +135,8 @@ bkcore.Audio.setListenerPos = function(vec){
 };
 
 bkcore.Audio.setListenerVelocity = function(vec){
-	// if(bkcore.Audio._ctx){
-	// 	var panner = bkcore.Audio._panner;
-	// 	// panner.setVelocity(vec.x, vec.y, vec.z);
-	// }
+	if(bkcore.Audio._ctx){
+		var panner = bkcore.Audio._panner;
+		//panner.setVelocity(vec.x, vec.y, vec.z);
+	}
 };

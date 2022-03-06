@@ -6,23 +6,15 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
     <title>Vex 5 | 3kh0</title>
     <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
+    <script type="application/javascript" src="/js/main.js"></script>
 
 </head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-98DP5VKS42"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-98DP5VKS42');
-</script>
 <body>
     <div id="content"></div>
     <div id="loader">Loading...</div>
     <div id="orientation"></div>
     <script type="text/javascript">
         var gameName = 'vex-5.min.js';
-
 
         //This all here is for cache busting;
         function addScript(src, buster, callback) {
@@ -35,15 +27,11 @@
         }
 
         addScript('version.js', Date.now(), function() {
-
             addScript(gameName, version, function() {
-                /**
-                 * Here we create the game
-                 */
+                // Here we create the game
                 new Vex5.Game();
 
             })
-
         })
     </script>
 </body>
