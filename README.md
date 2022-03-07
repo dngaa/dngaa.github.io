@@ -1,6 +1,6 @@
 # dngaa.github.io
 Originial Website <br>
-[Jet Yehs Unblocked Games](jetyeh.vodka) <br><br>
+[Jet Yehs Unblocked Games](jetyeh.vodka) <br><hr>
 
 games take from <br>
 [3hk0](https://github.com/3kh0/3kh0.github.io) <br>
