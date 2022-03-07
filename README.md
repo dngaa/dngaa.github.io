@@ -1,5 +1,5 @@
 # dngaa.github.io
 
 games take from
-[I'm an inline-style link](https://www.google.com)
+[3hk0](https://3kh0.github.io/)
 
