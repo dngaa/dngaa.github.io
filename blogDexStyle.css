@@ -54,7 +54,8 @@
 }
 
 .content:active {
-  background: rgba(61, 61, 61, .4);
+  background: rgba(61, 61, 61, .3);
+  backdrop-filter: blur(2px);
 }
 
 /* The "show" class is added to the filtered elements */
