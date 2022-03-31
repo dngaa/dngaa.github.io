@@ -1,0 +1,169 @@
+{
+  "properties": {
+    "parent": "root",
+    "vox": "menutuning"
+  },
+  "data": [
+    {
+      "string": "tuningLabel",
+      "langOverride": "menu_root",
+      "type": "header"
+    },
+    {
+      "string": "presetsLabel",
+      "stringDesc": "presetDescription",
+      "action": "submenu",
+      "submenu": "daspresets"
+    },
+    {
+      "string": "dasLabel",
+      "stringDesc": "dasDescription",
+      "default": true,
+      "type": "slider",
+      "action": "slider",
+      "max": 300,
+      "min": 0,
+      "discrete": 10,
+      "setting": "DAS",
+      "settingType": "setting"
+    },
+    {
+      "string": "arrLabel",
+      "stringDesc": "arrDescription",
+      "type": "slider",
+      "action": "slider",
+      "max": 100,
+      "min": 0,
+      "discrete": 5,
+      "setting": "ARR",
+      "settingType": "setting"
+    },
+    {
+      "string": "dasPreloadLabel",
+      "stringDesc": "dasPreloadDescription",
+      "type": "toggle",
+      "action": "toggle",
+      "setting": "IAS",
+      "settingType": "setting"
+    },
+    {
+      "string": "irsLabel",
+      "stringDesc": "irsDescription",
+      "type": "select",
+      "action": "select",
+      "selectOptions": [
+        {
+          "string": "offOption",
+          "value": "off",
+          "langOverride": "mode-options"
+        },
+        {
+          "string": "tapInitOption",
+          "value": "tap"
+        },
+        {
+          "string": "holdInitOption",
+          "value": "hold"
+        },
+        {
+          "string": "absoluteIrsOption",
+          "value": "absolute"
+        }
+      ],
+      "setting": "IRS",
+      "settingType": "setting"
+    },
+    {
+      "string": "ihsLabel",
+      "stringDesc": "ihsDescription",
+      "type": "select",
+      "action": "select",
+      "selectOptions": [
+        {
+          "string": "offOption",
+          "value": "off",
+          "langOverride": "mode-options"
+        },
+        {
+          "string": "tapInitOption",
+          "value": "tap"
+        },
+        {
+          "string": "holdInitOption",
+          "value": "hold"
+        }
+      ],
+      "setting": "IHS",
+      "settingType": "setting"
+    },
+    {
+      "string": "rotSysLabel",
+      "stringDesc": "rotSysDescription",
+      "type": "select",
+      "action": "select",
+      "selectOptions": [
+        {
+          "string": "auto",
+          "value": "auto",
+          "langOverride": "menu_general"
+        },
+        {
+          "label": "SRS-X",
+          "fixedText": true,
+          "value": "srs"
+        },
+        {
+          "label": "Tetra-X",
+          "fixedText": true,
+          "value": "tetrax"
+        },
+        {
+          "label": "ARS",
+          "fixedText": true,
+          "value": "ars"
+        },
+        {
+          "label": "ARS-TI",
+          "fixedText": true,
+          "value": "arsti"
+        },
+        {
+          "label": "ARS-X",
+          "fixedText": true,
+          "value": "arsx"
+        },
+        {
+          "label": "World",
+          "fixedText": true,
+          "value": "world"
+        },
+        {
+          "label": "Nintendo-R",
+          "fixedText": true,
+          "value": "retro"
+        },
+        {
+          "label": "Nintendo-L",
+          "fixedText": true,
+          "value": "handheld"
+        },
+        {
+          "label": "DX",
+          "fixedText": true,
+          "value": "deluxe"
+        },
+        {
+          "label": "Oshisaure",
+          "fixedText": true,
+          "value": "oshisaure"
+        },
+        {
+          "string": "originalOption",
+          "value": "original"
+        }
+      ],
+      "setting": "rotationSystem",
+      "settingType": "setting"
+    }
+  ]
+}

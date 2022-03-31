@@ -1,0 +1,49 @@
+{
+  "sfxLabel": {
+    "message": "音效音量",
+    "description": "Also known as 'SE' or 'SFX'"
+  },
+  "sfxDescription": {
+    "message": "各种音效的音量百分比"
+  },
+  "musicLabel": {
+    "message": "音乐音量",
+    "description": "Also known as 'BGM'"
+  },
+  "musicDescription": {
+    "message": "音乐音量的百分比"
+  },
+  "soundbankLabel": {
+    "message": "音效库覆盖"
+  },
+  "soundbankDescription": {
+    "message": "选择音效库以替换默认音效"
+  },
+  "nextSoundLabel": {
+    "message": "Next方块音效",
+    "description": "Select a desired set for the 'next piece' sounds"
+  },
+  "nextSoundDescription": {
+    "message": "选择用来指示下一个方块的音效库"
+  },
+  "morseCodeOption": {
+    "message": "摩斯电码"
+  },
+  "voiceOption": {
+    "message": "语音"
+  },
+  "voxVolLabel": {
+    "message": "语音音量",
+    "description": "Used for any voice clip's in the game"
+  },
+  "voxVolDescription": {
+    "message": "语音音量的百分比"
+  },
+  "voicebankLabel": {
+    "message": "语音库",
+    "description": "This is to select a voice pack"
+  },
+  "voicebankDescription": {
+    "message": "选择游戏内和菜单中语音的声音"
+  }
+}

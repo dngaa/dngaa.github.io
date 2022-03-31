@@ -1,0 +1,15 @@
+{
+  "files": [
+    "collapse",
+    "erase4",
+    "erasenot4",
+    "gameover",
+    "ko",
+    "levelup",
+    "lock",
+    "move",
+    "pause",
+    "rotate"
+  ],
+  "ren": []
+}

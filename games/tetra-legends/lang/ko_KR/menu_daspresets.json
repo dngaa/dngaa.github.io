@@ -1,0 +1,41 @@
+{
+  "defaultLabel": {
+    "message": "기본값"
+  },
+  "defaultDescription": {
+    "message": "게임을 최초 실행할 때의 기본값"
+  },
+  "guidelineLabel": {
+    "message": "가이드라인"
+  },
+  "guidelineDescription": {
+    "message": "대부분 게임에서와 같은 일반 설정"
+  },
+  "pptLabel": {
+    "message": "뿌요테트",
+    "description": "Based on Puyo Puyo Tetris"
+  },
+  "pptDescription": {
+    "message": "일반 설정보다 약간 빠른 변형"
+  },
+  "tetraOnlineLabel": {
+    "message": "테트라 온라인",
+    "description": "Avoid changing the name 'Tetra Online'"
+  },
+  "tetraOnlineDescription": {
+    "message": "Tetra Online에서와 같은 속도 설정",
+    "description": "Avoid changing the name 'Tetra Online'"
+  },
+  "quickLabel": {
+    "message": "고속"
+  },
+  "quickDescription": {
+    "message": "적당한 숙련도가 필요한 조금 빠른 설정"
+  },
+  "proLabel": {
+    "message": "프로"
+  },
+  "proDescription": {
+    "message": "높은 숙련도가 필요한 매우 빠른 설정"
+  }
+}

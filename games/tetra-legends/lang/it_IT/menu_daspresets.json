@@ -1,0 +1,41 @@
+{
+  "defaultLabel": {
+    "message": "Predefinito"
+  },
+  "defaultDescription": {
+    "message": "Le impostazioni predefinite del gioco"
+  },
+  "guidelineLabel": {
+    "message": "Guida"
+  },
+  "guidelineDescription": {
+    "message": "Impostazioni standard trovate nella maggior parte delle versioni"
+  },
+  "pptLabel": {
+    "message": "PPT",
+    "description": "Based on Puyo Puyo Tetris"
+  },
+  "pptDescription": {
+    "message": "Una versione leggermente più veloce delle impostazioni standard"
+  },
+  "tetraOnlineLabel": {
+    "message": "Tetra Online",
+    "description": "Avoid changing the name 'Tetra Online'"
+  },
+  "tetraOnlineDescription": {
+    "message": "Corrisponde alle impostazioni di autoshift di Tetra Online",
+    "description": "Avoid changing the name 'Tetra Online'"
+  },
+  "quickLabel": {
+    "message": "Veloce"
+  },
+  "quickDescription": {
+    "message": "Un preset più veloce che richiede un certo controllo"
+  },
+  "proLabel": {
+    "message": "Pro"
+  },
+  "proDescription": {
+    "message": "Un preset ad altissima velocità che richiede un controllo di alto livello"
+  }
+}

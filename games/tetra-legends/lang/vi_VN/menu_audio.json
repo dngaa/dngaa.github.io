@@ -1,0 +1,49 @@
+{
+  "sfxLabel": {
+    "message": "Hiệu ứng âm thanh",
+    "description": "Also known as 'SE' or 'SFX'"
+  },
+  "sfxDescription": {
+    "message": "Điều chỉnh độ lớn của các hiệu ứng âm thanh"
+  },
+  "musicLabel": {
+    "message": "Nhạc",
+    "description": "Also known as 'BGM'"
+  },
+  "musicDescription": {
+    "message": "Điều chỉnh độ to của nhạc"
+  },
+  "soundbankLabel": {
+    "message": "Bộ hiệu ứng âm thanh"
+  },
+  "soundbankDescription": {
+    "message": "Chọn một bộ hiệu ứng âm thanh làm mặc định"
+  },
+  "nextSoundLabel": {
+    "message": "Hiệu ứng âm thanh \"Tiếp\"",
+    "description": "Select a desired set for the 'next piece' sounds"
+  },
+  "nextSoundDescription": {
+    "message": "Lựa chọn một bộ hiệu ứng âm thanh để thông báo gạch tiếp theo"
+  },
+  "morseCodeOption": {
+    "message": "Mã Morse"
+  },
+  "voiceOption": {
+    "message": "Giọng"
+  },
+  "voxVolLabel": {
+    "message": "Âm lượng giọng",
+    "description": "Used for any voice clip's in the game"
+  },
+  "voxVolDescription": {
+    "message": "Chỉnh âm lượng giọng nói"
+  },
+  "voicebankLabel": {
+    "message": "Bộ giọng",
+    "description": "This is to select a voice pack"
+  },
+  "voicebankDescription": {
+    "message": "Chọn một bộ giọng nói dành cho trò chơi và thông báo lựa chọn menu"
+  }
+}

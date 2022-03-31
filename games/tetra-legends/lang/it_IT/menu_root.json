@@ -1,0 +1,86 @@
+{
+  "quickLabel": {
+    "message": "Partita veloce",
+    "description": "Button to start a game of marathon"
+  },
+  "quickDescription": {
+    "message": "Inizia subito una partita in Maratona con le impostazioni predefinite"
+  },
+  "gameStylesOverline": {
+    "message": "Modalità",
+    "description": "Header for the various types of games (Guideline, Retro, etc)"
+  },
+  "guidelineLabel": {
+    "message": "Standard"
+  },
+  "guidelineDescription": {
+    "message": "Varianti standard delle presenti in tutti i giochi moderni"
+  },
+  "tetraxLabel": {
+    "message": "Tetra-X"
+  },
+  "tetraxDescription": {
+    "message": "Una variante personalizzata della modalità originariamente pensata per questo gioco"
+  },
+  "retroLabel": {
+    "message": "Retrò"
+  },
+  "retroDescription": {
+    "message": "Classiche varianti del puzzle, amate dai giocatori nostalgici"
+  },
+  "arcadeLabel": {
+    "message": "Arcade"
+  },
+  "arcadeDescription": {
+    "message": "Difficile variante del puzzle amata dai giocatori hardcore"
+  },
+  "settingsOverline": {
+    "message": "Impostazioni"
+  },
+  "tuningLabel": {
+    "message": "Personalizzazione"
+  },
+  "tuningDescription": {
+    "message": "Configura la tua esperienza di gioco"
+  },
+  "controlsLabel": {
+    "message": "Controlli"
+  },
+  "controlsDescription": {
+    "message": "Cambia i controlli del gioco"
+  },
+  "audioLabel": {
+    "message": "Audio"
+  },
+  "audioDescription": {
+    "message": "Cambia il suono del gioco"
+  },
+  "videoLabel": {
+    "message": "Video"
+  },
+  "videoDescription": {
+    "message": "Cambia l'aspetto del gioco"
+  },
+  "miscOverline": {
+    "message": "Varie",
+    "description": "Miscellaneous, other"
+  },
+  "soundtrackLabel": {
+    "message": "Colonna sonora"
+  },
+  "soundtrackDescription": {
+    "message": "Ascolta la colonna sonora originale"
+  },
+  "translateLabel": {
+    "message": "Traduci"
+  },
+  "translateDescription": {
+    "message": "Contribuisci alle traduzioni del gioco"
+  },
+  "discordLabel": {
+    "message": "Discord"
+  },
+  "discordDescription": {
+    "message": "Entra su Discord per discutere riguardo il gioco, ricevere nuovi aggiornamenti, contribuire con nuove idee e migliorare le traduzioni"
+  }
+}

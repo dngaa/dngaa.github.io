@@ -1,0 +1,86 @@
+{
+  "quickLabel": {
+    "message": "Quick Play",
+    "description": "Button to start a game of marathon"
+  },
+  "quickDescription": {
+    "message": "Start direct een spel in Marathon-modus met standaardinstellingen"
+  },
+  "gameStylesOverline": {
+    "message": "Spelstijlen",
+    "description": "Header for the various types of games (Guideline, Retro, etc)"
+  },
+  "guidelineLabel": {
+    "message": "Guideline"
+  },
+  "guidelineDescription": {
+    "message": "Standaardvariant gevonden in de meeste moderne games"
+  },
+  "tetraxLabel": {
+    "message": "Tetra-X"
+  },
+  "tetraxDescription": {
+    "message": "Een aangepaste variant speciaal ontworpen voor dit spel"
+  },
+  "retroLabel": {
+    "message": "Retro"
+  },
+  "retroDescription": {
+    "message": "Klassieke variant waar ouderwetse spelers dol op zijn"
+  },
+  "arcadeLabel": {
+    "message": "Arcade"
+  },
+  "arcadeDescription": {
+    "message": "Uitdagende variant waar hardcore spelers dol op zijn"
+  },
+  "settingsOverline": {
+    "message": "Instellingen"
+  },
+  "tuningLabel": {
+    "message": "Afstemmen"
+  },
+  "tuningDescription": {
+    "message": "Wijzig hoe het spel voelt"
+  },
+  "controlsLabel": {
+    "message": "Bediening"
+  },
+  "controlsDescription": {
+    "message": "Wijzig hoe het spel bestuurt"
+  },
+  "audioLabel": {
+    "message": "Geluid"
+  },
+  "audioDescription": {
+    "message": "Wijzig hoe het spel klinkt"
+  },
+  "videoLabel": {
+    "message": "Beeld"
+  },
+  "videoDescription": {
+    "message": "Wijzig hoe het spel eruit ziet"
+  },
+  "miscOverline": {
+    "message": "Overig",
+    "description": "Miscellaneous, other"
+  },
+  "soundtrackLabel": {
+    "message": "Soundtrack"
+  },
+  "soundtrackDescription": {
+    "message": "Luister naar de originele soundtrack"
+  },
+  "translateLabel": {
+    "message": "Vertalen"
+  },
+  "translateDescription": {
+    "message": "Draag bij aan het vertalen van het spel"
+  },
+  "discordLabel": {
+    "message": "Discord"
+  },
+  "discordDescription": {
+    "message": "Word lid van de Discord om het spel te bespreken, updates te krijgen en ideeën en vertalingen bij te dragen"
+  }
+}

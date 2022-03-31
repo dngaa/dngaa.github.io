@@ -1,0 +1,88 @@
+{
+  "clearLabel": {
+    "message": "Alle löschen",
+    "description": "Erase all controls"
+  },
+  "clearDescription": {
+    "message": "Alle Tastenbelegungen löschen, damit Sie einen leeren Arbeitsbereich haben"
+  },
+  "resetLabel": {
+    "message": "Zurücksetzen",
+    "description": "Reset the controls to the defaults. Could also be translated as 'default'"
+  },
+  "resetDescription": {
+    "message": "Alle Kontrollzuordnungen auf ihre Standardwerte zurücksetzen"
+  },
+  "shiftLeftLabel": {
+    "message": "Nach links bewegen"
+  },
+  "shiftLeftDescription": {
+    "message": "Bewege ein Teil einmal nach links oder halte es für Autoshift"
+  },
+  "shiftRightLabel": {
+    "message": "Nach rechts bewegen"
+  },
+  "shiftRightDescription": {
+    "message": "Bewege ein Teil einmal nach rechts oder halte es für Autoshift"
+  },
+  "hardDropLabel": {
+    "message": "Schnelles Absetzen"
+  },
+  "hardDropDescription": {
+    "message": "Setze ein Teil sofort auf den Boden ab. (kann in einigen Modi anders handeln oder deaktiviert sein)"
+  },
+  "softDropLabel": {
+    "message": "Sanftes Absetzen"
+  },
+  "softDropDescription": {
+    "message": "Beschleunige den Fall eines Teils (kann in einigen Modi anders handeln)"
+  },
+  "rotateLeftLabel": {
+    "message": "Nach links drehen",
+    "description": "Could also be called 'rotate counter-clockwise'"
+  },
+  "rotateLeftDescription": {
+    "message": "Ein Teil 90° gegen den Uhrzeigersinn drehen."
+  },
+  "rotateRightLabel": {
+    "message": "Nach rechts drehen",
+    "description": "Could also be called 'rotate clockwise'"
+  },
+  "rotateRightDescription": {
+    "message": "Ein Teil 90° im Uhrzeigersinn drehen."
+  },
+  "rotateDoubleLabel": {
+    "message": "180° drehen",
+    "description": "Could also be referred to as a 'double rotation'"
+  },
+  "rotateDoubleDescription": {
+    "message": "Ein Teil 180° drehen (kann in einigen Modi deaktiviert sein)"
+  },
+  "holdLabel": {
+    "message": "Vorrat"
+  },
+  "holdDescription": {
+    "message": "Sende ein Teil an die Vorrat-Warteschlange (kann in einigen Modi deaktiviert sein)"
+  },
+  "retryLabel": {
+    "message": "Neustarten",
+    "description": "You press this bind to restart the game instantly"
+  },
+  "retryDescription": {
+    "message": "Sofort einen neuen Versuch haben"
+  },
+  "pauseLabel": {
+    "message": "Pausieren"
+  },
+  "pauseDescription": {
+    "message": "Spiel pausieren"
+  },
+  "configPopupHeader": {
+    "message": "Steuerungseinstellungen",
+    "description": "Displays as a header on a popup window when you add a control binding"
+  },
+  "configPopupDescription": {
+    "message": "Drücken Sie die Taste, die Sie für diese Aktion verwenden möchten",
+    "description": "Displays on the popup when you add a control binding"
+  }
+}

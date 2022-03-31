@@ -1,0 +1,86 @@
+{
+  "quickLabel": {
+    "message": "Jogo Rápido",
+    "description": "Button to start a game of marathon"
+  },
+  "quickDescription": {
+    "message": "Jogue Maratona com as configurações padrão"
+  },
+  "gameStylesOverline": {
+    "message": "Modo de Jogo",
+    "description": "Header for the various types of games (Guideline, Retro, etc)"
+  },
+  "guidelineLabel": {
+    "message": "Moderno"
+  },
+  "guidelineDescription": {
+    "message": "A versão padrão do puzzle, encontrada na maioria dos jogos modernos"
+  },
+  "tetraxLabel": {
+    "message": "Tetra-X"
+  },
+  "tetraxDescription": {
+    "message": "Uma versão personalizada do puzzle, criada originalmente para este jogo"
+  },
+  "retroLabel": {
+    "message": "Retro"
+  },
+  "retroDescription": {
+    "message": "Versão clássica do puzzle, amada por jogadores da velha-guarda"
+  },
+  "arcadeLabel": {
+    "message": "Arcade"
+  },
+  "arcadeDescription": {
+    "message": "Versão mais difícil do puzzle, amada por jogadores hardcore"
+  },
+  "settingsOverline": {
+    "message": "Configurações"
+  },
+  "tuningLabel": {
+    "message": "Ajustes"
+  },
+  "tuningDescription": {
+    "message": "Muda o controle de velocidade do jogo"
+  },
+  "controlsLabel": {
+    "message": "Controles"
+  },
+  "controlsDescription": {
+    "message": "Muda os controles do jogo"
+  },
+  "audioLabel": {
+    "message": "Áudio"
+  },
+  "audioDescription": {
+    "message": "Muda os sons do jogo"
+  },
+  "videoLabel": {
+    "message": "Vídeo"
+  },
+  "videoDescription": {
+    "message": "Muda o visual do jogo"
+  },
+  "miscOverline": {
+    "message": "Diversos",
+    "description": "Miscellaneous, other"
+  },
+  "soundtrackLabel": {
+    "message": "Trilha sonora"
+  },
+  "soundtrackDescription": {
+    "message": "Ouça a trilha sonora original"
+  },
+  "translateLabel": {
+    "message": "Traduzir"
+  },
+  "translateDescription": {
+    "message": "Envie traduções para o jogo"
+  },
+  "discordLabel": {
+    "message": "Discord"
+  },
+  "discordDescription": {
+    "message": "Entre no Discord para conversar sobre o jogo, se atualizar e enviar ideias e traduções"
+  }
+}

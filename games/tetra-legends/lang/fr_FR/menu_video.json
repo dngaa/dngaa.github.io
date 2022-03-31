@@ -1,0 +1,174 @@
+{
+  "nextLengthLabel": {
+    "message": "Longueur de la file d'attente suivante"
+  },
+  "nextLengthDescription": {
+    "message": "Le nombre de pièces que le joueur peut voir dans la file d'attente"
+  },
+  "lockdownBarLabel": {
+    "message": "Barre de blocage",
+    "description": "The bar at the bottom of the screen that indicates how much time is left on lock delay and how many move resets remain"
+  },
+  "lockdownBarDescription": {
+    "message": "Autoriser la possibilité de voir des informations supplémentaires sur le délai de verrouillage et les limites de déplacement"
+  },
+  "swayScaleLabel": {
+    "message": "Ampleur des tremblements de l'écran",
+    "description": "'Matrix Sway' can also be called field movement, screen shake, etc; 'scale' is how much magnitude it has in general"
+  },
+  "swayScaleDescription": {
+    "message": "Comment l'écran se déplace à la force exercée par les pièces en pourcentage. Sélectionner O désactive complètement l'effet",
+    "description": "The 'matrix' is also known as the 'playfield'"
+  },
+  "swaySpeedLabel": {
+    "message": "Vitesse de tremblements de l'écran",
+    "description": "'Matrix Sway' can also be called field movement, screen shake, etc; 'speed' is how quickly the field move sback to its normal position after being pushed"
+  },
+  "swaySpeedDescription": {
+    "message": "À quelle vitesse l'écran retourne à sa position initiale en pourcentage",
+    "description": "The 'matrix' is also known as the 'playfield'"
+  },
+  "particleSettingsLabel": {
+    "message": "Options de particules",
+    "description": "Label for a button to bring up particle options"
+  },
+  "particleSettingsDescription": {
+    "message": "Contrôlez le fonctionnement des particules"
+  },
+  "particlesLabel": {
+    "message": "Particules"
+  },
+  "particlesDescription": {
+    "message": "Si les particules doivent apparaître ou non"
+  },
+  "particleLimitLabel": {
+    "message": "Limite de particules"
+  },
+  "particleLimitDescription": {
+    "message": "Combien de particules peuvent apparaître à l'écran au même moment"
+  },
+  "particleSizeLabel": {
+    "message": "Taille des particules"
+  },
+  "particleSizeDescription": {
+    "message": "Quelle sera la taille des particules qui apparaissent"
+  },
+  "particleVolumeLabel": {
+    "message": "Volume de particules"
+  },
+  "particleVolumeDescription": {
+    "message": "Combien de particules seront générées"
+  },
+  "actionTextLabel": {
+    "message": "Texte d'action",
+    "description": "Text that appears when you do certain actions, 'Single', 'T-Spin' as well as displaying a combo counter"
+  },
+  "actionTextDescription": {
+    "message": "Afficher les messages lorsque vous complétez des lignes et effectuez des techniques, telles que 'Double' et 'T-Spin'. Affichera également le compteur de combo"
+  },
+  "skinLabel": {
+    "message": "Modifier l'apparence",
+    "description": "'Skin' as in the sprites used by the pieces"
+  },
+  "skinDescription": {
+    "message": "Choisir une nouvelle apparence"
+  },
+  "glossyOption": {
+    "message": "Brillant"
+  },
+  "flatOption": {
+    "message": "Plat"
+  },
+  "boneOption": {
+    "message": "Os / Crochets",
+    "description": "Please look at the reference image as translation may be difficult. 'Brackets', as in these: [], may be a good option"
+  },
+  "gridLabel": {
+    "message": "Grille",
+    "description": "The background grid used by the game"
+  },
+  "gridDescription": {
+    "message": "Sélectionnez un style de grille"
+  },
+  "crossGridOption": {
+    "message": "Croix",
+    "description": "Grid style that uses + signs"
+  },
+  "fullGridOption": {
+    "message": "Plein",
+    "description": "Grid style that uses a full square (□)"
+  },
+  "dotGridOption": {
+    "message": "Point",
+    "description": "Grid style that uses a dot in the center of the cell"
+  },
+  "lockFlashLabel": {
+    "message": "Flash de verrouillage",
+    "description": "Controls the style that the lock flash uses"
+  },
+  "lockFlashDesription": {
+    "message": "Sélectionnez un style de flash de verrouillage"
+  },
+  "shineLFOption": {
+    "message": "Brilliance complexe",
+    "description": "Lock flash style that causes a 2 frame white flash, followed by long dim with a shine line effect that goes from the bottom left to the top right"
+  },
+  "flashDimLFOption": {
+    "message": "Brilliance & Assombrissement",
+    "description": "Lock flash style that causes a 2 frame white flash, followed by long dim"
+  },
+  "flashLFOption": {
+    "message": "Flash rapide",
+    "description": "Lock flash style that causes a 2 frame white flash"
+  },
+  "colorOverrideLabel": {
+    "message": "Modifier les couleurs",
+    "description": "Allows the user to override pieces colors with their own desired chices"
+  },
+  "colorOverrideDescription": {
+    "message": "Personnalise les couleurs assignées aux pièces"
+  },
+  "redOption": {
+    "message": "Rouge",
+    "description": "Please base your translation off the reference image"
+  },
+  "orangeOption": {
+    "message": "Orange",
+    "description": "Please base your translation off the reference image"
+  },
+  "yellowOption": {
+    "message": "Jaune",
+    "description": "Please base your translation off the reference image"
+  },
+  "greenOption": {
+    "message": "Vert",
+    "description": "Please base your translation off the reference image"
+  },
+  "lightBlueOption": {
+    "message": "Bleu clair",
+    "description": "Please base your translation off the reference image"
+  },
+  "blueOption": {
+    "message": "Bleu foncé",
+    "description": "Please base your translation off the reference image"
+  },
+  "purpleOption": {
+    "message": "Violet",
+    "description": "Please base your translation off the reference image"
+  },
+  "whiteOption": {
+    "message": "Blanc",
+    "description": "Please base your translation off the reference image"
+  },
+  "blackOption": {
+    "message": "Gris",
+    "description": "Please base your translation off the reference image"
+  },
+  "themeLabel": {
+    "message": "Thème",
+    "description": "Changes the visual appearance that TL uses ingame"
+  },
+  "themeDescription": {
+    "message": "Détermine le style visuel du jeu"
+  }
+}

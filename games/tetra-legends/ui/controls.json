@@ -1,0 +1,96 @@
+{
+  "properties": {
+    "parent": "root",
+    "vox": "menucontrols"
+  },
+  "data": [
+    {
+      "string": "controlsLabel",
+      "langOverride": "menu_root",
+      "type": "header"
+    },
+    {
+      "string": "clearLabel",
+      "stringDesc": "clearDescription",
+      "isShort": true,
+      "action": "functionClearControls"
+    },
+    {
+      "string": "resetLabel",
+      "stringDesc": "resetDescription",
+      "isShort": true,
+      "action": "functionResetControls"
+    },
+    {
+      "string": "shiftLeftLabel",
+      "stringDesc": "shiftLeftDescription",
+      "default": true,
+      "type": "control",
+      "action": "control",
+      "control": "moveLeft"
+    },
+    {
+      "string": "shiftRightLabel",
+      "stringDesc": "shiftRightDescription",
+      "type": "control",
+      "action": "control",
+      "control": "moveRight"
+    },
+    {
+      "string": "hardDropLabel",
+      "stringDesc": "hardDropDescription",
+      "type": "control",
+      "action": "control",
+      "control": "hardDrop"
+    },
+    {
+      "string": "softDropLabel",
+      "stringDesc": "softDropDescription",
+      "type": "control",
+      "action": "control",
+      "control": "softDrop"
+    },
+    {
+      "string": "rotateLeftLabel",
+      "stringDesc": "rotateLeftDescription",
+      "type": "control",
+      "action": "control",
+      "control": "rotateLeft"
+    },
+    {
+      "string": "rotateRightLabel",
+      "stringDesc": "rotateRightDescription",
+      "type": "control",
+      "action": "control",
+      "control": "rotateRight"
+    },
+    {
+      "string": "rotateDoubleLabel",
+      "stringDesc": "rotateDoubleDescription",
+      "type": "control",
+      "action": "control",
+      "control": "rotate180"
+    },
+    {
+      "string": "holdLabel",
+      "stringDesc": "holdDescription",
+      "type": "control",
+      "action": "control",
+      "control": "hold"
+    },
+    {
+      "string": "retryLabel",
+      "stringDesc": "retryDescription",
+      "type": "control",
+      "action": "control",
+      "control": "retry"
+    },
+    {
+      "string": "pauseLabel",
+      "stringDesc": "pauseDescription",
+      "type": "control",
+      "action": "control",
+      "control": "pause"
+    }
+  ]
+}

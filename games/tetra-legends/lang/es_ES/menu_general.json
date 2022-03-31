@@ -1,0 +1,21 @@
+{
+  "backLabel": {
+    "message": "Volver",
+    "description": "Go back to the previous menu"
+  },
+  "backDescription": {
+    "message": "Volver al menú anterior"
+  },
+  "enabled": {
+    "message": "Habilitado",
+    "description": "Turned on, enabled"
+  },
+  "disabled": {
+    "message": "Deshabilitado",
+    "description": "Turned off, disabled"
+  },
+  "auto": {
+    "message": "Automático",
+    "description": "As in 'automatic' for options; when automatic is selected, it goes based off of the mode as opposed to a user setting"
+  }
+}

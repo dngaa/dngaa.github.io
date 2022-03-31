@@ -1,0 +1,26 @@
+{
+  "standardLabel": {
+    "message": "Стандарт",
+    "description": "An endless Tetra-X mode where you stack lines as the game increases speed"
+  },
+  "standardDescription": {
+    "message": "Ставь блоки, пока не проиграешь! Попробуй убрать как можно больше линий, пока скорость не сокрушит тебя.",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "proLabel": {
+    "message": "Про",
+    "description": "A Tetra-X mode where you try and clear a line goal with an intense speed"
+  },
+  "proDescription": {
+    "message": "Это испытание для профессионалов. Скорость в этом режиме очень высокая, ты можешь проиграть, если моргнёшь!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "nightOfNightsXLabel": {
+    "message": "Night of Nights X",
+    "description": "A Tetra-X mode that has crazy effects synced to Night of Nights that tries to distract the player"
+  },
+  "nightOfNightsXDescription": {
+    "message": "This mode has severe flashing lights. Try to survive the duration of Night of Nights while the game throws crazy distractions!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  }
+}

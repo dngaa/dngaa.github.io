@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135926838-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-135926838-3');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tetra Legends</title>
+  <link rel="prerender" as="font" href="fonts/material-icons.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="prerender" as="font" href="fonts/noto-sans-jp-v25-latin_japanese-100.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="prerender" as="font" href="fonts/noto-sans-jp-v25-latin_japanese-300.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="prerender" as="font" href="fonts/noto-sans-jp-v25-latin_japanese-500.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="prerender" as="font" href="fonts/noto-sans-jp-v25-latin_japanese-700.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="prerender" as="font" href="fonts/noto-sans-jp-v25-latin_japanese-900.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="prerender" as="font" href="fonts/noto-sans-jp-v25-latin_japanese-regular.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="prerender" as="font" href="fonts/noto-sans-sc-v11-chinese-simplified_latin-100.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="prerender" as="font" href="fonts/noto-sans-sc-v11-chinese-simplified_latin-300.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="prerender" as="font" href="fonts/noto-sans-sc-v11-chinese-simplified_latin-500.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="prerender" as="font" href="fonts/noto-sans-sc-v11-chinese-simplified_latin-700.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="prerender" as="font" href="fonts/noto-sans-sc-v11-chinese-simplified_latin-900.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="prerender" as="font" href="fonts/noto-sans-sc-v11-chinese-simplified_latin-regular.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <!-- <video autoplay muted loop id="myVideo">
+    <source src="vid/DiscoLightsVidevo.mov" type="video/mp4">
+  </video> -->
+  <div id="lights-warning" class="hidden">
+    <img src="img/tetrion/warning.svg" alt="">
+    Flashing Lights
+  </div>
+  <div id="main">
+    <div id="error-stack" class="error-stack">
+    </div>
+
+    <div id="dev" style="z-index: 300; user-select: all; background-color: red; display: none;">
+      <div>Random Queue Seed:</div>
+      <input type="text" name="queuerand" id="queuerand">
+    </div>
+    <div id="key-popup" class="modal hidden">
+      <div class="header">Control Configuration</div>
+      <div class="body">Press the key you wish to use for this action</div>
+    </div>
+    <div id="title-container">
+      <div id="logo-container" style=""></div>
+      <div id="press-container" class="hidden"></div>
+    </div>
+    <div id="menu-container" class="hidden">
+      <div id="menu">
+      </div>
+      <div id="description"></div>
+      <div id="description-text" style="display:none"></div>
+      <ul id="vertical-menu" style="display:none">
+      </ul>
+
+    </div>
+    <div id="game-container" class="hidden">
+      <div id="kill-message-container" class="kill-message-container hidden">
+        <div id="kill-message" class="kill-message">BLOCK OUT</div>
+      </div>
+      <div id="end-message-container" class="end-message-container hidden">
+        <div id="end-message" class="end-message">Game Over</div>
+        <div id="end-stats" class="end-stats"></div>
+        <img src="img/buttons/keyboard-backspace.svg" alt="" style="height: 1.4em;margin-top: .4em;">
+        <div id="return-to-menu" class="return">Return to Menu</div>
+      </div>
+      <div id="game" class="game">
+        <div class="game-left">
+          <div class="warning-message-container-hold" id="warning-message-container-hold">
+            <img src="img/tetrion/warning.svg" alt="">
+            <div class="warning-message" id="warning-message-hold">
+              BLOCK OUT
+            </div>
+          </div>
+          <div class="hold-disappear-message" id="hold-disappear-message">
+          </div>
+          <div class="skip-amount" id="skip-amount">8</div>
+          <div class="hold-container" id="hold-container">
+            <p class="hold-label" id="hold-label">HOLD</p>
+            <canvas id="hold" class="hold-canvas"></canvas>
+          </div>
+          <div class="stats" id="stats">
+          </div>
+        </div>
+        <div class="game-center" id="game-center">
+          <canvas id="stack" class="stack-canvas game-canvas"></canvas>
+          <canvas id="next-piece" class="game-canvas next-matrix"></canvas>
+          <canvas id="piece" class="game-canvas pulse"></canvas>
+          <canvas id="particle" class="game-canvas particle-canvas"></canvas>
+          <div class="garbage-counter-container" id="garbage-counter-container">
+            <div class="garbage-counter" id="garbage-counter">
+
+            </div>
+          </div>
+          <div class="rotation-warning hidden" id="rotation-warning">
+            <img src="img/tetrion/rotation-warning.svg" alt="">
+          </div>
+          <div class="delay-time" id="delay">
+            500ms
+          </div>
+          <div class="infinity-symbol" id="infinity-symbol">
+            ∞
+          </div>
+          <div class="manip-grid" id="pip-grid">
+          </div>
+          <progress max="1" value="1" id="lockdown" class="lockdown-meter"></progress>
+          <progress max="1" value="1" id="das" class="das-meter"></progress>
+          <div class="pause" id="pause-label">
+            PAUSE
+          </div>
+          <div class="main-message" id="message">
+            READY
+          </div>
+          <div class="load-message" id="load-message">
+            Loading...
+          </div>
+          <progress max="1500" value="1500" id="ready-meter" class="ready-meter"></progress>
+          <div class="timer paused" id="timer">
+            00:00:00.00
+          </div>
+          <div class="timer timer-real paused" id="timer-real">
+            00:00:00.00
+          </div>
+          <div class="warning-message-container" id="warning-message-container">
+            <img src="img/tetrion/warning.svg" alt="">
+            <div class="warning-message" id="warning-message">
+            </div>
+          </div>
+        </div>
+        <div class="game-right">
+          <div class="main-next-container" id="main-next-container">
+            <p class="next-label" id="next-label">NEXT</p>
+            <canvas id="next-main" class="main-next-canvas"></canvas>
+          </div>
+          <div class="sub-next-container">
+            <canvas id="next-sub" class="sub-next-canvas"></canvas>
+          </div>
+          <div class="combo-counter-container hidden" id="combo-counter-container">
+            <div class="combo-counter" id="combo-counter">
+              5 Combo
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div id="sprite" style="display: none"></div>
+      </div>
+    </div>
+
+    <div id="button-hint-container" class="" style="display: none;">
+      <!-- <kbd class="key">Z</kbd> -->
+      <!-- <label>OK</label> -->
+      <!--
+      <table>
+        <td class="key big icon">keyboard_backspace</td>
+        <td class="label">Main Menu</td>
+      </table>
+      <table>
+        <td class="key ">R</td>
+        <td class="label">Retry</td>
+      </table>
+      <table>
+        <td class="key multi">Esc</td>
+        <td class="key ">P</td>
+        <td class="label">Pause</td>
+      </table>
+      -->
+      <table>
+        <td class="label pulse">Early Alpha - Nothing is Final
+</td>
+      </table>
+    </div>
+  </div>
+
+  <!-- <script type="module" src="locale.js"></script> -->
+  <script src="lib/gamepad.min.js"></script>
+  <script src="lib/howler.min.js"></script>
+  <script src="lib/seedrandom.min.js"></script>
+  <script type="module" src="app.js"></script>
+  <script>
+    // code I found to stop backspace from FUCKING everything up
+    document.onkeydown = function (event) {
+
+      if (!event) { /* This will happen in IE */
+        event = window.event;
+      }
+
+      var keyCode = event.keyCode;
+
+      if (keyCode == 8 &&
+        ((event.target || event.srcElement).tagName != "TEXTAREA") &&
+        ((event.target || event.srcElement).tagName != "INPUT")) {
+
+        if (navigator.userAgent.toLowerCase().indexOf("msie") == -1) {
+          event.stopPropagation();
+        } else {
+          alert("prevented");
+          event.returnValue = false;
+        }
+
+        return false;
+      }
+    };
+    // and some code I found to stop other shit from FUCKING everything up
+    window.addEventListener("keydown", function (e) {
+      // space and arrow keys
+      if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+        e.preventDefault();
+      }
+    }, false);
+    const dev = {}
+    dev.show = () => {
+      document.getElementById('dev').style.setProperty('display', 'block');
+    }
+    dev.hide = () => {
+      document.getElementById('dev').style.setProperty('display', 'none');
+    }
+    let enableVideo = () => {
+      document.documentElement.innerHTML = `<video autoplay muted loop id="myVideo">
+    <source src="vid/DiscoLightsVidevo.mov" type="video/mp4">
+  </video>` + document.documentElement.innerHTML;
+  enableVideo = () => {};
+    }
+
+  </script>
+
+</body>
+
+</html>

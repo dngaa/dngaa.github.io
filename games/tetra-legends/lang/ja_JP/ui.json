@@ -1,0 +1,162 @@
+{
+  "level": {
+    "message": "LEVEL",
+    "description": "The level (usually affects the speed of the game)"
+  },
+  "score": {
+    "message": "SCORE",
+    "description": "The amount of points the player has"
+  },
+  "line": {
+    "message": "LINES",
+    "description": "The amount of lines the player has cleared"
+  },
+  "piece": {
+    "message": "PIECES",
+    "description": "The amount of pieces the player has placed"
+  },
+  "time": {
+    "message": "TIME",
+    "description": "How much time has passed since the start of the game"
+  },
+  "fallspeed": {
+    "message": "落下速度",
+    "description": "The speed of the piece's descent, commonly referred to as 'gravity'"
+  },
+  "entrydelay": {
+    "message": "出現時間",
+    "description": "The amount of time in between piece placements, also known as 'ARE'"
+  },
+  "maxcombo": {
+    "message": "最大REN",
+    "description": "The highest combo obtained"
+  },
+  "next": {
+    "message": "Next",
+    "description": "The label for the next piece in the queue"
+  },
+  "hold": {
+    "message": "Hold",
+    "description": "The label for the piece in the hold queue"
+  },
+  "skip": {
+    "message": "Skip",
+    "description": "The label that indicates that you can discard or skip a piece"
+  },
+  "secrow": {
+    "message": "%1 秒/ライン",
+    "description": "The unit label for 'seconds per row'. %1 is the amount of seconds"
+  },
+  "pause": {
+    "message": "ポーズ",
+    "description": "Displays on screen when the game is paused"
+  },
+  "ready": {
+    "message": "READY?",
+    "description": "Good options are: 'Get Ready!', 'Are you ready?'"
+  },
+  "start": {
+    "message": "START!",
+    "description": "Displays right after 'ready' at the frame the game begins. It displays on a mode that is not focused on clearing it as fast as possible; a mode focused on surviving or achieving a high score."
+  },
+  "go": {
+    "message": "GO!",
+    "description": "Displays right after 'ready' at the frame the game begins. It displays on a mode that focuses solely on clearing the game as fast as possible, such as sprint; 'race-like' mode."
+  },
+  "gameover": {
+    "message": "Game Over",
+    "description": "Displays when the game is finished. It does not connotate winning or losing, just that the game has completed"
+  },
+  "blockOut": {
+    "message": "窒息死",
+    "description": "Displays as a failure message when the piece cannot spawn due to one already being in the way"
+  },
+  "lockOut": {
+    "message": "ロックアウト",
+    "description": "Displays as a failure message when the piece was locked above the skyline/ceiling"
+  },
+  "topOut": {
+    "message": "トップアウト",
+    "description": "Displays as a failure message when the stack is pushed above the maximum limit on the board; for example, a stack higher than 40 lines in guideline results in a top out. Also known as 'garbage out'"
+  },
+  "timeOut": {
+    "message": "Time Up",
+    "description": "Displays when the time runs out"
+  },
+  "excellent": {
+    "message": "Excellent!",
+    "description": "Displays as a victory message. Any sort of praising line like 'Excellent', 'Awesome', 'Great', 'Good Job' is fine"
+  },
+  "newRecord": {
+    "message": "NEW RECORD!",
+    "description": "Displays when the user beats their previous score or time"
+  },
+  "returnToMenu": {
+    "message": "メニューに戻る",
+    "description": "Displays next to a button prompt or as a button to return back to the menu while in game"
+  },
+  "loading": {
+    "message": "Loading...",
+    "description": "Displays under 'READY' while the game loads the assets"
+  },
+  "realTimeAttack": {
+    "message": "RTA: %1",
+    "description": "This label is used to describe the 'real time', as in a timer that does NOT freeze during Entry/Line Delay. %1 is the actual time (i.e. 00:02:41)"
+  },
+  "inGameTime": {
+    "message": "ゲーム内時間: %1",
+    "description": "This label is used to describe the 'in game time', as in a timer that FREEZES during Entry/Line Delay. %1 is the actual time (i.e. 00:02:41)"
+  },
+  "blockOutWarning": {
+    "message": "次のブロックで窒息してしまいます！！",
+    "description": "Flashes at the top of the screen when locking the current piece will cause a failure due to it being in the way of the next piece"
+  },
+  "blockOutHoldWarning": {
+    "message": "窒息してしまいます！！",
+    "description": "Flashes above the hold queue when pressing the hold button will cause a failure due to there being blocks in the way of the spawn position"
+  },
+  "lockOutWarning": {
+    "message": "ロックアウトしてしまいます！！",
+    "description": "Flashes at the top of the screen when locking the current piece will cause a failure due to it being above the skyline/ceiling"
+  },
+  "topOutWarning": {
+    "message": "トップアウトしてしまいます ！！",
+    "description": "Flashes at the top of the screen when locking the current piece will cause a failure due to the incoming garbage pushing the stack above the highest row"
+  },
+  "watchOutWarning": {
+    "message": "CAUTION!!",
+    "description": "Used as text to draw the player's attention to something; doesn't have to be a direct translation"
+  },
+  "coolPace": {
+    "message": "COOL!",
+    "description": "Used primarily to show the user that they're on pace to continue playing in certain arcade modes. Can also be used for clearing "
+  },
+  "coolTetra": {
+    "message": "COOL!!!",
+    "description": "Used primarily to show the user that they've done something special in certain arcade modes. Known as 'COOL!!' in Japanese."
+  },
+  "regretPace": {
+    "message": "REGRET!",
+    "description": "Used to show the user that they are playing too slowly in certain arcade modes. Known as 'REGRET!' in Japanese"
+  },
+  "pressKeyboardKey": {
+    "message": "PUSH %1 KEY",
+    "description": "As in to press the button on the keyboard"
+  },
+  "pressControllerButton": {
+    "message": "PUSH %1 BUTTON",
+    "description": "As in to press the button on the controller"
+  },
+  "clickAnywhere": {
+    "message": "クリックしてスタート",
+    "description": "Indicating to click the mouse anywhere on the screen"
+  },
+  "tapAnywhere": {
+    "message": "画面をタップしてください",
+    "description": "Indicating to tap on the touchscreen anywhere"
+  },
+  "flashingLights": {
+    "message": "光の点滅",
+    "description": "Used to warn the player of flashing lights"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "usesReadyGoVoices": true,
+  "files": [
+    "alarm",
+    "bravo",
+    "collapse",
+    "erase1",
+    "erase2",
+    "erase3",
+    "erase4",
+    "garbagereceive",
+    "go",
+    "harddrop",
+    "hold",
+    "ko",
+    "levelupmajor",
+    "levelupminor",
+    "lock",
+    "move",
+    "pause",
+    "ready",
+    "rotate",
+    "start",
+    "land",
+    "tspinbonus",
+    "victory"
+  ],
+  "ren": []
+}

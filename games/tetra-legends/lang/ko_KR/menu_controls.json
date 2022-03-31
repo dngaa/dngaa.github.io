@@ -1,0 +1,88 @@
+{
+  "clearLabel": {
+    "message": "모두 제거",
+    "description": "Erase all controls"
+  },
+  "clearDescription": {
+    "message": "모든 컨트롤 설정을 지웁니다."
+  },
+  "resetLabel": {
+    "message": "기본값 설정",
+    "description": "Reset the controls to the defaults. Could also be translated as 'default'"
+  },
+  "resetDescription": {
+    "message": "모든 컨트롤 설정을 기본값으로 되돌립니다."
+  },
+  "shiftLeftLabel": {
+    "message": "왼쪽 이동"
+  },
+  "shiftLeftDescription": {
+    "message": "블록을 왼쪽으로 한 칸 이동하며, 계속 누르면 자동으로 연속 이동합니다."
+  },
+  "shiftRightLabel": {
+    "message": "오른쪽 이동"
+  },
+  "shiftRightDescription": {
+    "message": "블록을 오른쪽으로 한 칸 이동하며, 계속 누르면 자동으로 연속 이동합니다."
+  },
+  "hardDropLabel": {
+    "message": "하드 드롭"
+  },
+  "hardDropDescription": {
+    "message": "블록을 즉시 바닥에 고정시킵니다. (일부 모드에서는 다르게 반응 또는 비활성화)"
+  },
+  "softDropLabel": {
+    "message": "소프트 드롭"
+  },
+  "softDropDescription": {
+    "message": "블록을 더 빠르게 하강시킵니다. (일부 모드에서는 다르게 반응 또는 비활성화)"
+  },
+  "rotateLeftLabel": {
+    "message": "반시계방향 회전",
+    "description": "Could also be called 'rotate counter-clockwise'"
+  },
+  "rotateLeftDescription": {
+    "message": "블록을 반시계방향으로 90도 회전합니다."
+  },
+  "rotateRightLabel": {
+    "message": "시계방향 회전",
+    "description": "Could also be called 'rotate clockwise'"
+  },
+  "rotateRightDescription": {
+    "message": "블록을 시계방향으로 90도 회전합니다."
+  },
+  "rotateDoubleLabel": {
+    "message": "180도 회전",
+    "description": "Could also be referred to as a 'double rotation'"
+  },
+  "rotateDoubleDescription": {
+    "message": "블록을 180도 회전합니다. (일부 모드에서는 비활성화)"
+  },
+  "holdLabel": {
+    "message": "홀드"
+  },
+  "holdDescription": {
+    "message": "블록을 홀드 대기열에 놓습니다. (일부 모드에서는 비활성화)"
+  },
+  "retryLabel": {
+    "message": "재도전",
+    "description": "You press this bind to restart the game instantly"
+  },
+  "retryDescription": {
+    "message": "게임 도중 다시 시도합니다."
+  },
+  "pauseLabel": {
+    "message": "일시정지"
+  },
+  "pauseDescription": {
+    "message": "게임을 일시정지합니다."
+  },
+  "configPopupHeader": {
+    "message": "컨트롤 설정",
+    "description": "Displays as a header on a popup window when you add a control binding"
+  },
+  "configPopupDescription": {
+    "message": "이 행동을 할 때 사용할 키를 누르세요",
+    "description": "Displays on the popup when you add a control binding"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "backLabel": {
+    "message": "Về",
+    "description": "Go back to the previous menu"
+  },
+  "backDescription": {
+    "message": "Quay về menu trước"
+  },
+  "enabled": {
+    "message": "Bật",
+    "description": "Turned on, enabled"
+  },
+  "disabled": {
+    "message": "Tắt",
+    "description": "Turned off, disabled"
+  },
+  "auto": {
+    "message": "Tự động",
+    "description": "As in 'automatic' for options; when automatic is selected, it goes based off of the mode as opposed to a user setting"
+  }
+}

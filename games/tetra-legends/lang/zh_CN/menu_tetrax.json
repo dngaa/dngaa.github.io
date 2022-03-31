@@ -1,0 +1,26 @@
+{
+  "standardLabel": {
+    "message": "标准",
+    "description": "An endless Tetra-X mode where you stack lines as the game increases speed"
+  },
+  "standardDescription": {
+    "message": "试着尽可能消除更多行，不要让速度把你压倒！",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "proLabel": {
+    "message": "专家",
+    "description": "A Tetra-X mode where you try and clear a line goal with an intense speed"
+  },
+  "proDescription": {
+    "message": "即使是大师也不能掉以轻心。在这个快速的模式中，哪怕眨眼都可能是致命的！",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "nightOfNightsXLabel": {
+    "message": "Night of Nights X",
+    "description": "A Tetra-X mode that has crazy effects synced to Night of Nights that tries to distract the player"
+  },
+  "nightOfNightsXDescription": {
+    "message": "该模式有强烈的闪光特效。试着在各种特效的干扰下保持存活直到乐曲结束！",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  }
+}

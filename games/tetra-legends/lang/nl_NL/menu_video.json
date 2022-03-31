@@ -1,0 +1,174 @@
+{
+  "nextLengthLabel": {
+    "message": "Lengte van wachtrij"
+  },
+  "nextLengthDescription": {
+    "message": "De hoeveelheid stukjes die de speler vooruit kan zien in de wachtrij"
+  },
+  "lockdownBarLabel": {
+    "message": "Lockdown-balk",
+    "description": "The bar at the bottom of the screen that indicates how much time is left on lock delay and how many move resets remain"
+  },
+  "lockdownBarDescription": {
+    "message": "Sta de mogelijkheid toe om extra informatie te zien over Lockdown vertraging en verplaatsingslimieten"
+  },
+  "swayScaleLabel": {
+    "message": "Matrix Sway Schaal",
+    "description": "'Matrix Sway' can also be called field movement, screen shake, etc; 'scale' is how much magnitude it has in general"
+  },
+  "swayScaleDescription": {
+    "message": "Hoe ver de matrix beweegt naar de kracht van de stukken in percentage. Het selecteren van O schakelt het effect volledig uit",
+    "description": "The 'matrix' is also known as the 'playfield'"
+  },
+  "swaySpeedLabel": {
+    "message": "Matrix Sway Snelheid",
+    "description": "'Matrix Sway' can also be called field movement, screen shake, etc; 'speed' is how quickly the field move sback to its normal position after being pushed"
+  },
+  "swaySpeedDescription": {
+    "message": "Hoe snel de matrix terugkeert in percentage naar zijn neutrale positie",
+    "description": "The 'matrix' is also known as the 'playfield'"
+  },
+  "particleSettingsLabel": {
+    "message": "Particle Settings",
+    "description": "Label for a button to bring up particle options"
+  },
+  "particleSettingsDescription": {
+    "message": "Control how particles function"
+  },
+  "particlesLabel": {
+    "message": "Particles"
+  },
+  "particlesDescription": {
+    "message": "Of particles getekend moeten worden"
+  },
+  "particleLimitLabel": {
+    "message": "Particle-limiet"
+  },
+  "particleLimitDescription": {
+    "message": "Hoeveel particles er tegelijk op het scherm kunnen verschijnen"
+  },
+  "particleSizeLabel": {
+    "message": "Particle-grootte"
+  },
+  "particleSizeDescription": {
+    "message": "Hoe groot de particles zullen verschijnen"
+  },
+  "particleVolumeLabel": {
+    "message": "Particle Volume"
+  },
+  "particleVolumeDescription": {
+    "message": "Hoeveel particles zullen genereren"
+  },
+  "actionTextLabel": {
+    "message": "Actietekst",
+    "description": "Text that appears when you do certain actions, 'Single', 'T-Spin' as well as displaying a combo counter"
+  },
+  "actionTextDescription": {
+    "message": "Laat berichten zien wanneer je lijnen verwijdert en trucs uitvoert, zoals 'Double' en 'T-Draai'. Zal ook een combo teller weergeven"
+  },
+  "skinLabel": {
+    "message": "Skin-vervanger",
+    "description": "'Skin' as in the sprites used by the pieces"
+  },
+  "skinDescription": {
+    "message": "Selecteer een skin om te gebruiken i.p.v. de standaard"
+  },
+  "glossyOption": {
+    "message": "Glanzend"
+  },
+  "flatOption": {
+    "message": "Egaal"
+  },
+  "boneOption": {
+    "message": "Bone",
+    "description": "Please look at the reference image as translation may be difficult. 'Brackets', as in these: [], may be a good option"
+  },
+  "gridLabel": {
+    "message": "Grid",
+    "description": "The background grid used by the game"
+  },
+  "gridDescription": {
+    "message": "Select a grid style"
+  },
+  "crossGridOption": {
+    "message": "Cross",
+    "description": "Grid style that uses + signs"
+  },
+  "fullGridOption": {
+    "message": "Full",
+    "description": "Grid style that uses a full square (□)"
+  },
+  "dotGridOption": {
+    "message": "Dot",
+    "description": "Grid style that uses a dot in the center of the cell"
+  },
+  "lockFlashLabel": {
+    "message": "Lock Flash",
+    "description": "Controls the style that the lock flash uses"
+  },
+  "lockFlashDesription": {
+    "message": "Select a lock flash style"
+  },
+  "shineLFOption": {
+    "message": "Complex Shine",
+    "description": "Lock flash style that causes a 2 frame white flash, followed by long dim with a shine line effect that goes from the bottom left to the top right"
+  },
+  "flashDimLFOption": {
+    "message": "Flash & Dim",
+    "description": "Lock flash style that causes a 2 frame white flash, followed by long dim"
+  },
+  "flashLFOption": {
+    "message": "Quick Flash",
+    "description": "Lock flash style that causes a 2 frame white flash"
+  },
+  "colorOverrideLabel": {
+    "message": "Color Override",
+    "description": "Allows the user to override pieces colors with their own desired chices"
+  },
+  "colorOverrideDescription": {
+    "message": "Overrides the piece color assignments"
+  },
+  "redOption": {
+    "message": "Rood",
+    "description": "Please base your translation off the reference image"
+  },
+  "orangeOption": {
+    "message": "Oranje",
+    "description": "Please base your translation off the reference image"
+  },
+  "yellowOption": {
+    "message": "Geel",
+    "description": "Please base your translation off the reference image"
+  },
+  "greenOption": {
+    "message": "Groen",
+    "description": "Please base your translation off the reference image"
+  },
+  "lightBlueOption": {
+    "message": "Lichtblauw",
+    "description": "Please base your translation off the reference image"
+  },
+  "blueOption": {
+    "message": "Donkerblauw",
+    "description": "Please base your translation off the reference image"
+  },
+  "purpleOption": {
+    "message": "Paars",
+    "description": "Please base your translation off the reference image"
+  },
+  "whiteOption": {
+    "message": "Wit",
+    "description": "Please base your translation off the reference image"
+  },
+  "blackOption": {
+    "message": "Grijs",
+    "description": "Please base your translation off the reference image"
+  },
+  "themeLabel": {
+    "message": "Thema",
+    "description": "Changes the visual appearance that TL uses ingame"
+  },
+  "themeDescription": {
+    "message": "Bepaalt de visuele stijl van het spel"
+  }
+}

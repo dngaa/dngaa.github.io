@@ -1,0 +1,97 @@
+{
+  "properties": {
+    "parent": null
+  },
+  "data": [
+    {
+      "label": "文/A",
+      "fixedText": true,
+      "description": "",
+      "action": "submenu",
+      "submenu": "languages"
+    },
+    {
+      "string": "quickLabel",
+      "stringDesc": "quickDescription",
+      "default": true,
+      "action": "quick"
+    },
+    {
+      "string": "gameStylesOverline",
+      "type": "overline"
+    },
+    {
+      "string": "guidelineLabel",
+      "stringDesc": "guidelineDescription",
+      "action": "submenu",
+      "submenu": "guideline"
+    },
+    {
+      "string": "tetraxLabel",
+      "stringDesc": "tetraxDescription",
+      "action": "submenu",
+      "submenu": "tetrax"
+    },
+    {
+      "string": "retroLabel",
+      "stringDesc": "retroDescription",
+      "action": "submenu",
+      "submenu": "retro"
+    },
+    {
+      "string": "settingsOverline",
+      "type": "overline"
+    },
+    {
+      "string": "controlsLabel",
+      "stringDesc": "controlsDescription",
+      "action": "submenu",
+      "submenu": "controls"
+    },
+    {
+      "string": "tuningLabel",
+      "stringDesc": "tuningDescription",
+      "action": "submenu",
+      "submenu": "tuning"
+    },
+    {
+      "string": "audioLabel",
+      "stringDesc": "audioDescription",
+      "width": "half",
+      "action": "submenu",
+      "submenu": "audio"
+    },
+    {
+      "string": "videoLabel",
+      "stringDesc": "videoDescription",
+      "width": "half",
+      "action": "submenu",
+      "submenu": "video"
+    },
+    {
+      "string": "miscOverline",
+      "label": "Misc",
+      "type": "overline"
+    },
+    {
+      "string": "translateLabel",
+      "stringDesc": "translateDescription",
+      "action": "link",
+      "url": "https://crowdin.com/project/tetra-legends"
+    },
+    {
+      "string": "discordLabel",
+      "stringDesc": "discordDescription",
+      "action": "link",
+      "url": "https://discordapp.com/invite/7hMx5r2"
+    },
+    {
+      "string": "soundtrackLabel",
+      "stringDesc": "soundtrackDescription",
+      "label": "Soundtrack",
+      "description": "Listen to the original soundtrack (coming soon!)",
+      "action": "link",
+      "url": "https://soundcloud.com/tetra-developer-studio/sets/tetra-legends-soundtrack"
+    }
+  ]
+}

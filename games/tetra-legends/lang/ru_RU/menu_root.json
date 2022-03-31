@@ -1,0 +1,86 @@
+{
+  "quickLabel": {
+    "message": "Быстрая игра",
+    "description": "Button to start a game of marathon"
+  },
+  "quickDescription": {
+    "message": "Начать игру в режиме Марафон со стандартными настройками"
+  },
+  "gameStylesOverline": {
+    "message": "Стили игры",
+    "description": "Header for the various types of games (Guideline, Retro, etc)"
+  },
+  "guidelineLabel": {
+    "message": "Стандарт"
+  },
+  "guidelineDescription": {
+    "message": "Стандартный вариант игры, который можно увидеть в большинстве современных игр"
+  },
+  "tetraxLabel": {
+    "message": "Tetra-X"
+  },
+  "tetraxDescription": {
+    "message": "Нестандартный режим игры, оригинально придуманный для этой игры"
+  },
+  "retroLabel": {
+    "message": "Ретро"
+  },
+  "retroDescription": {
+    "message": "Классический вариант игры, нравящийся олдскул игрокам"
+  },
+  "arcadeLabel": {
+    "message": "Аркада"
+  },
+  "arcadeDescription": {
+    "message": "Сложный вариант игры, нравящийся хардкорным игрокам"
+  },
+  "settingsOverline": {
+    "message": "Настройки"
+  },
+  "tuningLabel": {
+    "message": "Геймплей"
+  },
+  "tuningDescription": {
+    "message": "Настройки поведения блоков"
+  },
+  "controlsLabel": {
+    "message": "Управление"
+  },
+  "controlsDescription": {
+    "message": "Настройки управления игры"
+  },
+  "audioLabel": {
+    "message": "Аудио"
+  },
+  "audioDescription": {
+    "message": "Настройки звучания игры"
+  },
+  "videoLabel": {
+    "message": "Видео"
+  },
+  "videoDescription": {
+    "message": "Настройки внешнего вида игры"
+  },
+  "miscOverline": {
+    "message": "Прочее",
+    "description": "Miscellaneous, other"
+  },
+  "soundtrackLabel": {
+    "message": "Саундтрек"
+  },
+  "soundtrackDescription": {
+    "message": "Послушать оригинальный саундтрек"
+  },
+  "translateLabel": {
+    "message": "Перевести"
+  },
+  "translateDescription": {
+    "message": "Помочь с переводом игры"
+  },
+  "discordLabel": {
+    "message": "Discord"
+  },
+  "discordDescription": {
+    "message": "Зайти на Discord сервер для обсуждения игры, получения обновлений и предложения идей и переводов"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "gradesLabel": {
+    "message": "Hạng",
+    "description": "Used as a category name for TGM-inspired modes"
+  },
+  "gradesDescription": {
+    "message": "Các chế độ hóc búa thách thức những người chơi giỏi nhất"
+  },
+  "master3Label": {
+    "message": "Bậc thầy 3",
+    "description": "Used for a mode inspired by TGM3 Master"
+  },
+  "master3Description": {
+    "message": "Tuyệt!! Hãy chơi nhanh và chuẩn để tiến vừa cao vừa xa!"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "marathonLabel": {
+    "message": "Марафон",
+    "description": "A guideline mode where you attempt to clear a set amount of lines (or endless) with a rising difficulty"
+  },
+  "marathonDescription": {
+    "message": "Выполни цель! Ставь фигуры и убирай линии, но будь осторожен, игра становится быстрее, чем дальше ты пройдёшь!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "masterLabel": {
+    "message": "Мастер",
+    "description": "A guideline mode where you attempt to clear a set amount of lines at insanely high speeds"
+  },
+  "masterDescription": {
+    "message": "Очень быстрый режим игры! Игра не щадит игроков, пытающихся выжить на этих жестоких скоростях до конца.",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "sprintLabel": {
+    "message": "Спринт",
+    "description": "A guideline mode where you attempt to clear an amount of lines as quick as possible"
+  },
+  "sprintDescription": {
+    "message": "Не медли! Выполни цель по линиям как можно быстрее в этом быстром режиме.",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "ultraLabel": {
+    "message": "Ультра",
+    "description": "A guideline mode where you have to score as many points as possible before the time runs out"
+  },
+  "ultraDescription": {
+    "message": "Каждая линия на счету! Быстро и аккуратно стройте различные структуры, чтобы получить как можно больше очков за отведённое время!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "comboLabel": {
+    "message": "Испытание комбо",
+    "description": "A guideline mode where you have to clear the highest combo possible before the time runs out"
+  },
+  "comboDescription": {
+    "message": "Нет времени на раздумья! Попытайся убрать как можно больше последовательных линий за отведённое время!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "survivalLabel": {
+    "message": "Выживание",
+    "description": "A guideline mode where lines are constantly sent to the player's game and they have to survive the ever rising garbage"
+  },
+  "survivalDescription": {
+    "message": "Внимание! Разорванные линии начали подниматься снизу. Если ты не будешь успевать, то ты точно проиграешь!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "nightOfNightsLabel": {
+    "message": "Night of Nights",
+    "description": "A guideline mode the pieces are locked at the bpm of Night of Nights"
+  },
+  "nightOfNightsDescription": {
+    "message": "Presto tempo! Try to keep up while the pieces lock at Night of Night's ludicrous BPM of 180!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "marathonLabel": {
+    "message": "Marathon",
+    "description": "A guideline mode where you attempt to clear a set amount of lines (or endless) with a rising difficulty"
+  },
+  "marathonDescription": {
+    "message": "Atteignez l'objectif! Remplissez des lignes, mais attention, le jeu s’accélère au fil de votre progression!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "masterLabel": {
+    "message": "Master",
+    "description": "A guideline mode where you attempt to clear a set amount of lines at insanely high speeds"
+  },
+  "masterDescription": {
+    "message": "Une action d'empilage intensément rapide! Le jeu sera sans pitié alors que vous vous efforcez à survivre à des vitesses cruelles jusqu'à la fin.",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "sprintLabel": {
+    "message": "Sprint",
+    "description": "A guideline mode where you attempt to clear an amount of lines as quick as possible"
+  },
+  "sprintDescription": {
+    "message": "N'hésitez pas ! Atteignez l'objectif aussi vite que possible dans ce mode à haute vitesse.",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "ultraLabel": {
+    "message": "Ultra",
+    "description": "A guideline mode where you have to score as many points as possible before the time runs out"
+  },
+  "ultraDescription": {
+    "message": "Chaque ligne compte ! Faites attention et réalisez rapidement des techniques pour obtenir autant de points que possible avant que le temps ne soit écoulé !",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "comboLabel": {
+    "message": "Défi Combo",
+    "description": "A guideline mode where you have to clear the highest combo possible before the time runs out"
+  },
+  "comboDescription": {
+    "message": "Pas de temps à perdre ! Essayez de compléter autant de lignes successives que possible avant que le temps ne soit écoulé !",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "survivalLabel": {
+    "message": "Survie",
+    "description": "A guideline mode where lines are constantly sent to the player's game and they have to survive the ever rising garbage"
+  },
+  "survivalDescription": {
+    "message": "Attention ! Des lignes incomplètes ont commencé à s'élever depuis le bas de l'écran. Si vous ne pouvez pas suivre, vous allez certainement échouer !",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "nightOfNightsLabel": {
+    "message": "Night of Nights",
+    "description": "A guideline mode the pieces are locked at the bpm of Night of Nights"
+  },
+  "nightOfNightsDescription": {
+    "message": "Attention au tempo ! Essayez de suivre le rythme des pièces qui se verrouillent aux 180 BPM de Night of Nights !",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "variationsOverline": {
+    "message": "Variantes",
+    "description": "Variation, Version, Type"
+  },
+  "consoleLabel": {
+    "message": "Console",
+    "description": "A mode based on NES Tet"
+  },
+  "consoleDescription": {
+    "message": "La version classique du puzzle la plus utilisée en compétition dans le monde !",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "handheldLabel": {
+    "message": "Portable",
+    "description": "A mode based on the GB version of Tet"
+  },
+  "handheldDescription": {
+    "message": "Une version nostalgique au rythme lent que beaucoup ont joué sur des appareils portables",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "deluxeLabel": {
+    "message": "Deluxe",
+    "description": "A mode based on the GBC version of Tet"
+  },
+  "deluxeDescription": {
+    "message": "Une belle combinaison d'éléments classiques et modernes",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  }
+}

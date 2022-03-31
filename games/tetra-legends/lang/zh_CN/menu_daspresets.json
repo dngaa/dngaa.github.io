@@ -1,0 +1,41 @@
+{
+  "defaultLabel": {
+    "message": "默认"
+  },
+  "defaultDescription": {
+    "message": "本游戏的默认设置"
+  },
+  "guidelineLabel": {
+    "message": "标准"
+  },
+  "guidelineDescription": {
+    "message": "在大多数游戏中的标准设置"
+  },
+  "pptLabel": {
+    "message": "气泡方块",
+    "description": "Based on Puyo Puyo Tetris"
+  },
+  "pptDescription": {
+    "message": "比标准设置略快的设置"
+  },
+  "tetraOnlineLabel": {
+    "message": "Tetra Online",
+    "description": "Avoid changing the name 'Tetra Online'"
+  },
+  "tetraOnlineDescription": {
+    "message": "匹配Tetra Online的自动移动设置",
+    "description": "Avoid changing the name 'Tetra Online'"
+  },
+  "quickLabel": {
+    "message": "快速"
+  },
+  "quickDescription": {
+    "message": "需要一些控制技巧的快速预设"
+  },
+  "proLabel": {
+    "message": "专家"
+  },
+  "proDescription": {
+    "message": "需要高阶控制技巧的极速预设"
+  }
+}

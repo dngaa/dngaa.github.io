@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "parent": "guideline",
+    "parentSecret": true,
+    "langOverride": "mode-options",
+    "game": "non",
+    "pgmusic": "pg-non"
+  },
+  "data": [
+    {
+      "string": "nightOfNightsLabel",
+      "langOverride": "menu_guideline",
+      "type": "header"
+    }
+  ]
+}

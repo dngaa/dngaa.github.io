@@ -1,0 +1,41 @@
+{
+  "defaultLabel": {
+    "message": "По умолчанию"
+  },
+  "defaultDescription": {
+    "message": "Настройки по умолчанию, которые идут с игрой"
+  },
+  "guidelineLabel": {
+    "message": "Стандарт"
+  },
+  "guidelineDescription": {
+    "message": "Стандартные настройки, которые используются в большинстве версий"
+  },
+  "pptLabel": {
+    "message": "PPT",
+    "description": "Based on Puyo Puyo Tetris"
+  },
+  "pptDescription": {
+    "message": "Немного более быстрая версия стандартных настроек"
+  },
+  "tetraOnlineLabel": {
+    "message": "Tetra Online",
+    "description": "Avoid changing the name 'Tetra Online'"
+  },
+  "tetraOnlineDescription": {
+    "message": "Настройки автосдвига, индентичные Tetra Online",
+    "description": "Avoid changing the name 'Tetra Online'"
+  },
+  "quickLabel": {
+    "message": "Быстрый"
+  },
+  "quickDescription": {
+    "message": "Более быстрый пресет, требующий больше контроля"
+  },
+  "proLabel": {
+    "message": "Про"
+  },
+  "proDescription": {
+    "message": "Высокоскоростной пресет, требующий сильного контроля"
+  }
+}

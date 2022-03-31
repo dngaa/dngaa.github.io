@@ -1,0 +1,41 @@
+{
+  "defaultLabel": {
+    "message": "Standaard"
+  },
+  "defaultDescription": {
+    "message": "De standaardinstellingen die bij het spel komen"
+  },
+  "guidelineLabel": {
+    "message": "Guideline"
+  },
+  "guidelineDescription": {
+    "message": "Standaardinstellingen gevonden in de meeste versies"
+  },
+  "pptLabel": {
+    "message": "PPT",
+    "description": "Based on Puyo Puyo Tetris"
+  },
+  "pptDescription": {
+    "message": "Iets snellere versie van de standaard instellingen"
+  },
+  "tetraOnlineLabel": {
+    "message": "Tetra Online",
+    "description": "Avoid changing the name 'Tetra Online'"
+  },
+  "tetraOnlineDescription": {
+    "message": "Komt overeen met de instellingen van het spel Tetra Online",
+    "description": "Avoid changing the name 'Tetra Online'"
+  },
+  "quickLabel": {
+    "message": "Snel"
+  },
+  "quickDescription": {
+    "message": "Een snellere voorinstelling die wat meer controle vereist"
+  },
+  "proLabel": {
+    "message": "Pro"
+  },
+  "proDescription": {
+    "message": "Een instelling voor hoge snelheid die het meeste controle vereist"
+  }
+}

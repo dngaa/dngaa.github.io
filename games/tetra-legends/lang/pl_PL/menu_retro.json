@@ -1,0 +1,30 @@
+{
+  "variationsOverline": {
+    "message": "Warianty",
+    "description": "Variation, Version, Type"
+  },
+  "consoleLabel": {
+    "message": "Konsola",
+    "description": "A mode based on NES Tet"
+  },
+  "consoleDescription": {
+    "message": "Najpopularniejsza na świecie, kompetetywna, wersja tej klasycznej łamigłówki!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "handheldLabel": {
+    "message": "Przenośna",
+    "description": "A mode based on the GB version of Tet"
+  },
+  "handheldDescription": {
+    "message": "Powolna, nostalgiczna wersja, w którą grało wiele osób na konsolach przenośnych",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "deluxeLabel": {
+    "message": "Luksusowa",
+    "description": "A mode based on the GBC version of Tet"
+  },
+  "deluxeDescription": {
+    "message": "Miłe połączenie klasycznych i nowoczesnych elementów gry",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  }
+}

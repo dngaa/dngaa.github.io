@@ -1,0 +1,121 @@
+{
+  "properties": {
+    "parent": "root"
+  },
+  "data": [
+    {
+      "label": "English (US)",
+      "default": true,
+      "fixedText": true,
+      "description": "Dr Ocelot",
+      "action": "lang",
+      "isShort": true,
+      "lang": "en_US"
+    },
+    {
+      "label": "English (UK)",
+      "fixedText": true,
+      "description": "Dr Ocelot",
+      "action": "lang",
+      "isShort": true,
+      "lang": "en_GB"
+    },
+    {
+      "label": "Español",
+      "fixedText": true,
+      "description": "Mine, YuNoGuy123, MrFaq2017",
+      "action": "lang",
+      "isShort": true,
+      "lang": "es_ES"
+    },
+    {
+      "label": "Français",
+      "fixedText": true,
+      "description": "Light, Mizu Official, xeenwolf",
+      "action": "lang",
+      "isShort": true,
+      "lang": "fr_FR"
+    },
+    {
+      "label": "Italiano",
+      "fixedText": true,
+      "description": "Esingar",
+      "action": "lang",
+      "isShort": true,
+      "lang": "it_IT"
+    },
+    {
+      "label": "Deutsch",
+      "fixedText": true,
+      "description": "kivi, TalonS, tzFiye, nastyFEETs, kevadesu, ImABigTurtleTIKTOK",
+      "action": "lang",
+      "isShort": true,
+      "lang": "de_DE"
+    },
+    {
+      "label": "Nederlands",
+      "fixedText": true,
+      "description": "osk, Gemtendo, micwoj92, MyPasswordIsWeak",
+      "action": "lang",
+      "isShort": true,
+      "lang": "nl_NL"
+    },
+    {
+      "label": "Русский язык",
+      "fixedText": true,
+      "description": "JustVldKsh, sjbdkkan",
+      "action": "lang",
+      "isShort": true,
+      "lang": "ru_RU"
+    },
+    {
+      "label": "Polski",
+      "fixedText": true,
+      "description": "micwoj92, Jacek Bogdun",
+      "action": "lang",
+      "isShort": true,
+      "lang": "pl_PL"
+    },
+    {
+      "label": "Tiếng Việt",
+      "fixedText": true,
+      "description": "Shard Nguyễn, Minh Bui Duc, Đinh Đức Nhân",
+      "action": "lang",
+      "isShort": true,
+      "lang": "vi_VN"
+    },
+    {
+      "label": "日本語",
+      "fixedText": true,
+      "description": "mitsuki0316, hebo-MAI, MattMayuga, Aoyuka102",
+      "action": "lang",
+      "isShort": true,
+      "lang": "ja_JP"
+    },
+    {
+      "label": "한국어",
+      "fixedText": true,
+      "description": "Casquade",
+      "action": "lang",
+      "isShort": true,
+      "lang": "ko_KR"
+    },
+    {
+      "label": "中文（简体）",
+      "fixedText": true,
+      "description": "User670",
+      "action": "lang",
+      "isShort": true,
+      "lang": "zh_CN"
+    },
+    {
+      "label": "Blank Locale",
+      "fixedText": true,
+      "description": "Used for neutral screenshots and videos",
+      "action": "lang",
+      "isShort": true,
+      "lang": "blank",
+      "secretA": true
+    }
+  ]
+}

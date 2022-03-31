@@ -1,0 +1,88 @@
+{
+  "clearLabel": {
+    "message": "Очистить",
+    "description": "Erase all controls"
+  },
+  "clearDescription": {
+    "message": "Очистить все назначенные клавиши"
+  },
+  "resetLabel": {
+    "message": "Сброс",
+    "description": "Reset the controls to the defaults. Could also be translated as 'default'"
+  },
+  "resetDescription": {
+    "message": "Вернуть настройки управления по умолчанию"
+  },
+  "shiftLeftLabel": {
+    "message": "Сдвиг влево"
+  },
+  "shiftLeftDescription": {
+    "message": "Сдвинуть фигуру влево один раз или зажать для автосдвига"
+  },
+  "shiftRightLabel": {
+    "message": "Сдвиг вправо"
+  },
+  "shiftRightDescription": {
+    "message": "Сдвинуть фигуру вправо один раз или зажать для автосдвига"
+  },
+  "hardDropLabel": {
+    "message": "Hard Drop"
+  },
+  "hardDropDescription": {
+    "message": "Сбросить фигуру на дно стакана (может работать иначе или быть недоступно в некоторых режимах)"
+  },
+  "softDropLabel": {
+    "message": "Soft Drop"
+  },
+  "softDropDescription": {
+    "message": "Ускорить падение фигуры (может работать иначе в некоторых режимах)"
+  },
+  "rotateLeftLabel": {
+    "message": "Повернуть влево",
+    "description": "Could also be called 'rotate counter-clockwise'"
+  },
+  "rotateLeftDescription": {
+    "message": "Повернуть фигуру на 90° против часовой стрелки."
+  },
+  "rotateRightLabel": {
+    "message": "Повернуть вправо",
+    "description": "Could also be called 'rotate clockwise'"
+  },
+  "rotateRightDescription": {
+    "message": "Повернуть фигуру на 90° по часовой стрелке."
+  },
+  "rotateDoubleLabel": {
+    "message": "Повернуть на 180°",
+    "description": "Could also be referred to as a 'double rotation'"
+  },
+  "rotateDoubleDescription": {
+    "message": "Повернуть фигуру на 180° (может быть выключено в некоторых режимах)"
+  },
+  "holdLabel": {
+    "message": "Запас"
+  },
+  "holdDescription": {
+    "message": "Отправить фигуру в запас (может быть выключено в некоторых режимах)"
+  },
+  "retryLabel": {
+    "message": "Рестарт",
+    "description": "You press this bind to restart the game instantly"
+  },
+  "retryDescription": {
+    "message": "Сразу попытаться снова"
+  },
+  "pauseLabel": {
+    "message": "Пауза"
+  },
+  "pauseDescription": {
+    "message": "Приостановить игру"
+  },
+  "configPopupHeader": {
+    "message": "Настройка управления",
+    "description": "Displays as a header on a popup window when you add a control binding"
+  },
+  "configPopupDescription": {
+    "message": "Нажмите клавишу, которую хотите использовать для этого действия",
+    "description": "Displays on the popup when you add a control binding"
+  }
+}

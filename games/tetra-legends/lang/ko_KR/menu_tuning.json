@@ -1,0 +1,67 @@
+{
+  "presetsLabel": {
+    "message": "DAS/ARR 프리셋",
+    "description": "Could also be referred to as 'Autoshift Presets' or 'DAS Presets'"
+  },
+  "presetDescription": {
+    "message": "프리셋을 이용하여 DAS/ARR 값들을 설정합니다."
+  },
+  "dasLabel": {
+    "message": "DAS",
+    "description": "Also known as 'DAS'"
+  },
+  "dasDescription": {
+    "message": "방향키를 눌렀을 때, 블록이 자동 이동하기 전에 멈춰 있는 시간 (ms)"
+  },
+  "arrLabel": {
+    "message": "ARR",
+    "description": "Also known as 'ARR'"
+  },
+  "arrDescription": {
+    "message": "블록이 자동 이동할 때 한 칸 이동할 때 걸리는 시간 (ms)"
+  },
+  "dasPreloadLabel": {
+    "message": "자동 이동 충전",
+    "description": "This setting make it so that when you press a movement key while in Entry Delay (ARE), the DAS will fully charge and the ARR will start immediately when the next piece spawns"
+  },
+  "dasPreloadDescription": {
+    "message": "\"켜짐\" 설정 시, 블록 진입 딜레이(ARE) 중 방향키를 누를 때 자동 이동을 미리 충전할 수 있게 합니다."
+  },
+  "irsLabel": {
+    "message": "미리 회전",
+    "description": "Allows the user to rotate a piece before it spawns (aka IRS)"
+  },
+  "irsDescription": {
+    "message": "블록이 필드에 나타나기 전 회전하는 것을 허용할지 설정합니다. (일부 모드에서는 비활성화)"
+  },
+  "absoluteIrsOption": {
+    "message": "절대적",
+    "description": "As in 'absolute rotation'; it means that the rotation button pressed during IRS will correspond to that rotation from the piece's initial spawning orientation: for example, if you IRS to rotate left, and then IRS to rotate right, it will spawn the piece as if it was rotated to the right from the neutral spawning orientation"
+  },
+  "ihsLabel": {
+    "message": "미리 홀드",
+    "description": "Allows the user to hold a piece before it spawns (aka IHS)"
+  },
+  "ihsDescription": {
+    "message": "블록이 필드에 나타나기 전 홀드하는 것을 허용할지 설정합니다."
+  },
+  "tapInitOption": {
+    "message": "한 번 누를 시 활성화",
+    "description": "As in, you press the button once to use IRS/IHS; In IRS, it allows you to rotate a piece as if it were in play before it spawns"
+  },
+  "holdInitOption": {
+    "message": "계속 누를 시 활성화",
+    "description": "As in, you have to have the button held at the end of ARE to use IRS/IHS"
+  },
+  "rotSysLabel": {
+    "message": "회전 체계 사용자 지정",
+    "description": "Allows the user to override the rotation system in any mode"
+  },
+  "rotSysDescription": {
+    "message": "해당 모드에서 사용되는 회전 체계 대신 설정한 회전 체계를 사용"
+  },
+  "originalOption": {
+    "message": "1984 원본",
+    "description": "As in 'Original Rotation System', the one used by the first version of the game"
+  }
+}

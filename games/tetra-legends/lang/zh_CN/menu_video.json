@@ -1,0 +1,174 @@
+{
+  "nextLengthLabel": {
+    "message": "Next队列长度"
+  },
+  "nextLengthDescription": {
+    "message": "可以看见的接下来的方块的数量"
+  },
+  "lockdownBarLabel": {
+    "message": "锁定延迟指示条",
+    "description": "The bar at the bottom of the screen that indicates how much time is left on lock delay and how many move resets remain"
+  },
+  "lockdownBarDescription": {
+    "message": "可以看见锁定延迟和移动次数上限"
+  },
+  "swayScaleLabel": {
+    "message": "矩阵摇晃",
+    "description": "'Matrix Sway' can also be called field movement, screen shake, etc; 'scale' is how much magnitude it has in general"
+  },
+  "swayScaleDescription": {
+    "message": "矩阵受力摇晃的幅度（百分比）。设为0以禁用矩阵摇晃",
+    "description": "The 'matrix' is also known as the 'playfield'"
+  },
+  "swaySpeedLabel": {
+    "message": "矩阵摇晃速度",
+    "description": "'Matrix Sway' can also be called field movement, screen shake, etc; 'speed' is how quickly the field move sback to its normal position after being pushed"
+  },
+  "swaySpeedDescription": {
+    "message": "矩阵摇晃中恢复到原始位置的速度（百分比）",
+    "description": "The 'matrix' is also known as the 'playfield'"
+  },
+  "particleSettingsLabel": {
+    "message": "粒子设置",
+    "description": "Label for a button to bring up particle options"
+  },
+  "particleSettingsDescription": {
+    "message": "调节粒子效果"
+  },
+  "particlesLabel": {
+    "message": "粒子"
+  },
+  "particlesDescription": {
+    "message": "是否要绘制粒子效果"
+  },
+  "particleLimitLabel": {
+    "message": "粒子限制"
+  },
+  "particleLimitDescription": {
+    "message": "屏幕上最多可以同时出现多少粒子"
+  },
+  "particleSizeLabel": {
+    "message": "粒子大小"
+  },
+  "particleSizeDescription": {
+    "message": "粒子在屏幕上的大小"
+  },
+  "particleVolumeLabel": {
+    "message": "粒子密度"
+  },
+  "particleVolumeDescription": {
+    "message": "操作生成的粒子数量"
+  },
+  "actionTextLabel": {
+    "message": "动作文本",
+    "description": "Text that appears when you do certain actions, 'Single', 'T-Spin' as well as displaying a combo counter"
+  },
+  "actionTextDescription": {
+    "message": "当您消除或完成技巧时显示文字（例如 Double 或 T-Spin ）。也会显示连击计数器。"
+  },
+  "skinLabel": {
+    "message": "皮肤覆盖",
+    "description": "'Skin' as in the sprites used by the pieces"
+  },
+  "skinDescription": {
+    "message": "选择方块皮肤以替换默认皮肤"
+  },
+  "glossyOption": {
+    "message": "光泽"
+  },
+  "flatOption": {
+    "message": "纯色"
+  },
+  "boneOption": {
+    "message": "中括号",
+    "description": "Please look at the reference image as translation may be difficult. 'Brackets', as in these: [], may be a good option"
+  },
+  "gridLabel": {
+    "message": "网格",
+    "description": "The background grid used by the game"
+  },
+  "gridDescription": {
+    "message": "选择网格的样式"
+  },
+  "crossGridOption": {
+    "message": "十字",
+    "description": "Grid style that uses + signs"
+  },
+  "fullGridOption": {
+    "message": "完整",
+    "description": "Grid style that uses a full square (□)"
+  },
+  "dotGridOption": {
+    "message": "点",
+    "description": "Grid style that uses a dot in the center of the cell"
+  },
+  "lockFlashLabel": {
+    "message": "锁定闪烁",
+    "description": "Controls the style that the lock flash uses"
+  },
+  "lockFlashDesription": {
+    "message": "选择方块锁定时闪烁效果的样式"
+  },
+  "shineLFOption": {
+    "message": "复杂",
+    "description": "Lock flash style that causes a 2 frame white flash, followed by long dim with a shine line effect that goes from the bottom left to the top right"
+  },
+  "flashDimLFOption": {
+    "message": "闪烁并淡出",
+    "description": "Lock flash style that causes a 2 frame white flash, followed by long dim"
+  },
+  "flashLFOption": {
+    "message": "快速闪烁",
+    "description": "Lock flash style that causes a 2 frame white flash"
+  },
+  "colorOverrideLabel": {
+    "message": "颜色覆盖",
+    "description": "Allows the user to override pieces colors with their own desired chices"
+  },
+  "colorOverrideDescription": {
+    "message": "覆盖方块的颜色"
+  },
+  "redOption": {
+    "message": "红色",
+    "description": "Please base your translation off the reference image"
+  },
+  "orangeOption": {
+    "message": "橙色",
+    "description": "Please base your translation off the reference image"
+  },
+  "yellowOption": {
+    "message": "黄色",
+    "description": "Please base your translation off the reference image"
+  },
+  "greenOption": {
+    "message": "绿色",
+    "description": "Please base your translation off the reference image"
+  },
+  "lightBlueOption": {
+    "message": "浅蓝色",
+    "description": "Please base your translation off the reference image"
+  },
+  "blueOption": {
+    "message": "深蓝色",
+    "description": "Please base your translation off the reference image"
+  },
+  "purpleOption": {
+    "message": "紫色",
+    "description": "Please base your translation off the reference image"
+  },
+  "whiteOption": {
+    "message": "白色",
+    "description": "Please base your translation off the reference image"
+  },
+  "blackOption": {
+    "message": "灰色",
+    "description": "Please base your translation off the reference image"
+  },
+  "themeLabel": {
+    "message": "主题",
+    "description": "Changes the visual appearance that TL uses ingame"
+  },
+  "themeDescription": {
+    "message": "决定游戏的界面风格"
+  }
+}

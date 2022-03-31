@@ -1,0 +1,88 @@
+{
+  "clearLabel": {
+    "message": "Pulisci",
+    "description": "Erase all controls"
+  },
+  "clearDescription": {
+    "message": "Pulisci tutti i controlli in modo da avere uno spazio vuoto"
+  },
+  "resetLabel": {
+    "message": "Ripristina",
+    "description": "Reset the controls to the defaults. Could also be translated as 'default'"
+  },
+  "resetDescription": {
+    "message": "Reimposta tutti i controlli ai valori predefiniti"
+  },
+  "shiftLeftLabel": {
+    "message": "Muovi a sinistra"
+  },
+  "shiftLeftDescription": {
+    "message": "Muovi un tetramino a sinistra, se premuto una volta. Tieni premuto per uno spostamento automatico"
+  },
+  "shiftRightLabel": {
+    "message": "Muovi a destra"
+  },
+  "shiftRightDescription": {
+    "message": "Muovi un tetramino a destra, se premuto una volta. Tieni premuto per uno spostamento automatico"
+  },
+  "hardDropLabel": {
+    "message": "Hard Drop"
+  },
+  "hardDropDescription": {
+    "message": "Trascina a terra un tetramino istantaneamente (potrebbe avere diversi effetti, o essere disabilitato in alcune modalità)"
+  },
+  "softDropLabel": {
+    "message": "Soft Drop"
+  },
+  "softDropDescription": {
+    "message": "Velocizza la velocità di discesa dei tetramini (potrebbe avere effetti differenti in base alla modalità di gioco)"
+  },
+  "rotateLeftLabel": {
+    "message": "Ruota a sinistra",
+    "description": "Could also be called 'rotate counter-clockwise'"
+  },
+  "rotateLeftDescription": {
+    "message": "Ruota un tetramino di 90° in senso antiorario."
+  },
+  "rotateRightLabel": {
+    "message": "Ruota a destra",
+    "description": "Could also be called 'rotate clockwise'"
+  },
+  "rotateRightDescription": {
+    "message": "Ruota un pezzo di 90° in senso orario."
+  },
+  "rotateDoubleLabel": {
+    "message": "Ruota di 180°",
+    "description": "Could also be referred to as a 'double rotation'"
+  },
+  "rotateDoubleDescription": {
+    "message": "Ruota un tetramino di 180° (potrebbe essere disabilitato in alcune modalità)"
+  },
+  "holdLabel": {
+    "message": "Riserva"
+  },
+  "holdDescription": {
+    "message": "Manda un tetramino nella riserva (potrebbe essere disabilitato in alcune modalità)"
+  },
+  "retryLabel": {
+    "message": "Riprova",
+    "description": "You press this bind to restart the game instantly"
+  },
+  "retryDescription": {
+    "message": "Riprova subito"
+  },
+  "pauseLabel": {
+    "message": "Pausa"
+  },
+  "pauseDescription": {
+    "message": "Pausa il gioco"
+  },
+  "configPopupHeader": {
+    "message": "Configurazione dei controlli",
+    "description": "Displays as a header on a popup window when you add a control binding"
+  },
+  "configPopupDescription": {
+    "message": "Premi il tasto che desideri utilizzare per questa azione",
+    "description": "Displays on the popup when you add a control binding"
+  }
+}

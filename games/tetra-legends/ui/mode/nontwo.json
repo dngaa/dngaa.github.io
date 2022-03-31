@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "parent": "tetrax",
+    "parentSecret": true,
+    "langOverride": "mode-options",
+    "game": "nontwo",
+    "pgmusic": "pg-nontwo"
+  },
+  "data": [
+    {
+      "string": "nightOfNightsXLabel",
+      "langOverride": "menu_tetrax",
+      "type": "header"
+    }
+  ]
+}

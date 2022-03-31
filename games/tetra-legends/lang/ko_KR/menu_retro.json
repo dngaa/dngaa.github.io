@@ -1,0 +1,30 @@
+{
+  "variationsOverline": {
+    "message": "종류",
+    "description": "Variation, Version, Type"
+  },
+  "consoleLabel": {
+    "message": "NES",
+    "description": "A mode based on NES Tet"
+  },
+  "consoleDescription": {
+    "message": "전세계적으로 널리 사랑받는 1989년 고전 스타일",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "handheldLabel": {
+    "message": "GB",
+    "description": "A mode based on the GB version of Tet"
+  },
+  "handheldDescription": {
+    "message": "여럿이 휴대용 기기에서 즐겼던, 느긋한 스타일",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "deluxeLabel": {
+    "message": "GBC",
+    "description": "A mode based on the GBC version of Tet"
+  },
+  "deluxeDescription": {
+    "message": "고전적, 현대적 느낌이 혼합된 스타일",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  }
+}

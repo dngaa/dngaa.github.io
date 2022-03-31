@@ -1,0 +1,88 @@
+{
+  "clearLabel": {
+    "message": "Verwijder",
+    "description": "Erase all controls"
+  },
+  "clearDescription": {
+    "message": "Verwijder alle control bindings zodat je een lege werkruimte hebt"
+  },
+  "resetLabel": {
+    "message": "Reset",
+    "description": "Reset the controls to the defaults. Could also be translated as 'default'"
+  },
+  "resetDescription": {
+    "message": "Alle besturingsinstellingen terugzetten naar hun standaardwaarden"
+  },
+  "shiftLeftLabel": {
+    "message": "Naar links verplaatsen"
+  },
+  "shiftLeftDescription": {
+    "message": "Verplaats een stuk een keer naar links of houd vast voor autoshift"
+  },
+  "shiftRightLabel": {
+    "message": "Naar rechts verplaatsen"
+  },
+  "shiftRightDescription": {
+    "message": "Verplaats een stuk een keer naar rechts of houd vast voor autoshift"
+  },
+  "hardDropLabel": {
+    "message": "Harde drop"
+  },
+  "hardDropDescription": {
+    "message": "Sleep een stuk direct naar de vloer. (kan anders handelen of uitgeschakeld zijn in sommige modes)"
+  },
+  "softDropLabel": {
+    "message": "Soft Drop"
+  },
+  "softDropDescription": {
+    "message": "Laat het blok iets sneller naar beneden vallen. (kan anders handelen in sommige modi)"
+  },
+  "rotateLeftLabel": {
+    "message": "Draai Links",
+    "description": "Could also be called 'rotate counter-clockwise'"
+  },
+  "rotateLeftDescription": {
+    "message": "Draai stuk 90° tegen de klok in/linksom."
+  },
+  "rotateRightLabel": {
+    "message": "Draai rechts",
+    "description": "Could also be called 'rotate clockwise'"
+  },
+  "rotateRightDescription": {
+    "message": "Draai 90° stuk rechtsom om."
+  },
+  "rotateDoubleLabel": {
+    "message": "180° draaien",
+    "description": "Could also be referred to as a 'double rotation'"
+  },
+  "rotateDoubleDescription": {
+    "message": "Draai een stuk 180° (kan uitgeschakeld zijn in sommige modes)"
+  },
+  "holdLabel": {
+    "message": "Reserve"
+  },
+  "holdDescription": {
+    "message": "Stuur een stuk naar de wachtrij (kan uitgeschakeld zijn in sommige modes)"
+  },
+  "retryLabel": {
+    "message": "Probeer opnieuw",
+    "description": "You press this bind to restart the game instantly"
+  },
+  "retryDescription": {
+    "message": "Probeer het direct opnieuw"
+  },
+  "pauseLabel": {
+    "message": "Pauze"
+  },
+  "pauseDescription": {
+    "message": "Pauzeer het spel"
+  },
+  "configPopupHeader": {
+    "message": "Configuratie beheren",
+    "description": "Displays as a header on a popup window when you add a control binding"
+  },
+  "configPopupDescription": {
+    "message": "Druk op de toets om te gebruiken voor deze actie",
+    "description": "Displays on the popup when you add a control binding"
+  }
+}

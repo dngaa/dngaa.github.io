@@ -1,0 +1,226 @@
+{
+  "properties": {
+    "parent": "root",
+    "vox": "menuvideo"
+  },
+  "data": [
+    {
+      "string": "videoLabel",
+      "langOverride": "menu_root",
+      "type": "header"
+    },
+    {
+      "string": "particleSettingsLabel",
+      "stringDesc": "particleSettingsDescription",
+      "action": "submenu",
+      "submenu": "particles"
+    },
+    {
+      "string": "colorOverrideLabel",
+      "stringDesc": "colorOverrideDescription",
+      "action": "submenu",
+      "submenu": "coloroverride"
+    },
+    {
+      "string": "themeLabel",
+      "default": true,
+      "stringDesc": "themeDescription",
+      "type": "select",
+      "action": "select",
+      "selectOptions": [
+        {
+          "label": "Tetra Legends",
+          "fixedText": true,
+          "value": "default"
+        },
+        {
+          "label": "Tetr.js Enhanced",
+          "fixedText": true,
+          "value": "tetrjs"
+        }
+      ],
+      "setting": "theme",
+      "settingType": "setting"
+    },
+    {
+      "string": "skinLabel",
+      "stringDesc": "skinDescription",
+      "type": "select",
+      "action": "select",
+      "selectOptions": [
+        {
+          "string": "auto",
+          "value": "auto",
+          "langOverride": "menu_general"
+        },
+        {
+          "label": "SRS-X",
+          "fixedText": true,
+          "value": "srsx"
+        },
+        {
+          "label": "Tetra-X",
+          "fixedText": true,
+          "value": "standard"
+        },
+        {
+          "string": "tetraOnlineLabel",
+          "langOverride": "menu_daspresets",
+          "value": "tonline"
+        },
+        {
+          "label": "Arika",
+          "fixedText": true,
+          "value": "arika"
+        },
+        {
+          "string": "glossyOption",
+          "value": "glossy"
+        },
+        {
+          "string": "flatOption",
+          "value": "flat"
+        },
+        {
+          "label": "TETR.IO",
+          "fixedText": true,
+          "value": "tetrio"
+        },
+        {
+          "label": "Dualshock 3",
+          "fixedText": true,
+          "value": "dshock"
+        },
+        {
+          "string": "retroLabel",
+          "langOverride": "menu_root",
+          "value": "retro"
+        },
+        {
+          "string": "handheldLabel",
+          "langOverride": "menu_retro",
+          "value": "handheld"
+        },
+        {
+          "label": "Tetr.js Enhanced",
+          "fixedText": true,
+          "value": "tetrjs"
+        },
+        {
+          "label": "Oshisaure",
+          "fixedText": true,
+          "value": "oshisaure"
+        },
+        {
+          "string": "boneOption",
+          "value": "bone"
+        }
+      ],
+      "setting": "skin",
+      "settingType": "setting"
+    },
+    {
+      "string": "nextLengthLabel",
+      "stringDesc": "nextLengthDescription",
+      "type": "slider",
+      "action": "slider",
+      "max": 6,
+      "min": 0,
+      "discrete": 1,
+      "setting": "nextLength",
+      "settingType": "setting"
+    },
+    {
+      "string": "lockdownBarLabel",
+      "stringDesc": "lockdownBarDescription",
+      "type": "toggle",
+      "action": "toggle",
+      "setting": "useLockdownBar",
+      "settingType": "setting"
+    },
+    {
+      "string": "actionTextLabel",
+      "stringDesc": "actionTextDescription",
+      "type": "toggle",
+      "action": "toggle",
+      "setting": "displayActionText",
+      "settingType": "setting"
+    },
+    {
+      "string": "swayScaleLabel",
+      "stringDesc": "swayScaleDescription",
+      "type": "slider",
+      "action": "slider",
+      "max": 100,
+      "min": 0,
+      "discrete": 5,
+      "setting": "matrixSwayScale",
+      "settingType": "setting"
+    },
+    {
+      "string": "swaySpeedLabel",
+      "stringDesc": "swaySpeedDescription",
+      "type": "slider",
+      "action": "slider",
+      "max": 100,
+      "min": 1,
+      "discrete": 5,
+      "setting": "matrixSwaySpeed",
+      "settingType": "setting"
+    },
+    {
+      "string": "gridLabel",
+      "stringDesc": "gridDescription",
+      "type": "select",
+      "action": "select",
+      "selectOptions": [
+        {
+          "string": "fullGridOption",
+          "value": "full"
+        },
+        {
+          "string": "crossGridOption",
+          "value": "cross"
+        },
+        {
+          "string": "dotGridOption",
+          "value": "dot"
+        },
+        {
+          "string": "offOption",
+          "value": "off",
+          "langOverride": "mode-options"
+        }
+      ],
+      "setting": "gridStyle",
+      "settingType": "setting"
+    },
+    {
+      "string": "lockFlashLabel",
+      "stringDesc": "lockFlashDesription",
+      "type": "select",
+      "action": "select",
+      "selectOptions": [
+        {
+          "string": "shineLFOption",
+          "value": "shine"
+        },
+        {
+          "string": "flashDimLFOption",
+          "value": "dim"
+        },
+        {
+          "string": "flashLFOption",
+          "value": "flash"
+        },
+        {
+          "string": "offOption",
+          "value": "off",
+          "langOverride": "mode-options"
+        }
+      ],
+      "setting": "lockFlash",
+      "settingType": "setting"
+    }
+  ]
+}

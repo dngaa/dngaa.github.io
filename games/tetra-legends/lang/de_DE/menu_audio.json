@@ -1,0 +1,49 @@
+{
+  "sfxLabel": {
+    "message": "Klangeffekt Lautstärke",
+    "description": "Also known as 'SE' or 'SFX'"
+  },
+  "sfxDescription": {
+    "message": "Die Lautstärke der verschiedenen Klangeffekte in Prozent"
+  },
+  "musicLabel": {
+    "message": "Musik Lautstärke",
+    "description": "Also known as 'BGM'"
+  },
+  "musicDescription": {
+    "message": "Die Lautstärke der Musik in Prozent"
+  },
+  "soundbankLabel": {
+    "message": "Klangdatenbank Überschreibung"
+  },
+  "soundbankDescription": {
+    "message": "Wähle ein Klangdatenbank aus, der anstatt des Standards zu verwenden ist"
+  },
+  "nextSoundLabel": {
+    "message": "Nächste Indikator Klangdatenbank",
+    "description": "Select a desired set for the 'next piece' sounds"
+  },
+  "nextSoundDescription": {
+    "message": "Wähle ein Klangdatenbank aus, der als Indikator für den nächsten Teil zu verwenden ist"
+  },
+  "morseCodeOption": {
+    "message": "Morse Code"
+  },
+  "voiceOption": {
+    "message": "Stimme"
+  },
+  "voxVolLabel": {
+    "message": "Stimmenlautstärke",
+    "description": "Used for any voice clip's in the game"
+  },
+  "voxVolDescription": {
+    "message": "Die Lautstärke der Stimmenclips in Prozent"
+  },
+  "voicebankLabel": {
+    "message": "Stimmendatenbank",
+    "description": "This is to select a voice pack"
+  },
+  "voicebankDescription": {
+    "message": "Wähle ein Stimmendatenbank aus, der für In-Spiel- und Menü-Anrufe zu verwenden ist"
+  }
+}

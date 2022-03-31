@@ -1,0 +1,16 @@
+{
+  "gradesLabel": {
+    "message": "グレード",
+    "description": "Used as a category name for TGM-inspired modes"
+  },
+  "gradesDescription": {
+    "message": "熟練プレイヤーが挑戦するために設計された難しいモード"
+  },
+  "master3Label": {
+    "message": "マスター3",
+    "description": "Used for a mode inspired by TGM3 Master"
+  },
+  "master3Description": {
+    "message": "すばやく正確にプレイして、次のレベルに進みながら高みを目指しましょう！"
+  }
+}

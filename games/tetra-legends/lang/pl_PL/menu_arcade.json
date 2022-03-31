@@ -1,0 +1,16 @@
+{
+  "gradesLabel": {
+    "message": "Ocena",
+    "description": "Used as a category name for TGM-inspired modes"
+  },
+  "gradesDescription": {
+    "message": "Tryb Hardcore zaprojektowany do sprawdzania szczytu graczy"
+  },
+  "master3Label": {
+    "message": "Mistrz 3",
+    "description": "Used for a mode inspired by TGM3 Master"
+  },
+  "master3Description": {
+    "message": "Graj szybko i trafnie aby awansować wyżej i wyżej!"
+  }
+}

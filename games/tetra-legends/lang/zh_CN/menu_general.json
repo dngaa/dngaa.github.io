@@ -1,0 +1,21 @@
+{
+  "backLabel": {
+    "message": "返回",
+    "description": "Go back to the previous menu"
+  },
+  "backDescription": {
+    "message": "返回上一级菜单"
+  },
+  "enabled": {
+    "message": "已启用",
+    "description": "Turned on, enabled"
+  },
+  "disabled": {
+    "message": "已禁用",
+    "description": "Turned off, disabled"
+  },
+  "auto": {
+    "message": "自动",
+    "description": "As in 'automatic' for options; when automatic is selected, it goes based off of the mode as opposed to a user setting"
+  }
+}

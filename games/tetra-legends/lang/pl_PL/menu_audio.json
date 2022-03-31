@@ -1,0 +1,49 @@
+{
+  "sfxLabel": {
+    "message": "Głośność efektów dźwiękowych",
+    "description": "Also known as 'SE' or 'SFX'"
+  },
+  "sfxDescription": {
+    "message": "Głośność różnych efektów dźwiękowych w procentach"
+  },
+  "musicLabel": {
+    "message": "Głośność muzyki",
+    "description": "Also known as 'BGM'"
+  },
+  "musicDescription": {
+    "message": "Głośność muzyki w procentach"
+  },
+  "soundbankLabel": {
+    "message": "Podmiana dźwięków (SFX)"
+  },
+  "soundbankDescription": {
+    "message": "Wybierz który pakiet z dźwiękami ma być używany zamiast domyślnego."
+  },
+  "nextSoundLabel": {
+    "message": "Wybierz dźwięk \"następnego klocka\"",
+    "description": "Select a desired set for the 'next piece' sounds"
+  },
+  "nextSoundDescription": {
+    "message": "Wybierz z jakiej paczki zostanie pobrany dźwięk następnego tetromina."
+  },
+  "morseCodeOption": {
+    "message": "Kod morsa"
+  },
+  "voiceOption": {
+    "message": "Dźwięk"
+  },
+  "voxVolLabel": {
+    "message": "Voice Volume",
+    "description": "Used for any voice clip's in the game"
+  },
+  "voxVolDescription": {
+    "message": "The volume of the voice clips in percentage"
+  },
+  "voicebankLabel": {
+    "message": "Voicebank",
+    "description": "This is to select a voice pack"
+  },
+  "voicebankDescription": {
+    "message": "Select a voicebank to use for in-game and menu callouts"
+  }
+}

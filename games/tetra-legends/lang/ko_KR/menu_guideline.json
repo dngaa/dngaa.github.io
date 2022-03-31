@@ -1,0 +1,58 @@
+{
+  "marathonLabel": {
+    "message": "마라톤",
+    "description": "A guideline mode where you attempt to clear a set amount of lines (or endless) with a rising difficulty"
+  },
+  "marathonDescription": {
+    "message": "목표를 향하여! 블록을 쌓고 라인을 없애세요. 게임이 진행될수록 속도는 점점 빨라지니 조심!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "masterLabel": {
+    "message": "마스터",
+    "description": "A guideline mode where you attempt to clear a set amount of lines at insanely high speeds"
+  },
+  "masterDescription": {
+    "message": "블록 낙하 속도는 최대에서 시작합니다. 점차 조여오는 고정 속도에 맞서 살아남으세요!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "sprintLabel": {
+    "message": "스프린트",
+    "description": "A guideline mode where you attempt to clear an amount of lines as quick as possible"
+  },
+  "sprintDescription": {
+    "message": "당신의 본능을 자극하세요! 정해진 만큼의 라인을 빠른 시간 내에 없애세요.",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "ultraLabel": {
+    "message": "울트라",
+    "description": "A guideline mode where you have to score as many points as possible before the time runs out"
+  },
+  "ultraDescription": {
+    "message": "시간 내에 다양한 기술을 구사하면서 최대한 많은 점수를 얻으세요!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "comboLabel": {
+    "message": "콤보 도전",
+    "description": "A guideline mode where you have to clear the highest combo possible before the time runs out"
+  },
+  "comboDescription": {
+    "message": "시간제한 내에 최대한 많은 콤보를 달성하세요!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "survivalLabel": {
+    "message": "서바이벌",
+    "description": "A guideline mode where lines are constantly sent to the player's game and they have to survive the ever rising garbage"
+  },
+  "survivalDescription": {
+    "message": "게임 중 수시로 공격이 들어옵니다. 반격하거나, 올라오는 라인들을 제거하면서 최대한 오래 살아남으세요!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "nightOfNightsLabel": {
+    "message": "Night of Nights",
+    "description": "A guideline mode the pieces are locked at the bpm of Night of Nights"
+  },
+  "nightOfNightsDescription": {
+    "message": "Presto tempo! Try to keep up while the pieces lock at Night of Night's ludicrous BPM of 180!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  }
+}

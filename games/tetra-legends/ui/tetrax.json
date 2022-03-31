@@ -1,0 +1,32 @@
+{
+  "properties": {
+    "parent": "root",
+    "vox": "menutetrax"
+  },
+  "data": [
+    {
+      "string": "tetraxLabel",
+      "langOverride": "menu_root",
+      "type": "header"
+    },
+    {
+      "string": "standardLabel",
+      "stringDesc": "standardDescription",
+      "default": true,
+      "action": "submenu",
+      "submenu": "mode/standardx"
+    },
+    {
+      "string": "proLabel",
+      "stringDesc": "proDescription",
+      "action": "submenu",
+      "submenu": "mode/prox"
+    },
+    {
+      "string": "nightOfNightsXLabel",
+      "stringDesc": "nightOfNightsXDescription",
+      "action": "submenu",
+      "submenu": "mode/nontwo"
+    }
+  ]
+}

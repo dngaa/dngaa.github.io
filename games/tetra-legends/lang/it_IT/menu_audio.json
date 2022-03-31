@@ -1,0 +1,49 @@
+{
+  "sfxLabel": {
+    "message": "Volume effetti sonori",
+    "description": "Also known as 'SE' or 'SFX'"
+  },
+  "sfxDescription": {
+    "message": "Il volume dei vari effetti sonori in percentuale"
+  },
+  "musicLabel": {
+    "message": "Volume della musica",
+    "description": "Also known as 'BGM'"
+  },
+  "musicDescription": {
+    "message": "Il volume della musica in percentuale"
+  },
+  "soundbankLabel": {
+    "message": "Reimposta libreria audio"
+  },
+  "soundbankDescription": {
+    "message": "Seleziona una libreria audio da utilizzare al posto di quella di default"
+  },
+  "nextSoundLabel": {
+    "message": "Indicatore della libreria audio successiva",
+    "description": "Select a desired set for the 'next piece' sounds"
+  },
+  "nextSoundDescription": {
+    "message": "Seleziona una libreria audio da utilizzare per il pezzo imminente"
+  },
+  "morseCodeOption": {
+    "message": "Codice morse"
+  },
+  "voiceOption": {
+    "message": "Voce"
+  },
+  "voxVolLabel": {
+    "message": "Volume voci",
+    "description": "Used for any voice clip's in the game"
+  },
+  "voxVolDescription": {
+    "message": "Il volume delle clip vocali in percentuale"
+  },
+  "voicebankLabel": {
+    "message": "Seleziona voce",
+    "description": "This is to select a voice pack"
+  },
+  "voicebankDescription": {
+    "message": "Seleziona una voce da utilizzare nel gioco e nel menù"
+  }
+}

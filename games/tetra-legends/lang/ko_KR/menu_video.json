@@ -1,0 +1,174 @@
+{
+  "nextLengthLabel": {
+    "message": "Next 대기열 길이"
+  },
+  "nextLengthDescription": {
+    "message": "Next 대기열에서 볼 수 있는 블록 수"
+  },
+  "lockdownBarLabel": {
+    "message": "락다운 바",
+    "description": "The bar at the bottom of the screen that indicates how much time is left on lock delay and how many move resets remain"
+  },
+  "lockdownBarDescription": {
+    "message": "블록이 고정되기 전까지의 시간과 움직임 수 제한을 볼 수 있게 합니다."
+  },
+  "swayScaleLabel": {
+    "message": "화면 흔들림 비율",
+    "description": "'Matrix Sway' can also be called field movement, screen shake, etc; 'scale' is how much magnitude it has in general"
+  },
+  "swayScaleDescription": {
+    "message": "블록의 움직임에 따라 화면이 얼마나 움직이는지 설정(%). 0으로 설정 시 효과가 꺼집니다.",
+    "description": "The 'matrix' is also known as the 'playfield'"
+  },
+  "swaySpeedLabel": {
+    "message": "화면 흔들림 속도",
+    "description": "'Matrix Sway' can also be called field movement, screen shake, etc; 'speed' is how quickly the field move sback to its normal position after being pushed"
+  },
+  "swaySpeedDescription": {
+    "message": "화면이 원위치로 돌아오는 속도 (%)",
+    "description": "The 'matrix' is also known as the 'playfield'"
+  },
+  "particleSettingsLabel": {
+    "message": "입자 설정",
+    "description": "Label for a button to bring up particle options"
+  },
+  "particleSettingsDescription": {
+    "message": "게임 중 등장하는 효과 입자들을 설정합니다"
+  },
+  "particlesLabel": {
+    "message": "입자"
+  },
+  "particlesDescription": {
+    "message": "화면에 입자 효과 표시"
+  },
+  "particleLimitLabel": {
+    "message": "입자 수 제한"
+  },
+  "particleLimitDescription": {
+    "message": "화면에 나타나는 입자 수의 최대 제한"
+  },
+  "particleSizeLabel": {
+    "message": "입자 크기"
+  },
+  "particleSizeDescription": {
+    "message": "화면에 나타나는 입자의 크기"
+  },
+  "particleVolumeLabel": {
+    "message": "입자 생성률"
+  },
+  "particleVolumeDescription": {
+    "message": "화면에 입자가 만들어지는 정도"
+  },
+  "actionTextLabel": {
+    "message": "액션 텍스트",
+    "description": "Text that appears when you do certain actions, 'Single', 'T-Spin' as well as displaying a combo counter"
+  },
+  "actionTextDescription": {
+    "message": "줄을 없애거나 특정 기술을 구사할 시 나타나는 텍스트 표시. ('Double', 'T-Spin' 등) 콤보 횟수 역시 표시합니다."
+  },
+  "skinLabel": {
+    "message": "스킨 사용자 선택",
+    "description": "'Skin' as in the sprites used by the pieces"
+  },
+  "skinDescription": {
+    "message": "기본값 대신 사용할 블록 모양 선택"
+  },
+  "glossyOption": {
+    "message": "광택"
+  },
+  "flatOption": {
+    "message": "단색"
+  },
+  "boneOption": {
+    "message": "1984",
+    "description": "Please look at the reference image as translation may be difficult. 'Brackets', as in these: [], may be a good option"
+  },
+  "gridLabel": {
+    "message": "격자",
+    "description": "The background grid used by the game"
+  },
+  "gridDescription": {
+    "message": "격자 스타일"
+  },
+  "crossGridOption": {
+    "message": "점선",
+    "description": "Grid style that uses + signs"
+  },
+  "fullGridOption": {
+    "message": "실선",
+    "description": "Grid style that uses a full square (□)"
+  },
+  "dotGridOption": {
+    "message": "점",
+    "description": "Grid style that uses a dot in the center of the cell"
+  },
+  "lockFlashLabel": {
+    "message": "블록 고정 플래시",
+    "description": "Controls the style that the lock flash uses"
+  },
+  "lockFlashDesription": {
+    "message": "블록이 고정되기 전 또는 블록이 고정될 때, 이를 나타내는 시각 효과를 설정합니다"
+  },
+  "shineLFOption": {
+    "message": "화려한",
+    "description": "Lock flash style that causes a 2 frame white flash, followed by long dim with a shine line effect that goes from the bottom left to the top right"
+  },
+  "flashDimLFOption": {
+    "message": "반짝임 후 어두워짐",
+    "description": "Lock flash style that causes a 2 frame white flash, followed by long dim"
+  },
+  "flashLFOption": {
+    "message": "반짝임",
+    "description": "Lock flash style that causes a 2 frame white flash"
+  },
+  "colorOverrideLabel": {
+    "message": "색 사용자 지정",
+    "description": "Allows the user to override pieces colors with their own desired chices"
+  },
+  "colorOverrideDescription": {
+    "message": "각 블록에 지정되어 있는 색을 직접 설정합니다"
+  },
+  "redOption": {
+    "message": "빨강",
+    "description": "Please base your translation off the reference image"
+  },
+  "orangeOption": {
+    "message": "주황",
+    "description": "Please base your translation off the reference image"
+  },
+  "yellowOption": {
+    "message": "노랑",
+    "description": "Please base your translation off the reference image"
+  },
+  "greenOption": {
+    "message": "초록",
+    "description": "Please base your translation off the reference image"
+  },
+  "lightBlueOption": {
+    "message": "하늘",
+    "description": "Please base your translation off the reference image"
+  },
+  "blueOption": {
+    "message": "파랑",
+    "description": "Please base your translation off the reference image"
+  },
+  "purpleOption": {
+    "message": "보라",
+    "description": "Please base your translation off the reference image"
+  },
+  "whiteOption": {
+    "message": "하양",
+    "description": "Please base your translation off the reference image"
+  },
+  "blackOption": {
+    "message": "회색",
+    "description": "Please base your translation off the reference image"
+  },
+  "themeLabel": {
+    "message": "테마",
+    "description": "Changes the visual appearance that TL uses ingame"
+  },
+  "themeDescription": {
+    "message": "게임의 디자인을 설정합니다"
+  }
+}

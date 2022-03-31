@@ -1,0 +1,30 @@
+{
+  "variationsOverline": {
+    "message": "Variaties",
+    "description": "Variation, Version, Type"
+  },
+  "consoleLabel": {
+    "message": "Console",
+    "description": "A mode based on NES Tet"
+  },
+  "consoleDescription": {
+    "message": "De meest competitief gebruikte, klassieke versie van het spel in de wereld!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "handheldLabel": {
+    "message": "Handheld",
+    "description": "A mode based on the GB version of Tet"
+  },
+  "handheldDescription": {
+    "message": "Een langzamere, nostalgische versie die veel gespeeld werd op handhelds",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "deluxeLabel": {
+    "message": "Deluxe",
+    "description": "A mode based on the GBC version of Tet"
+  },
+  "deluxeDescription": {
+    "message": "Een interessante mix van klassieke en moderne elementen",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "sfxLabel": {
+    "message": "Geluidseffecten Volume",
+    "description": "Also known as 'SE' or 'SFX'"
+  },
+  "sfxDescription": {
+    "message": "Het volume van de verschillende geluidseffecten in procenten"
+  },
+  "musicLabel": {
+    "message": "Muziek Volume",
+    "description": "Also known as 'BGM'"
+  },
+  "musicDescription": {
+    "message": "Het volume van de muziek in procenten"
+  },
+  "soundbankLabel": {
+    "message": "Geluidseffectenbank-vervanger"
+  },
+  "soundbankDescription": {
+    "message": "Selecteer een geluidseffectenbank om te gebruiken i.p.v. de standaard"
+  },
+  "nextSoundLabel": {
+    "message": "Volgende-indicator geluidseffectenbank",
+    "description": "Select a desired set for the 'next piece' sounds"
+  },
+  "nextSoundDescription": {
+    "message": "Selecteer een geluidseffectenbank om te gebruiken voor de volgende stukken"
+  },
+  "morseCodeOption": {
+    "message": "Morse-code"
+  },
+  "voiceOption": {
+    "message": "Spraak"
+  },
+  "voxVolLabel": {
+    "message": "Spraak Volume",
+    "description": "Used for any voice clip's in the game"
+  },
+  "voxVolDescription": {
+    "message": "The volume of the voice clips in percentage"
+  },
+  "voicebankLabel": {
+    "message": "Voicebank",
+    "description": "This is to select a voice pack"
+  },
+  "voicebankDescription": {
+    "message": "Select a voicebank to use for in-game and menu callouts"
+  }
+}

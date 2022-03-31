@@ -1,0 +1,174 @@
+{
+  "nextLengthLabel": {
+    "message": "Kølengde"
+  },
+  "nextLengthDescription": {
+    "message": "The amount of pieces the player can see up ahead in the next queue"
+  },
+  "lockdownBarLabel": {
+    "message": "Lockdown Bar",
+    "description": "The bar at the bottom of the screen that indicates how much time is left on lock delay and how many move resets remain"
+  },
+  "lockdownBarDescription": {
+    "message": "Allow the ability to see additional information on lock delay and move limits"
+  },
+  "swayScaleLabel": {
+    "message": "Matrix Sway Scale",
+    "description": "'Matrix Sway' can also be called field movement, screen shake, etc; 'scale' is how much magnitude it has in general"
+  },
+  "swayScaleDescription": {
+    "message": "How far the matrix moves to the force of the pieces in percentage. Selecting O disables the effect entirely",
+    "description": "The 'matrix' is also known as the 'playfield'"
+  },
+  "swaySpeedLabel": {
+    "message": "Matrix Sway Speed",
+    "description": "'Matrix Sway' can also be called field movement, screen shake, etc; 'speed' is how quickly the field move sback to its normal position after being pushed"
+  },
+  "swaySpeedDescription": {
+    "message": "How fast the matrix returns to its neutral position in percentage",
+    "description": "The 'matrix' is also known as the 'playfield'"
+  },
+  "particleSettingsLabel": {
+    "message": "Particle Settings",
+    "description": "Label for a button to bring up particle options"
+  },
+  "particleSettingsDescription": {
+    "message": "Control how particles function"
+  },
+  "particlesLabel": {
+    "message": "Particles"
+  },
+  "particlesDescription": {
+    "message": "Whether particles should be drawn"
+  },
+  "particleLimitLabel": {
+    "message": "Particle Limit"
+  },
+  "particleLimitDescription": {
+    "message": "How many particles can appear on screen at one time"
+  },
+  "particleSizeLabel": {
+    "message": "Partikkelstørrelse"
+  },
+  "particleSizeDescription": {
+    "message": "Hvor store partiklene vil være"
+  },
+  "particleVolumeLabel": {
+    "message": "Partikkel volum"
+  },
+  "particleVolumeDescription": {
+    "message": "Hvor mange partikler som genereres"
+  },
+  "actionTextLabel": {
+    "message": "Aksjon tekst",
+    "description": "Text that appears when you do certain actions, 'Single', 'T-Spin' as well as displaying a combo counter"
+  },
+  "actionTextDescription": {
+    "message": "Viser meldinger når du klarer linjer og gjør triks, som \"Dobbel\" og \"T-Spin\". Viser også kombo teller"
+  },
+  "skinLabel": {
+    "message": "Skin Override",
+    "description": "'Skin' as in the sprites used by the pieces"
+  },
+  "skinDescription": {
+    "message": "Select a skin to use in place of the default"
+  },
+  "glossyOption": {
+    "message": "Glossy"
+  },
+  "flatOption": {
+    "message": "Flat"
+  },
+  "boneOption": {
+    "message": "Bein",
+    "description": "Please look at the reference image as translation may be difficult. 'Brackets', as in these: [], may be a good option"
+  },
+  "gridLabel": {
+    "message": "Rutenett",
+    "description": "The background grid used by the game"
+  },
+  "gridDescription": {
+    "message": "Bestem rutenettstil"
+  },
+  "crossGridOption": {
+    "message": "Kors",
+    "description": "Grid style that uses + signs"
+  },
+  "fullGridOption": {
+    "message": "Full",
+    "description": "Grid style that uses a full square (□)"
+  },
+  "dotGridOption": {
+    "message": "Prikk",
+    "description": "Grid style that uses a dot in the center of the cell"
+  },
+  "lockFlashLabel": {
+    "message": "Låst flash",
+    "description": "Controls the style that the lock flash uses"
+  },
+  "lockFlashDesription": {
+    "message": "Bestemm lås flash stil"
+  },
+  "shineLFOption": {
+    "message": "Kompleks skinn",
+    "description": "Lock flash style that causes a 2 frame white flash, followed by long dim with a shine line effect that goes from the bottom left to the top right"
+  },
+  "flashDimLFOption": {
+    "message": "Flash & dimm",
+    "description": "Lock flash style that causes a 2 frame white flash, followed by long dim"
+  },
+  "flashLFOption": {
+    "message": "Kjapp flash",
+    "description": "Lock flash style that causes a 2 frame white flash"
+  },
+  "colorOverrideLabel": {
+    "message": "Farge overstyring",
+    "description": "Allows the user to override pieces colors with their own desired chices"
+  },
+  "colorOverrideDescription": {
+    "message": "Overstyrer fargene"
+  },
+  "redOption": {
+    "message": "Rød",
+    "description": "Please base your translation off the reference image"
+  },
+  "orangeOption": {
+    "message": "Oransje",
+    "description": "Please base your translation off the reference image"
+  },
+  "yellowOption": {
+    "message": "Gul",
+    "description": "Please base your translation off the reference image"
+  },
+  "greenOption": {
+    "message": "Grønn",
+    "description": "Please base your translation off the reference image"
+  },
+  "lightBlueOption": {
+    "message": "Lyseblå",
+    "description": "Please base your translation off the reference image"
+  },
+  "blueOption": {
+    "message": "Mørkeblå",
+    "description": "Please base your translation off the reference image"
+  },
+  "purpleOption": {
+    "message": "Lilla",
+    "description": "Please base your translation off the reference image"
+  },
+  "whiteOption": {
+    "message": "Hvit",
+    "description": "Please base your translation off the reference image"
+  },
+  "blackOption": {
+    "message": "Grå",
+    "description": "Please base your translation off the reference image"
+  },
+  "themeLabel": {
+    "message": "Tema",
+    "description": "Changes the visual appearance that TL uses ingame"
+  },
+  "themeDescription": {
+    "message": "Bestemmer den visuelle stilen til spillet"
+  }
+}

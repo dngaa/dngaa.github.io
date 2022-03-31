@@ -1,0 +1,58 @@
+{
+  "marathonLabel": {
+    "message": "Maraton",
+    "description": "A guideline mode where you attempt to clear a set amount of lines (or endless) with a rising difficulty"
+  },
+  "marathonDescription": {
+    "message": "Staw czoła wyzwaniu! Czyść linie, ale uważaj, bo gra jest szybsza z każdym poziomem!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "masterLabel": {
+    "message": "Mistrz",
+    "description": "A guideline mode where you attempt to clear a set amount of lines at insanely high speeds"
+  },
+  "masterDescription": {
+    "message": "Niesamowicie szybka akcja! Gra nie da Tobie ani chwili wytchnienia, gdy próbujesz przetrwać jej okrutną prędkość aż do końca.",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "sprintLabel": {
+    "message": "Sprint",
+    "description": "A guideline mode where you attempt to clear an amount of lines as quick as possible"
+  },
+  "sprintDescription": {
+    "message": "Nie wahaj się! Wyczyść linie tak szybko jak potrafisz w tym trybie gry.",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "ultraLabel": {
+    "message": "Ultra",
+    "description": "A guideline mode where you have to score as many points as possible before the time runs out"
+  },
+  "ultraDescription": {
+    "message": "Każda sekunda się liczy! Ostrożnie i szybko układaj tetromina, aby zdobyć jak najwięcej punktów!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "comboLabel": {
+    "message": "Wyzwanie Kombo",
+    "description": "A guideline mode where you have to clear the highest combo possible before the time runs out"
+  },
+  "comboDescription": {
+    "message": "Nie ma czasu do stracenia! Spróbuj wyczyścić tyle linii ile potrafisz przed upływem czasu!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "survivalLabel": {
+    "message": "Przetrwanie",
+    "description": "A guideline mode where lines are constantly sent to the player's game and they have to survive the ever rising garbage"
+  },
+  "survivalDescription": {
+    "message": "Uwaga! Linie zaczęły rosnąć od dołu. Jeśli nie będziesz w stanie nadążyć, na pewno się nie uda!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "nightOfNightsLabel": {
+    "message": "Night of Nights",
+    "description": "A guideline mode the pieces are locked at the bpm of Night of Nights"
+  },
+  "nightOfNightsDescription": {
+    "message": "Presto tempo! Try to keep up while the pieces lock at Night of Night's ludicrous BPM of 180!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  }
+}

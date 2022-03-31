@@ -1,0 +1,26 @@
+{
+  "standardLabel": {
+    "message": "Standard",
+    "description": "An endless Tetra-X mode where you stack lines as the game increases speed"
+  },
+  "standardDescription": {
+    "message": "Empilez jusqu'à la défaite ! Essayez d'effacer autant de lignes que possible avant que la vitesse ne vous submerge.",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "proLabel": {
+    "message": "Pro",
+    "description": "A Tetra-X mode where you try and clear a line goal with an intense speed"
+  },
+  "proDescription": {
+    "message": "C'est là que les maîtres des puzzles viennent mourir. La vitesse dans ce mode est super rapide ; clignez des yeux et il se peut que vous perdiez !",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "nightOfNightsXLabel": {
+    "message": "Night of Nights X",
+    "description": "A Tetra-X mode that has crazy effects synced to Night of Nights that tries to distract the player"
+  },
+  "nightOfNightsXDescription": {
+    "message": "Ce mode présente des effets clignotants sévères. Evitez d'y jouer si vous êtes atteint d'épilepsie photosensible. Essayez de survivre la durée de Night of Nights pendant que le jeu tente de vous distraire !",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  }
+}

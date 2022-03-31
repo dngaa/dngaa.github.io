@@ -1,0 +1,26 @@
+{
+  "standardLabel": {
+    "message": "Thường",
+    "description": "An endless Tetra-X mode where you stack lines as the game increases speed"
+  },
+  "standardDescription": {
+    "message": "Xếp cho đến khi bạn thua! Dọn càng nhiều hàng càng tốt trước khi tốc độ game lấn át bạn.",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "proLabel": {
+    "message": "Khó",
+    "description": "A Tetra-X mode where you try and clear a line goal with an intense speed"
+  },
+  "proDescription": {
+    "message": "Đây là nơi mà các bậc thầy thử thách bản thân. Tốc độ game trong chế độ này rất nhanh, nhắm mắt một phát là bạn đang gặp nguy rồi đấy!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "nightOfNightsXLabel": {
+    "message": "Nights of Nights X",
+    "description": "A Tetra-X mode that has crazy effects synced to Night of Nights that tries to distract the player"
+  },
+  "nightOfNightsXDescription": {
+    "message": "Chế độ này gây chói mắt rất nặng. Có gắng sống sót hết bài Nights of Nights trong khi game gây nhiễu cực mạnh!",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  }
+}

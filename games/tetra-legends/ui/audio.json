@@ -1,0 +1,187 @@
+{
+  "properties": {
+    "parent": "root",
+    "vox": "menuaudio"
+  },
+  "data": [
+    {
+      "string": "audioLabel",
+      "langOverride": "menu_root",
+      "type": "header"
+    },
+    {
+      "string": "sfxLabel",
+      "stringDesc": "sfxDescription",
+      "default": true,
+      "type": "slider",
+      "action": "slider",
+      "max": 100,
+      "min": 0,
+      "discrete": 5,
+      "setting": "sfxVolume",
+      "settingType": "setting"
+    },
+    {
+      "string": "musicLabel",
+      "stringDesc": "musicDescription",
+      "type": "slider",
+      "action": "slider",
+      "max": 100,
+      "min": 0,
+      "discrete": 5,
+      "setting": "musicVolume",
+      "settingType": "setting"
+    },
+    {
+      "string": "voxVolLabel",
+      "stringDesc": "voxVolDescription",
+      "type": "slider",
+      "action": "slider",
+      "max": 100,
+      "min": 0,
+      "discrete": 5,
+      "setting": "voiceVolume",
+      "settingType": "setting"
+    },
+    {
+      "string": "soundbankLabel",
+      "stringDesc": "soundbankDescription",
+      "type": "select",
+      "action": "select",
+      "selectOptions": [
+        {
+          "string": "auto",
+          "value": "auto",
+          "langOverride": "menu_general"
+        },
+        {
+          "label": "Tetra-X",
+          "fixedText": true,
+          "value": "standard"
+        },
+        {
+          "label": "TGM3",
+          "fixedText": true,
+          "value": "tgm3"
+        },
+        {
+          "label": "T99",
+          "fixedText": true,
+          "value": "t99"
+        },
+        {
+          "string": "pptLabel",
+          "langOverride": "menu_daspresets",
+          "value": "ppt"
+        },
+        {
+          "label": "Party DX",
+          "fixedText": true,
+          "value": "party"
+        },
+        {
+          "string": "retroLabel",
+          "langOverride": "menu_root",
+          "value": "nes"
+        },
+        {
+          "string": "handheldLabel",
+          "langOverride": "menu_retro",
+          "value": "handheld"
+        },
+        {
+          "label": "DX",
+          "fixedText": true,
+          "value": "deluxe"
+        },
+        {
+          "label": "TETR.IO",
+          "fixedText": true,
+          "value": "tetrio"
+        },
+        {
+          "label": "NullpoMino",
+          "fixedText": true,
+          "value": "nullpomino"
+        },
+        {
+          "label": "N-Blox",
+          "fixedText": true,
+          "value": "nblox"
+        }
+      ],
+      "setting": "soundbank",
+      "settingType": "setting"
+    },
+    {
+      "string": "nextSoundLabel",
+      "stringDesc": "nextSoundDescription",
+      "type": "select",
+      "action": "select",
+      "selectOptions": [
+        {
+          "string": "auto",
+          "value": "auto",
+          "langOverride": "menu_general"
+        },
+        {
+          "label": "TGM3",
+          "fixedText": true,
+          "value": "tgm3"
+        },
+        {
+          "label": "TETR.IO",
+          "fixedText": true,
+          "value": "tetrio"
+        },
+        {
+          "label": "NullpoMino",
+          "fixedText": true,
+          "value": "nullpomino"
+        },
+        {
+          "string": "offOption",
+          "value": "off",
+          "langOverride": "mode-options"
+        }
+      ],
+      "setting": "nextSoundbank",
+      "settingType": "setting"
+    },
+    {
+      "string": "voicebankLabel",
+      "stringDesc": "voicebankDescription",
+      "type": "select",
+      "action": "select",
+      "selectOptions": [
+        {
+          "label": "[EN] Sora",
+          "fixedText": true,
+          "value": "soraen"
+        },
+        {
+          "label": "[EN] Ariahivo",
+          "fixedText": true,
+          "value": "ariahivo"
+        },
+        {
+          "label": "[JA] Sora",
+          "fixedText": true,
+          "value": "soraja"
+        },
+        {
+          "label": "[JA] Nina",
+          "fixedText": true,
+          "value": "nina"
+        },
+        {
+          "string": "offOption",
+          "value": "off",
+          "langOverride": "mode-options"
+        }
+      ],
+      "setting": "voicebank",
+      "settingType": "setting"
+    }
+  ]
+}

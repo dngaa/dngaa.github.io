@@ -1,0 +1,30 @@
+{
+  "variationsOverline": {
+    "message": "变种",
+    "description": "Variation, Version, Type"
+  },
+  "consoleLabel": {
+    "message": "家用机",
+    "description": "A mode based on NES Tet"
+  },
+  "consoleDescription": {
+    "message": "竞技玩家常用的传统版本",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "handheldLabel": {
+    "message": "掌上游戏机",
+    "description": "A mode based on the GB version of Tet"
+  },
+  "handheldDescription": {
+    "message": "许多人在掌上游戏机玩过的慢速怀旧版本",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  },
+  "deluxeLabel": {
+    "message": "豪华版",
+    "description": "A mode based on the GBC version of Tet"
+  },
+  "deluxeDescription": {
+    "message": "传统和现代元素的结合",
+    "description": "Feel free to take any liberties as long you can accurately describe the mode in a way that's localized to the language."
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "clearLabel": {
+    "message": "Supprimer",
+    "description": "Erase all controls"
+  },
+  "clearDescription": {
+    "message": "Effacer toutes les liaisons de contrôle pour avoir un espace de travail vide"
+  },
+  "resetLabel": {
+    "message": "Réinitialiser",
+    "description": "Reset the controls to the defaults. Could also be translated as 'default'"
+  },
+  "resetDescription": {
+    "message": "Réinitialiser tous les contrôles à leurs valeurs par défaut"
+  },
+  "shiftLeftLabel": {
+    "message": "Déplacement vers la gauche"
+  },
+  "shiftLeftDescription": {
+    "message": "Déplacez une pièce à gauche une fois ou maintenez enfoncé pour DAS"
+  },
+  "shiftRightLabel": {
+    "message": "Déplacement vers la droite"
+  },
+  "shiftRightDescription": {
+    "message": "Déplacez une pièce à droite une fois ou maintenez enfoncé pour DAS"
+  },
+  "hardDropLabel": {
+    "message": "Chute instantanée"
+  },
+  "hardDropDescription": {
+    "message": "Déposez une pièce instantanément sur le sol. (peut agir différemment ou être désactivé dans certains modes)"
+  },
+  "softDropLabel": {
+    "message": "Chute rapide"
+  },
+  "softDropDescription": {
+    "message": "Accélérer la descente d'une pièce (peut agir différemment dans certains modes)"
+  },
+  "rotateLeftLabel": {
+    "message": "Rotation vers la gauche",
+    "description": "Could also be called 'rotate counter-clockwise'"
+  },
+  "rotateLeftDescription": {
+    "message": "Faire pivoter une pièce de 90° dans le sens anti-horaire."
+  },
+  "rotateRightLabel": {
+    "message": "Rotation vers la droite",
+    "description": "Could also be called 'rotate clockwise'"
+  },
+  "rotateRightDescription": {
+    "message": "Faire pivoter une pièce de 90° dans le sens horaire."
+  },
+  "rotateDoubleLabel": {
+    "message": "Rotation de 180°",
+    "description": "Could also be referred to as a 'double rotation'"
+  },
+  "rotateDoubleDescription": {
+    "message": "Faire pivoter une pièce de 180° (peut être désactivée dans certains modes)"
+  },
+  "holdLabel": {
+    "message": "Réserve"
+  },
+  "holdDescription": {
+    "message": "Envoyer une pièce dans la réserve (peut être désactivée dans certains modes)"
+  },
+  "retryLabel": {
+    "message": "Réessayer",
+    "description": "You press this bind to restart the game instantly"
+  },
+  "retryDescription": {
+    "message": "Immédiatement faire une nouvelle tentative"
+  },
+  "pauseLabel": {
+    "message": "Pause"
+  },
+  "pauseDescription": {
+    "message": "Mettre le jeu en pause"
+  },
+  "configPopupHeader": {
+    "message": "Configuration des contrôles",
+    "description": "Displays as a header on a popup window when you add a control binding"
+  },
+  "configPopupDescription": {
+    "message": "Appuyez sur la touche à utiliser pour cette action",
+    "description": "Displays on the popup when you add a control binding"
+  }
+}

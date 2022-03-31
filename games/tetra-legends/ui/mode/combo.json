@@ -1,0 +1,34 @@
+{
+  "properties": {
+    "parent": "guideline",
+    "langOverride": "mode-options",
+    "game": "combo",
+    "pgmusic": "pg-sprint"
+  },
+  "data": [
+    {
+      "string": "comboLabel",
+      "langOverride": "menu_guideline",
+      "type": "header"
+    },
+    {
+      "string": "holdTypeLabel",
+      "stringDesc": "holdTypeDescription",
+      "type": "select",
+      "action": "select",
+      "selectOptions": [
+        {
+          "string": "skipOption",
+          "value": "skip"
+        },
+        {
+          "string": "holdOption",
+          "value": "hold"
+        }
+      ],
+      "setting": "holdType",
+      "gameName": "combo",
+      "settingType": "game"
+    }
+  ]
+}

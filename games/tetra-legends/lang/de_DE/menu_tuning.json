@@ -1,0 +1,67 @@
+{
+  "presetsLabel": {
+    "message": "Voreinstellungen Verzögerung/Rate",
+    "description": "Could also be referred to as 'Autoshift Presets' or 'DAS Presets'"
+  },
+  "presetDescription": {
+    "message": "Wählen Sie aus einer Vielzahl verschiedener Voreinstellungen für Autoshift aus"
+  },
+  "dasLabel": {
+    "message": "Autoshift-Verzögerung",
+    "description": "Also known as 'DAS'"
+  },
+  "dasDescription": {
+    "message": "Die Zeitspanne in Millisekunden, bevor ein Teil automatisch verschoben wird (DAS)"
+  },
+  "arrLabel": {
+    "message": "Autoshift-Rate",
+    "description": "Also known as 'ARR'"
+  },
+  "arrDescription": {
+    "message": "Die Zeitspanne in Millisekunden zwischen jeder automatischen Verschiebung (ARR)"
+  },
+  "dasPreloadLabel": {
+    "message": "AutoShift-Preload",
+    "description": "This setting make it so that when you press a movement key while in Entry Delay (ARE), the DAS will fully charge and the ARR will start immediately when the next piece spawns"
+  },
+  "dasPreloadDescription": {
+    "message": "Automatisches vollständiges Laden der Autoshift, wenn während der Eingabeverzögerung eine Bewegungstaste gedrückt wird"
+  },
+  "irsLabel": {
+    "message": "Initiale Drehung",
+    "description": "Allows the user to rotate a piece before it spawns (aka IRS)"
+  },
+  "irsDescription": {
+    "message": "Modifiziert die Fähigkeit ein Teil zu drehen bevor es erscheint (kann in einigen Modi deaktiviert sein)"
+  },
+  "absoluteIrsOption": {
+    "message": "Absolut",
+    "description": "As in 'absolute rotation'; it means that the rotation button pressed during IRS will correspond to that rotation from the piece's initial spawning orientation: for example, if you IRS to rotate left, and then IRS to rotate right, it will spawn the piece as if it was rotated to the right from the neutral spawning orientation"
+  },
+  "ihsLabel": {
+    "message": "Initiale Vorrat",
+    "description": "Allows the user to hold a piece before it spawns (aka IHS)"
+  },
+  "ihsDescription": {
+    "message": "Modifiziert die Fähigkeit ein Teil in die Vorrat-Warteschlange zu senden bevor es erscheint"
+  },
+  "tapInitOption": {
+    "message": "Tippen",
+    "description": "As in, you press the button once to use IRS/IHS; In IRS, it allows you to rotate a piece as if it were in play before it spawns"
+  },
+  "holdInitOption": {
+    "message": "Halten",
+    "description": "As in, you have to have the button held at the end of ARE to use IRS/IHS"
+  },
+  "rotSysLabel": {
+    "message": "Drehungssystem Überschreibung",
+    "description": "Allows the user to override the rotation system in any mode"
+  },
+  "rotSysDescription": {
+    "message": "Wähle ein Drehungssystem aus, das anstatt des Standards für den Modus zu verwenden ist"
+  },
+  "originalOption": {
+    "message": "Original",
+    "description": "As in 'Original Rotation System', the one used by the first version of the game"
+  }
+}
