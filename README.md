@@ -23,5 +23,6 @@ games take from <br>
 ![v5](img/archive/v5.png)<br><hr>
 <b>V6</b><br><br>
 ![v6](img/archive/v6.png)<br><hr>
-
+<center>
 Website was created so me and my friends can play games at school <hr>
+</center>
