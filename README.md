@@ -23,5 +23,5 @@ games take from <br>
 ![v5](img/archive/v5.png)<br><hr>
 <b>V6</b><br><br>
 ![v6](img/archive/v6.png)<br><hr>
-
-<h3 align="center">This website was created so me and my friends can play games at school. We make no money off of this website, and give everyone credit if we have used any of their games.</h3> <br><hr>
+<br>
+<h3 align="center">This website was created so me and my friends can play games at school. We make no money off of this website, and give everyone credit if we have used any of their games.</h3><hr>
