@@ -12,7 +12,7 @@ games take from <br>
 
 <b>versions</b> <br><br>
 <b>V1</b><br><br>
-![v1](img/archive/v1.png)<br><hr>
+![v1](img/archive/v1.png)<br><br><hr>
 <b>V2</b><br><br>
 ![v2](img/archive/v2.png)<br><hr>
 <b>V3</b><br><br>
