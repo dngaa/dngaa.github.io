@@ -24,5 +24,4 @@ games take from <br>
 <b>V6</b><br><br>
 ![v6](img/archive/v6.png)<br><hr>
 
-<h1 align="center">This website was created so me and my friends can play games at school.</h1> <br>
-<h1 align="center">We make no money off of this website, and give everyone credit if we have used any of their games.</h1> <br><hr>
+<h3 align="center">This website was created so me and my friends can play games at school. We make no money off of this website, and give everyone credit if we have used any of their games.</h3> <br><hr>
