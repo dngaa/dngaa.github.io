@@ -10,7 +10,7 @@ games take from <br>
 [IncredibleWebsite](https://github.com/incrediblewebsite)
 )<hr>
 
-Website was created so me and my friends can play games at school <br><br>
+Website was created so me and my friends can play games at school <hr>
 
 <b>versions</b> <hr><br>
 <b>V1</b><br><br>
