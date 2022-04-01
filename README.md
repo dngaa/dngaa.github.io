@@ -12,16 +12,16 @@ games take from <br>
 
 Website was created so me and my friends can play games at school <br><br>
 
-<b>versions</b> <hr><br><br>
-V1<br>
+<b>versions</b> <hr><br>
+<b>V1</b><br><br>
 ![v1](img/archive/v1.png)<br><hr>
-V2<br>
+<b>V2</b><br><br>
 ![v2](img/archive/v2.png)<br><hr>
-V3<br>
+<b>V3</b><br><br>
 ![v3](img/archive/v3.png)<br><hr>
-V4<br>
+<b>V4</b><br><br>
 ![v4](img/archive/v4.png)<br><hr>
-V5<br>
+<b>V5</b><br><br>
 ![v5](img/archive/v5.png)<br><hr>
-V6<br>
+<b>V6</b><br><br>
 ![v6](img/archive/v6.png)<br><hr>
