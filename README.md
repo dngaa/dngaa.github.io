@@ -10,9 +10,7 @@ games take from <br>
 [IncredibleWebsite](https://github.com/incrediblewebsite)
 )<hr>
 
-Website was created so me and my friends can play games at school <hr>
-
-<b>versions</b> <hr><br>
+<b>versions</b> <br><br>
 <b>V1</b><br><br>
 ![v1](img/archive/v1.png)<br><hr>
 <b>V2</b><br><br>
@@ -25,3 +23,5 @@ Website was created so me and my friends can play games at school <hr>
 ![v5](img/archive/v5.png)<br><hr>
 <b>V6</b><br><br>
 ![v6](img/archive/v6.png)<br><hr>
+
+Website was created so me and my friends can play games at school <hr>
