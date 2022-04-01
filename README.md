@@ -14,14 +14,14 @@ Website was created so me and my friends can play games at school <br><br>
 
 <b>versions</b> <hr><br><br>
 V1<br>
-[v1](img/archive/v1)<br><hr>
+![v1](img/archive/v1)<br><hr>
 V2<br>
-[v2](img/archive/v2)<br><hr>
+![v2](img/archive/v2)<br><hr>
 V3<br>
-[v3](img/archive/v3)<br><hr>
+![v3](img/archive/v3)<br><hr>
 V4<br>
-[v4](img/archive/v4)<br><hr>
+![v4](img/archive/v4)<br><hr>
 V5<br>
-[v5](img/archive/v5)<br><hr>
+![v5](img/archive/v5)<br><hr>
 V6<br>
-[v6](img/archive/v6)<br><hr>
+![v6](img/archive/v6)<br><hr>
