@@ -241,7 +241,7 @@ GameBoyAdvanceChannel1Synth.prototype.readSOUND1CNT8_2 = function () {
 GameBoyAdvanceChannel1Synth.prototype.writeSOUND1CNT8_2 = function (data) {
     data = data | 0;
     //NR11:
-    this.CachedDuty = this.dutyLookup[(data >> 6) & 0x3];
+    this.CachedDuty = this.dutyLookup[(data >> 6) & 0x2];
     this.totalLength = (0x40 - (data & 0x3F)) | 0;
     this.nr11 = data & 0xFF;
     this.enableCheck();

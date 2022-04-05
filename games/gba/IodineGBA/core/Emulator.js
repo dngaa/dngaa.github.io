@@ -224,7 +224,7 @@ GameBoyAdvanceEmulator.prototype.calculateSpeedPercentage = function () {
             if (this.speedCallback) {
                 var metricEnd = new Date();
                 var timeDiff = Math.max(metricEnd.getTime() - this.metricStart.getTime(), 1);
-                var result = ((this.settings.timerIntervalRate * (this.clockCyclesSinceStart | 0) / timeDiff) / (this.CPUCyclesPerIteration | 0)) * 100 * this.settings.emulatorSpeed;
+                var result = ((this.settings.timerIntervalRate * (this.clockCyclesSinceStart | 0) / timeDiff) / (this.CPUCyclesPerIteration | 0)) * 100;
                 this.speedCallback(result.toFixed(2) + "%");
             }
             this.resetMetrics();
