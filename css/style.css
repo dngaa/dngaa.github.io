@@ -23,7 +23,6 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   list-style: none;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif; 
@@ -82,6 +81,7 @@ html {
  
 .wrapper .sidebar .social_media {
   position: absolute;
+  size: 100px;
   bottom: 25px;
   left: 48%;
   transform: translateX(-50%);
