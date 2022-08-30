@@ -202,24 +202,43 @@ h1 {
   list-style-type: none;
   top: 0;
   z-index:300;
-  }
+}
 
 .nav {
   display: inline-block;
-  }
+}
   
-li a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 16px 20px;
-  text-decoration: none;
-  font-size: initial;
+.selectButton {
+    background: rgba(24, 24, 24, 0.021);
+    backdrop-filter: blur(2.5px);
+    color: white;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-size: initial;
+    cursor: pointer;
+    z-index:300;
 }
 
-li a:hover {
-  background-color: #aaaaaa;
-  color: black;
+.selectButton:hover {
+    border: none;
+    background-color: #252525;
+    color: white;
+}
+
+.selectedButton {
+    background: rgb(158, 158, 158);
+    backdrop-filter: blur(2.5px);
+    color: black;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-size: initial;
+    cursor: pointer;
 }
 
 .search-bar {

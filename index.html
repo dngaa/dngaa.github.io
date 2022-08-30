@@ -74,10 +74,11 @@
                   placeholder="Search">
                <br>
             </div>
-            <li class="nav"><a href="#">All</a></li>
-            <li class="nav"><a href="#">New</a></li>
-            <li class="nav"><a href="#">Flash</a></li>
-            <li class="nav"><a href="#">GBA</a></li>
+            <li class="nav"><button name="all" onclick="switchGame('all');" class="selectedButton selectable">All</button></li>
+            <li class="nav"><button name="new" onclick="switchGame('new');" class="selectButton selectable">New</button></li>
+            <li class="nav"><button name="flash" onclick="switchGame('flash');" class="selectButton selectable">Flash</button></li>
+            <li class="nav"><button name="gba" onclick="switchGame('gba');" class="selectButton selectable">GBA</button></li>
+            <li class="nav"><button name="2" onclick="switchGame('2');" class="selectButton selectable">2 Player</button></li>
          </ul>
          <div class="bodyMain">
             <div>
@@ -108,7 +109,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Meat Boy" class="column gameDiv all">
+                     <div name="Meat Boy" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=meatboy.swf">
                            <div class="content">
                               <img src="img/meatboy.png" alt="Meat Boy" style="width:100%">
@@ -244,7 +245,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Super Mario 64" class="column gameDiv all new">
+                     <div name="Super Mario 64" class="column gameDiv all">
                         <a class="blogLink" href="games/sm64/">
                            <div class="content">
                               <img src="img/super-mario64.png" alt="Super Mario 64" style="width:100%">
@@ -284,7 +285,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="The Worlds Hardest Game 2" class="column gameDiv all">
+                     <div name="The Worlds Hardest Game 2" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=worldshardestgame2.swf">
                            <div class="content">
                               <img src="img/worlds-hardest-game-2.png" alt="The Worlds Hardest Game 2"
@@ -293,7 +294,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Papa's Pizzeria" class="column gameDiv all">
+                     <div name="Papa's Pizzeria" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=papaspizzeria.swf">
                            <div class="content">
                               <img src="img/papaspizzeria.png" alt="Papa's Pizzeria" style="width:100%">
@@ -301,7 +302,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Hobo 1" class="column gameDiv all">
+                     <div name="Hobo 1" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=hobo.swf">
                            <div class="content">
                               <img src="img/hobo.png" alt="Hobo" style="width:100%">
@@ -309,7 +310,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Hobo 2: Prison Brawl" class="column gameDiv all">
+                     <div name="Hobo 2: Prison Brawl" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=hobo2.swf">
                            <div class="content">
                               <img src="img/hobo2.png" alt="Hobo 2: Prison Brawl" style="width:100%">
@@ -317,7 +318,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Hobo 3: Wanted" class="column gameDiv all">
+                     <div name="Hobo 3: Wanted" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=hobo3.swf">
                            <div class="content">
                               <img src="img/hobo3.png" alt="Hobo 3: Wanted" style="width:100%">
@@ -325,7 +326,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Hobo 4: Total War" class="column gameDiv all">
+                     <div name="Hobo 4: Total War" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=hobo4.swf">
                            <div class="content">
                               <img src="img/hobo4.png" alt="Hobo 4: Total War" style="width:100%">
@@ -333,7 +334,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Hobo 5: Space Brawl" class="column gameDiv all">
+                     <div name="Hobo 5: Space Brawl" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=hobo5.swf">
                            <div class="content">
                               <img src="img/hobo5.png" alt="Hobo 5: Space Brawl" style="width:100%">
@@ -341,7 +342,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Hobo 6: Hell" class="column gameDiv all">
+                     <div name="Hobo 6: Hell" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=hobo6.swf">
                            <div class="content">
                               <img src="img/hobo6.png" alt="Hobo 6: Hell" style="width:100%">
@@ -349,7 +350,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Hobo 7: Heaven" class="column gameDiv all">
+                     <div name="Hobo 7: Heaven" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=hobo7.swf">
                            <div class="content">
                               <img src="img/hobo7.png" alt="Hobo 7: Heaven" style="width:100%">
@@ -357,7 +358,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Bloxorz" class="column gameDiv all">
+                     <div name="Bloxorz" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=bloxorz.swf">
                            <div class="content">
                               <img src="img/bloxorz.png" alt="Bloxorz" style="width:100%">
@@ -365,7 +366,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Bloons Tower Defense 1" class="column gameDiv all">
+                     <div name="Bloons Tower Defense 1" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=bloonstd1.swf">
                            <div class="content">
                               <img src="img/bloons-tower-defense.png" alt="Bloons Tower Defense" style="width:100%">
@@ -373,7 +374,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Bloons Tower Defense 2" class="column gameDiv all">
+                     <div name="Bloons Tower Defense 2" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=bloonstd2.swf">
                            <div class="content">
                               <img src="img/bloons-tower-defense-2.png" alt="Bloons Tower Defense 2" style="width:100%">
@@ -477,7 +478,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Duck Life 1" class="column gameDiv all">
+                     <div name="Duck Life 1" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=ducklife.swf">
                            <div class="content">
                               <img src="img/duck-life.png" alt="Duck Life 1" style="width:100%">
@@ -485,7 +486,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Duck Life 2" class="column gameDiv all">
+                     <div name="Duck Life 2" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=ducklife2.swf">
                            <div class="content">
                               <img src="img/duck-life-2.png" alt="Duck Life 2" style="width:100%">
@@ -493,7 +494,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Duck Life 3" class="column gameDiv all">
+                     <div name="Duck Life 3" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=ducklife3.swf">
                            <div class="content">
                               <img src="img/duck-life-3.png" alt="Duck Life 3" style="width:100%">
@@ -501,7 +502,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Duck Life 4" class="column gameDiv all">
+                     <div name="Duck Life 4" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=ducklife4.swf">
                            <div class="content">
                               <img src="img/duck-life-4.png" alt="Duck Life 4" style="width:100%">
@@ -678,7 +679,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Tetris" class="column gameDiv all nin">
+                     <div name="Tetris" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=tetris.swf">
                            <div class="content">
                               <img src="img/tetris.png" alt="Tetris" style="width:100%">
@@ -686,7 +687,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Super Mario Bros" class="column gameDiv all nin">
+                     <div name="Super Mario Bros" class="column gameDiv all">
                         <a class="blogLink" href="games/full-screen-mario/">
                            <div class="content">
                               <img src="img/supermario.png" alt="Super Mario Bros"
@@ -796,7 +797,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="GunBlood" class="column gameDiv all">
+                     <div name="GunBlood" class="column gameDiv all flash">
                         <a class="blogLink" href="/games/flash/?swf=gunblood.swf">
                            <div class="content">
                               <img src="img/gunBlood.png" alt="Gun Blood" style="width:100%">
@@ -844,7 +845,7 @@
                            </div>
                         </a>
                      </div>
-                     <div name="Flappy Squidward" class="column gameDiv all gba">
+                     <div name="Flappy Squidward" class="column gameDiv all">
                         <a class="blogLink" href="games/flappySquidward/">
                            <div class="content">
                               <img src="img/flappy-squidward.png" alt="Flappy Squidward" style="width:100%">
@@ -898,382 +899,6 @@
                            <div class="content">
                               <img src="img/atari.png" alt="Atari" style="width:100%">
                               <h4>Atari</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Bomberman Max 2</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Bomberman Tournament</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Bubble Bobble: Old and New</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Connect Four</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Crash Bandicoot: part 1</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Crash Bandicoot: part 2</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Crash Bandicoot 2</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Crash Nitro Kart</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Croket!</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Croket! 2</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Croket! 3</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Croket! 4</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Digimon Racing</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>DK - King Of Swing</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Donkey Kong Country</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Donkey Kong Country 2</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Donkey Kong Country 3</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Doom</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Doom 2</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Dragon Ball Z</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Dr. Mario+Puzzle League</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Drill Dozer</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Duke Nukem Advance</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Dungeons And Dragons</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Earthworm Jim</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Earthworm Jim 2</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Family Feud</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Fantastic 4</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>Fantastic 4 - Flame On</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Sonic Advance" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Sonic Advance" style="width:100%">
-                              <h4>FIFA Football 2004</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>FIFA Football 2005</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>FIFA 06</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>FIFA World Cup 2006</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>FIFA 2007</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>Final Fantasy 1 & 2</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>Final Fantasy IV</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>Final Fantasy Tactics</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>Fire Emblem</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>Ford Racing 3</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>Frogger Advance</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>Frogger's Adventures</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>Frogger's Adventures 2</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>F-Zero - GP Legend</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>FIFA Football 2005</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>F-Zero - Maximum Velocity</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>Game & Watch Gallery 4</h4>
-                           </div>
-                        </a>
-                     </div>
-                     <div name="Grand Theft Auto" class="column gameDiv all gba">
-                        <a class="blogLink" href="games/gba/launcher.html#gta">
-                           <div class="content">
-                              <img src="img/place-holder.png" alt="Grand Theft Auto" style="width:100%">
-                              <h4>Golden Sun</h4>
                            </div>
                         </a>
                      </div>
