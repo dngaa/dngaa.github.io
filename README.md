@@ -1,5 +1,5 @@
 # dngaa.github.io
-Originial Website <br>
+Originial Website:<br>
 [Jet Yehs Unblocked Games](https://jetyehsunblocked.codehs.me/)<br><hr>
 
 Games taken from:<br>
