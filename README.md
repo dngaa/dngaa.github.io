@@ -9,9 +9,9 @@ games taken from <br>
 [UDB](https://github.com/unblockeddatabase) <br>
 [IncredibleWebsite](https://github.com/incrediblewebsite)<hr>
 
-<b>versions</b> <br><br>
+<b>versions</b><br><br>
 <b>V1</b><br><br>
-![v1](img/archive/v1.png)<br><br><hr>
+![v1](img/archive/v1.png)<br><hr>
 <b>V2</b><br><br>
 ![v2](img/archive/v2.png)<br><hr>
 <b>V3</b><br><br>
@@ -23,4 +23,3 @@ games taken from <br>
 <b>V6</b><br><br>
 ![v6](img/archive/v6.png)<br><hr>
 <br>
-<hr>
