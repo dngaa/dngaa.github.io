@@ -6,14 +6,6 @@ Originial Website:
 
 <hr>
 
-Games taken from:
-
-- [3hk0](https://github.com/3kh0/3kh0.github.io)
-- [isgames](https://github.com/isgames/isgames.github.io)
-- [BinBashBanana](https://github.com/BinBashBanana/gfiles)
-- [UDB](https://github.com/unblockeddatabase)
-- [IncredibleWebsite](https://github.com/incrediblewebsite)
-
 # Versions
 
 <b>V1</b>
