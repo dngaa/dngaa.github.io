@@ -146,4 +146,6 @@ hr {
         background-size: cover;
 }
 
-.show {display: block;}
+.show {
+    display: block;
+}

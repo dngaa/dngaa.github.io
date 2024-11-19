@@ -5,11 +5,11 @@ const local_icon = localStorage.getItem("icon");
 
 //If the window already has title stored in localstorage
 if (window.localStorage.hasOwnProperty("title")) {
-  document.title = local_title;
+    document.title = local_title;
 }
 //Fetch and set from user's input
 if (window.localStorage.hasOwnProperty("icon")) {
-  document.querySelector("link[rel=icon]").href = local_icon;
+    document.querySelector("link[rel=icon]").href = local_icon;
 }
 
 //Add Google Analytics
@@ -26,11 +26,11 @@ console.log("Google Analytics added");
 
 //Turn off GSAP null warnings (if present)
 try {
-  gsap.config({
-    nullTargetWarn: false,
-  });
+    gsap.config({
+        nullTargetWarn: false,
+    });
 } catch {
-  console.log("empty b/c no need for return :)");
+    console.log("empty b/c no need for return :)");
 }
 
 // Credit to Team r0cket for the original code :)

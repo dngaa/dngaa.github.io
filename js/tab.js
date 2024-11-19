@@ -9,7 +9,7 @@ const console_output = document.getElementById("console-output");
 //Change tabTitle
 const changeTabTitle = () => {
   const newtitle = document.getElementById("userinput");
-  if (newtitle.value == ""){ //check if the input is blank when they submit
+  if (newtitle.value == "") { //check if the input is blank when they submit
       window.localStorage.removeItem("title");
       window.document.title = "3kh0.github.io"
       document.getElementById("console-output").style.color = "red"; //error = red
@@ -26,7 +26,7 @@ const changeTabTitle = () => {
 //Change the tabIcon
 const changeTabIcon = () => {
   const newfavicon = document.getElementById("userinput");
-  if (validURL(newfavicon.value)){
+  if (validURL(newfavicon.value)) {
       document.querySelector("link[rel*='icon']").href = newfavicon.value;
       window.localStorage.setItem("icon", newfavicon.value);
       document.getElementById("console-output").style.color = "green";
@@ -49,7 +49,7 @@ const validURL = (str) => {
 const resetTabSettings = () => {
   let items = ["icon", "title"];
   items.forEach(item =>
-  window.localStorage.removeItem(item));
+      window.localStorage.removeItem(item));
   document.getElementById("console-output").style.color = "black";
   console_output.innerText = "Resetting..."
   window.location.reload();
@@ -57,11 +57,11 @@ const resetTabSettings = () => {
 
 // Handle Apply buttons
 
-function applyUrl(url, title){
-document.getElementById("userinput").value = url;
-changeTabIcon();
-document.getElementById("userinput").value = title;
-changeTabTitle();
-document.getElementById("console-output").style.color = "green";
-console_output.innerText = "Preset applied successfully!"
+function applyUrl(url, title) {
+  document.getElementById("userinput").value = url;
+  changeTabIcon();
+  document.getElementById("userinput").value = title;
+  changeTabTitle();
+  document.getElementById("console-output").style.color = "green";
+  console_output.innerText = "Preset applied successfully!"
 }
