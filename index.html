@@ -1115,30 +1115,33 @@
          }
          
          function switchGame(x) {
-            selectedTopic = x
-            var buttons = document.getElementsByClassName('selectable');
-            var games = document.getElementsByClassName('gameDiv');
-            for (i = 0; i < buttons.length; i++) {
-               a = buttons[i].getAttribute("name");
-               if (selectedTopic == a) {
-                  buttons[i].classList.add('selectedButton');
-                  buttons[i].classList.remove('selectButton');
-               }
-               else {
-                  buttons[i].classList.remove('selectedButton');
-                  buttons[i].classList.add('selectButton');
-               }
-         
-            }
-            for (i = 0; i < games.length; i++) {
-               if (games[i].classList.contains(selectedTopic)) {
-                  games[i].style.display = "";
-               }
-               else {
-                  games[i].style.display = 'none';
-               }
-            }
-         }
+    selectedTopic = x;
+    var buttons = document.getElementsByClassName('selectable');
+    var games = document.getElementsByClassName('gameDiv');
+
+    // Loop through all buttons to reset their state
+    for (let i = 0; i < buttons.length; i++) {
+        let buttonName = buttons[i].getAttribute("name");
+        if (selectedTopic === buttonName) {
+            // Add selected style to the clicked button
+            buttons[i].classList.add('selectedButton');
+            buttons[i].classList.remove('selectButton');
+        } else {
+            // Remove selected style from other buttons
+            buttons[i].classList.remove('selectedButton');
+            buttons[i].classList.add('selectButton');
+        }
+    }
+
+    // Show/hide games based on the selected category
+    for (let i = 0; i < games.length; i++) {
+        if (games[i].classList.contains(selectedTopic)) {
+            games[i].style.display = "";
+        } else {
+            games[i].style.display = 'none';
+        }
+    }
+}
          
          let scrollPrecentage = () => {
             let scrollProgress = document.getElementById("progress");
