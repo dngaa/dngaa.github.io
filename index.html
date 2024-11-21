@@ -17,20 +17,20 @@
          <h2>Jet Yeh's</h2>
          <ul>
             <a href="pages/report.html">
-               <li><i class="fa-solid fa-bug"></i> Bug Report</li>
+               <li><i class="fa-solid fa-bug"></i>Bug Report</li>
             </a>
             <a href="pages/request.html">
-               <li><i class="fa-solid fa-ghost"></i> Game Request</li>
+               <li><i class="fa-solid fa-ghost"></i>Game Request</li>
             </a>
             <a href="pages/settings.html">
-               <li><i class="fa-solid fa-gear"></i> Settings</li>
+               <li><i class="fa-solid fa-gear"></i>Settings</li>
+            </a>
+            <a>
+               <li id="go-to-top-button"><i class="fa-solid fa-up-long"></i>Top</li>
             </a>
             <div class=left-col>
                <img title="icon" src="img/icon.png" width="199px">
             </div>
-            <a href="#">
-               <li><i id="go-to-top-button" class="fa-solid fa-up-long"></i> Top</li>
-            </a>
          </ul>
       </div>
       <div class="main_content">
@@ -77,7 +77,7 @@
          <li class="nav"><button name="new" onclick="switchGame('new');" class="selectButton selectable">New</button></li>
          <li class="nav"><button name="flash" onclick="switchGame('flash');" class="selectButton selectable">Flash</button></li>
          <li class="nav"><button name="gba" onclick="switchGame('gba');" class="selectButton selectable">GBA</button></li>
-         <li class="nav"><button name="multiplayer" onclick="switchGame('multi');" class="selectButton selectable">Multiplayer</button></li>
+         <li class="nav"><button name="multi" onclick="switchGame('multi');" class="selectButton selectable">Multiplayer</button></li>
       </ul>
       <div class="bodyMain">
       <div>
@@ -1115,33 +1115,33 @@
          }
          
          function switchGame(x) {
-    selectedTopic = x;
-    var buttons = document.getElementsByClassName('selectable');
-    var games = document.getElementsByClassName('gameDiv');
+            selectedTopic = x;
+            var buttons = document.getElementsByClassName('selectable');
+            var games = document.getElementsByClassName('gameDiv');
 
-    // Loop through all buttons to reset their state
-    for (let i = 0; i < buttons.length; i++) {
-        let buttonName = buttons[i].getAttribute("name");
-        if (selectedTopic === buttonName) {
-            // Add selected style to the clicked button
-            buttons[i].classList.add('selectedButton');
-            buttons[i].classList.remove('selectButton');
-        } else {
-            // Remove selected style from other buttons
-            buttons[i].classList.remove('selectedButton');
-            buttons[i].classList.add('selectButton');
-        }
-    }
+            // Loop through all buttons to reset their state
+            for (let i = 0; i < buttons.length; i++) {
+               let buttonName = buttons[i].getAttribute("name");
+               if (selectedTopic === buttonName) {
+               // Add selected style to the clicked button
+               buttons[i].classList.add('selectedButton');
+               buttons[i].classList.remove('selectButton');
+               } else {
+                  // Remove selected style from other buttons
+                  buttons[i].classList.remove('selectedButton');
+                  buttons[i].classList.add('selectButton');
+               }
+            }
 
-    // Show/hide games based on the selected category
-    for (let i = 0; i < games.length; i++) {
-        if (games[i].classList.contains(selectedTopic)) {
-            games[i].style.display = "";
-        } else {
-            games[i].style.display = 'none';
-        }
-    }
-}
+            // Show/hide games based on the selected category
+            for (let i = 0; i < games.length; i++) {
+               if (games[i].classList.contains(selectedTopic)) {
+                  games[i].style.display = "";
+               } else {
+                  games[i].style.display = 'none';
+               }
+            }
+         }
          
          let scrollPrecentage = () => {
             let scrollProgress = document.getElementById("progress");
@@ -1156,27 +1156,12 @@
 
          const goToTopButton = document.getElementById("go-to-top-button");
 
-window.onscroll = () => {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (
-    document.body.scrollTop > 300 ||
-    document.documentElement.scrollTop > 300
-  ) {
-    goToTopButton.style.display = "block";
-  } else {
-    goToTopButton.style.display = "none";
-  }
-}
-goToTopButton.addEventListener("click", () => {
-  goToTopButton.style.display = "none";
-  window.scroll({
-    top: 0,
-    behavior: "smooth",
-  });
-});
+         goToTopButton.addEventListener("click", () => {
+            window.scroll({
+               top: 0,
+               behavior: "smooth",
+            });
+         });
       </script>
    </body>
 </html>

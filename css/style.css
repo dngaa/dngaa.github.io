@@ -273,3 +273,7 @@ h4 {
 .left-col {
   margin-top: 100px;
 }
+
+#go-to-top-button{
+  cursor: pointer;
+}
