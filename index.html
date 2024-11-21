@@ -34,10 +34,10 @@
          </ul>
       </div>
       <div class="main_content">
-      <div class="alert">
-         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-         "Get Hard, Stay Hard" - Brett Chase
-      </div>
+         <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <span id="random-quote">Loading...</span>
+         </div>
       <div class="info">
          <header>
             <h1>
@@ -68,11 +68,6 @@
          <br>
       </div>
       <ul id="navbar">
-         <div class="search-bar" style="margin-top: -25px">
-            <input type="text" name="search" value="" autocomplete="off" id="myinput" onkeyup="searchFunction()"
-               placeholder="Search">
-            <br>
-         </div>
          <li class="nav"><button name="all" onclick="switchGame('all');" class="selectedButton selectable">All</button></li>
          <li class="nav"><button name="new" onclick="switchGame('new');" class="selectButton selectable">New</button></li>
          <li class="nav"><button name="flash" onclick="switchGame('flash');" class="selectButton selectable">Flash</button></li>
@@ -1051,6 +1046,7 @@
       </div>
       <script type="text/javascript" src="js/particles.js"></script>
       <script type="text/javascript" src="js/app.js"></script>
+      <script type="text/javascript" src="js/quotes.js"></script>
       <script>
          filterSelection("all")
          function filterSelection(c) {
