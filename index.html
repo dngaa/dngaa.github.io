@@ -68,6 +68,11 @@
          <br>
       </div>
       <ul id="navbar">
+         <div class="search-bar" style="margin-top: -25px">
+            <input type="text" name="search" value="" autocomplete="off" id="myinput" onkeyup="searchFunction()"
+                   placeholder="Search">
+            <br>
+         </div>
          <li class="nav"><button name="all" onclick="switchGame('all');" class="selectedButton selectable">All</button></li>
          <li class="nav"><button name="new" onclick="switchGame('new');" class="selectButton selectable">New</button></li>
          <li class="nav"><button name="flash" onclick="switchGame('flash');" class="selectButton selectable">Flash</button></li>

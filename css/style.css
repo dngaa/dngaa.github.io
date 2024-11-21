@@ -28,11 +28,6 @@
   font-family: 'Open Sans', sans-serif; 
 }
 
-body,
-html {
-    height: 200%
-}
-
 .wrapper {
   display: flex;
   position: relative;
