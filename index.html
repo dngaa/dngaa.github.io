@@ -16,9 +16,6 @@
       <div class="sidebar">
          <h2>Jet Yeh's</h2>
          <ul>
-            <a href="#">
-               <li><i class="fa-solid fa-up-long"></i> Top</li>
-            </a>
             <a href="pages/report.html">
                <li><i class="fa-solid fa-bug"></i> Bug Report</li>
             </a>
@@ -31,6 +28,9 @@
             <div class=left-col>
                <img title="icon" src="img/icon.png" width="199px">
             </div>
+            <a href="#">
+               <li><i id="go-to-top-button" class="fa-solid fa-up-long"></i> Top</li>
+            </a>
          </ul>
       </div>
       <div class="main_content">
@@ -1153,6 +1153,30 @@
          }
          window.onscroll = scrollPrecentage;
          window.onload = scrollPrecentage;
+
+         const goToTopButton = document.getElementById("go-to-top-button");
+
+window.onscroll = () => {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 300 ||
+    document.documentElement.scrollTop > 300
+  ) {
+    goToTopButton.style.display = "block";
+  } else {
+    goToTopButton.style.display = "none";
+  }
+}
+goToTopButton.addEventListener("click", () => {
+  goToTopButton.style.display = "none";
+  window.scroll({
+    top: 0,
+    behavior: "smooth",
+  });
+});
       </script>
    </body>
 </html>
