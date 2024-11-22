@@ -139,11 +139,11 @@ hr {
 }
 
 .backgroundImg {
-        background: #303030;
-        background-image: url('img_girl.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
+    background: #303030;
+    background-image: url('img_girl.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .show {
