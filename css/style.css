@@ -226,7 +226,7 @@ h1 {
 
 .right-col {
   position: fixed; /* Fixed positioning to keep it visible */
-  bottom: -5px; /* Distance from the bottom */
+  bottom: 0px; /* Distance from the bottom */
   left: 230px; /* Position just to the right of the sidebar (sidebar width + margin) */
   z-index: 105; /* Ensure it's above other elements */
   transition: left 0.3s ease, bottom 0.3s ease; /* Smooth transition */
@@ -239,8 +239,6 @@ h1 {
   .right-col {
     left: 30px; /* Move to the bottom-left of the viewport */
     bottom: -5px;
-    width: 70px; /* Set the circle size (adjust as needed) */
-    height: 70px;
   }
 }
 
