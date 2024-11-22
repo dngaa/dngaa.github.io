@@ -30,6 +30,7 @@
 
 .wrapper {
   display: flex;
+  flex-wrap: nowrap;
   position: relative;
 }
 
@@ -83,9 +84,37 @@
   display: flex;
 }
 
+.sidebar {
+  width: 200px;
+  height: 100%;
+  background: rgba(24, 24, 24, 0.8);
+  backdrop-filter: blur(2.5px);
+  padding: 30px 0px;
+  position: fixed; /* Sidebar stays fixed */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for toggle */
+}
+
+.main_content {
+  flex-grow: 1; /* Automatically take remaining space */
+  margin-left: 200px; /* Leave space for the sidebar */
+  transition: margin-left 0.3s ease, width 0.3s ease; /* Smooth adjustment */
+}
+
+/* Hide Sidebar on Small Screens */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none; /* Hide the sidebar */
+  }
+
+  .main_content {
+    margin-left: 0; /* Remove the left margin */
+    width: 100%; /* Expand to full width */
+    transition: margin-left 0.3s ease, width 0.3s ease; /* Smooth transition */
+  }
+}
+
 .wrapper .main_content {
-  width: 100%;
-  margin-left: 200px;
+  transition: margin-left 0.3s ease, width 0.3s ease;
 }
 
 .wrapper .main_content .header {
@@ -162,9 +191,29 @@
 
 .title {
   color: #aaaaaa;
-  text-align: left;
-  margin-top: 70px;
-  padding-left: 15px;
+  text-align: center; /* Align the title to the left */
+  margin-top: 70px; /* Adjust margin from the top */
+  padding: 0 15px; /* Add some padding to the left for spacing */
+  line-height: 1.2; /* Add space between lines to prevent overlap */
+  word-wrap: break-word; /* Allow long words to break onto a new line */
+  overflow-wrap: anywhere; /* Ensure words break in appropriate places */
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .title {
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.2; /* Increase spacing between lines for readability */
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    text-align: center;
+    line-height: 1.2; /* Add even more spacing for smaller screens */
+    padding: 0 10px; /* Reduce padding to prevent cutting text off */
+  }
 }
 
 h1 {
@@ -176,14 +225,29 @@ h1 {
 }
 
 .right-col {
-  float: right;
-  margin-top: -70px;
-  margin-right: 27px;
+  position: fixed; /* Fixed positioning to keep it visible */
+  bottom: -5px; /* Distance from the bottom */
+  left: 230px; /* Position just to the right of the sidebar (sidebar width + margin) */
+  z-index: 105; /* Ensure it's above other elements */
+  transition: left 0.3s ease, bottom 0.3s ease; /* Smooth transition */
+}
+
+@media (max-width: 768px) {
+  .right-col {
+    left: 30px; /* Move to the bottom-left of the viewport */
+    bottom: -5px;
+  }
 }
 
 #icon {
-  width: 70px;
+  width: 50px; /* Set a consistent size for the icon */
+  height: auto;
   cursor: pointer;
+  transition: transform 0.2s ease-in-out; /* Add a hover effect */
+}
+
+#icon:hover {
+  transform: scale(1.2); /* Slightly enlarge the button on hover */
 }
 
 #navbar {
