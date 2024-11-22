@@ -344,6 +344,9 @@ h4 {
 
 .left-col {
   margin: auto 0; /* Vertically center within remaining space */
+  opacity: 1; /* Fully visible by default */
+  transform: translateY(0); /* No vertical shift by default */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition for opacity and position */
 }
 
 .left-col img {
@@ -356,8 +359,10 @@ h4 {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
-  .sidebar {
-    display: none; /* Hide sidebar on small screens */
+@media (max-height: 600px) {
+  .left-col {
+    opacity: 0; /* Fade out */
+    transform: translateY(20px); /* Slide down slightly */
+    pointer-events: none; /* Prevent interaction when hidden */
   }
 }
