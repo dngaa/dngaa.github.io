@@ -96,25 +96,6 @@ hr {
     margin-top: 70px;
 }
 
-.left-col {
-    float: left;
-    margin-left: 40px;
-    margin-top: -122px;
-}
-
-
-.alert {
-    padding: 20px;
-    background-color: #A61414;
-    color: white;
-    margin-bottom: 15px;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif; 
-}
-.alert.controls {
-    background-color: black;
-}
-
 .closebtn {
     margin-left: 15px;
     color: white;

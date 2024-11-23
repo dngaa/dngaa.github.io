@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
+body {
+  background-color: #3D3D3D;
+  margin: 0;
+  padding: 0;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
