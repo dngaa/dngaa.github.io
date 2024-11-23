@@ -2,7 +2,7 @@
 
 body {
   background-color: #3D3D3D;
-  margin: 0;
+  margin: 0; /* Remove default margin for body */
   padding: 0;
 }
 
@@ -61,35 +61,35 @@ body {
 }    
 
 .wrapper .sidebar ul a li {
-  color: #fff;
+  color: white;
   display: block;
+  text-align: center;
+  padding: 16px 20px;
+  font-size: initial;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .wrapper .sidebar ul a li:hover {
-  color: black;
+  background-color: #252525; /* Slightly darker background for hover */
+  color: white;
 }
 
 .wrapper .sidebar ul a li .fas {
   width: 25px;
 }
 
+
+.wrapper .sidebar ul a li.selectedButton {
+  background: rgb(158, 158, 158); /* Highlighted background for selected button */
+  color: black;
+}
+
 .wrapper .sidebar ul li:hover {
   background-color: #aaaaaa;
 }
     
-.wrapper .sidebar ul li:hover a {
-  color: black;
-}
- 
-.wrapper .sidebar .social_media {
-  position: absolute;
-  size: 100px;
-  bottom: 25px;
-  left: 48%;
-  transform: translateX(-50%);
-  display: flex;
-}
-
 .sidebar {
   display: flex;
   flex-direction: column; /* Arrange items vertically */
@@ -287,8 +287,7 @@ h1 {
 }
   
 .selectButton {
-    background: rgba(24, 24, 24, 0.021);
-    backdrop-filter: blur(2.5px);
+    background: rgba(24, 24, 24, 0.00);
     color: white;
     border: none;
     display: inline-block;
@@ -317,6 +316,18 @@ h1 {
     text-decoration: none;
     font-size: initial;
     cursor: pointer;
+}
+
+.selected {
+  background: rgb(158, 158, 158);
+  backdrop-filter: blur(2.5px);
+  color: black;
+  border: none;
+  display: inline-block;
+  padding: 0px 0px;
+  text-decoration: none;
+  font-size: initial;
+  cursor: pointer;
 }
 
 .search-bar {
@@ -371,4 +382,15 @@ h4 {
     transform: translateY(20px); /* Slide down slightly */
     pointer-events: none; /* Prevent interaction when hidden */
   }
+}
+
+#loading-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1.5px; /* Thickness of the loading bar */
+  width: 0%; /* Initially 0%, grows as the page loads */
+  background-color: red; /* YouTube-style red */
+  z-index: 9999; /* Ensure it's above other elements */
+  transition: width 0.2s ease; /* Smooth transition effect */
 }
