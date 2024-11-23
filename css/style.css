@@ -57,6 +57,7 @@ body {
 }
 
 .wrapper .sidebar ul li {
+  text-align: center;
   padding: 15px;
 }    
 
