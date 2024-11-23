@@ -66,8 +66,9 @@
           }
 
           section.notFound div.img img {
-            width: 70px;
-            height: auto;
+            width: 50%; /* Adjust the size to be responsive */
+            max-width: 600px; /* Maximum width to maintain consistency */
+            height: auto; /* Maintain aspect ratio */
           }
 
           section.notFound h1 {
@@ -82,6 +83,20 @@
             color: red;
             text-decoration: underline;
           }
+          
+          @media only screen and (max-width: 768px) {
+  section.notFound div.img img {
+    width: 70%; /* Adjust for tablets or smaller screens */
+    max-width: 300px; /* Further limit the maximum size */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  section.notFound div.img img {
+    width: 90%; /* For mobile phones, use almost full width */
+    max-width: 200px; /* Maximum size for very small screens */
+  }
+}
         }
     </style>
   </head>
