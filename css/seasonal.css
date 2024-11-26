@@ -35,14 +35,14 @@ body.christmas-theme .sidebar::after {
 }
 
 body.christmas-theme .sidebar ul li {
-  background: rgba(0, 0, 0, 0.5); /* Black semi-transparent background */
-  color: white;
+  background: white; /* Black semi-transparent background */
+  color: rgb(210, 38, 41);
   border-radius: 5px;
 }
 
 body.christmas-theme .sidebar ul li:hover {
-  background: rgba(255, 255, 255, 0.8);
-  color: black; /* Golden text on hover */
+  background: rgba(255, 255, 255);
+  color: rgb(210, 38, 41); /* Golden text on hover */
   transition: background 0.3s, color 0.3s;
   transform: scale(1.1); /* Slight zoom effect */
 }
@@ -70,20 +70,19 @@ body.christmas-theme .sidebar h2::after {
 }
   
 body.christmas-theme .wrapper .sidebar ul a li.selectedButton {
-  background: #00d161; /* Highlighted background for selected button */
-  color: black;
+  background: rgb(210, 38, 41); /* Highlighted background for selected button */
+  color: white;
 }
 
 body.christmas-theme::-webkit-scrollbar-thumb {
-  background: rgba(57, 100, 255, 0.5);
-}
-
-body.christmas-theme::-webkit-scrollbar-thumb:hover {
-  background: rgba(38, 67, 173, 0.5);
-}
-
-body.christmas-theme::-webkit-scrollbar-thumb:active {
-  background: rgba(25, 44, 113, 0.5);
+  background: repeating-linear-gradient(
+        45deg,
+        rgba(255, 59, 63, 0.7),
+        rgba(255, 59, 63, 0.7) 10px,
+        rgba(255, 255, 255, 0.7) 10px,
+        rgba(255, 255, 255, 0.7) 20px
+    );
+    border-left: 5px solid #ffcc00; /* Gold border to enhance */
 }
 
 body.christmas-theme::-webkit-scrollbar-track {  
@@ -91,7 +90,8 @@ body.christmas-theme::-webkit-scrollbar-track {
 }
 
 body.christmas-theme .alert {
-  background-color: rgba(201, 53, 53, 0.8);
+  background-color: rgb(210, 38, 41);
+  border-top: 5px solid #ffcc00;
 }
 
 body.christmas-theme #navbar {
@@ -122,11 +122,6 @@ body.christmas-theme .settings-content {
 body.christmas-theme .left-col img {
   border-radius: 50%; /* Circular frame */
   background-color: rgba(0, 0, 0, 0.5); /* Optional: Background behind the icon */
-}
-
-body.christmas-theme .left-col img:hover {
-  transform: scale(1.1); /* Slight zoom effect */
-  transition: transform 0.3s ease-in-out;
 }
 
 @keyframes bounce {
