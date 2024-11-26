@@ -99,6 +99,13 @@
 }
         }
     </style>
+    <script>
+      const script = document.createElement("script");
+      const currentPath = window.location.pathname;
+      const basePath = currentPath.includes("/pages/") ? "../js/" : "./js/";
+      script.src = `${basePath}dynamic-loader.js`;
+      document.head.appendChild(script);
+    </script>
   </head>
   <body>
     <div id="particles-js"></div>
@@ -120,6 +127,7 @@
             window.location.href = '/index.html';
         }
     </script>
+
     <script type="text/javascript" src="./js/particles.js"></script>
     <script type="text/javascript" src="./js/seasonal.js"></script>
   </body>
