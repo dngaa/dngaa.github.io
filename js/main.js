@@ -9,5 +9,14 @@ document.addEventListener("readystatechange", () => {
         setTimeout(() => (loadingBar.style.display = "none"), 500);
       }, 500);
     }
-  });
+
+  const goToTopButton = document.getElementById("go-to-top-button");
+
+         goToTopButton.addEventListener("click", () => {
+            window.scroll({
+               top: 0,
+               behavior: "smooth",
+            });
+         });
+        });
   
