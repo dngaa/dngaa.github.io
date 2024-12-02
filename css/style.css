@@ -183,15 +183,15 @@ body {
 }
 
 #progress {
-  height: 50px;
-  width: 50px;
+  height: 5vw;
+  width: 5vw;
   border-radius: 50%;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 2vw;
+  right: 2vw;
   display: grid;
   place-items: center;
-  z-index:105;
+  z-index: 105;
 }
 
 #progress-value {
