@@ -2,7 +2,7 @@
 
 body {
   background-color: #3D3D3D;
-  margin: 0; /* Remove default margin for body */
+  margin: 0;
   padding: 0;
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 .wrapper .sidebar ul a li:hover {
-  background-color: #252525; /* Slightly darker background for hover */
+  background-color: #252525;
   color: white;
 }
 
@@ -81,9 +81,8 @@ body {
   width: 25px;
 }
 
-
 .wrapper .sidebar ul a li.selectedButton {
-  background: rgb(158, 158, 158); /* Highlighted background for selected button */
+  background: rgb(158, 158, 158);
   color: black;
 }
 
@@ -93,40 +92,39 @@ body {
     
 .sidebar {
   display: flex;
-  flex-direction: column; /* Arrange items vertically */
-  justify-content: flex-start; /* Start content from the top */
-  align-items: center; /* Center horizontally */
-  height: 100%; /* Full height of the screen */
-  position: fixed; /* Keep it fixed to the left */
-  width: 200px; /* Fixed width */
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  position: fixed;
+  width: 200px;
   background: rgba(24, 24, 24, 0.8);
   backdrop-filter: blur(2.5px);
   padding: 30px 0px;
-  box-sizing: border-box; /* Include padding in dimensions */
+  box-sizing: border-box;
 }
 
 .sidebar ul {
   display: flex;
   flex-direction: column;
-  gap: 15px; /* Add spacing between items */
+  gap: 15px;
 }
 
 .main_content {
-  flex-grow: 1; /* Automatically take remaining space */
-  margin-left: 200px; /* Leave space for the sidebar */
-  transition: margin-left 0.3s ease, width 0.3s ease; /* Smooth adjustment */
+  flex-grow: 1;
+  margin-left: 200px;
+  transition: margin-left 0.3s ease, width 0.3s ease;
 }
 
-/* Hide Sidebar on Small Screens */
 @media (max-width: 768px) {
   .sidebar {
-    display: none; /* Hide the sidebar */
+    display: none;
   }
 
   .main_content {
-    margin-left: 0; /* Remove the left margin */
-    width: 100%; /* Expand to full width */
-    transition: margin-left 0.3s ease, width 0.3s ease; /* Smooth transition */
+    margin-left: 0;
+    width: 100%;
+    transition: margin-left 0.3s ease, width 0.3s ease;
   }
 }
 
@@ -152,7 +150,6 @@ body {
 }
 
 .alert {
-  
   padding: 20px;
   background-color: rgb(166,20,20, .6);
   backdrop-filter: blur(2.5px);
@@ -183,15 +180,15 @@ body {
 }
 
 #progress {
-  height: 50px;
-  width: 50px;
+  height: 5vw;
+  width: 5vw;
   border-radius: 50%;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 2vw;
+  right: 2vw;
   display: grid;
   place-items: center;
-  z-index:105;
+  z-index: 105;
 }
 
 #progress-value {
@@ -208,28 +205,27 @@ body {
 
 .title {
   color: #aaaaaa;
-  text-align: center; /* Align the title to the left */
-  margin-top: 40px; /* Adjust margin from the top */
-  padding: 0 15px; /* Add some padding to the left for spacing */
-  line-height: 1.2; /* Add space between lines to prevent overlap */
-  word-wrap: break-word; /* Allow long words to break onto a new line */
-  overflow-wrap: anywhere; /* Ensure words break in appropriate places */
+  text-align: center;
+  margin-top: 40px;
+  padding: 0 15px;
+  line-height: 1.2;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
 }
 
-/* Media Query for Smaller Screens */
 @media (max-width: 768px) {
   .title {
     text-align: center;
     font-size: 55px;
-    line-height: 1.2; /* Increase spacing between lines for readability */
+    line-height: 1.2;
   }
 }
 
 @media (max-width: 480px) {
   .title {
     text-align: center;
-    line-height: 1.2; /* Add even more spacing for smaller screens */
-    padding: 0 10px; /* Reduce padding to prevent cutting text off */
+    line-height: 1.2;
+    padding: 0 10px;
   }
 }
 
@@ -242,11 +238,11 @@ h1 {
 }
 
 .right-col {
-  position: fixed; /* Fixed positioning to keep it visible */
-  bottom: 0px; /* Distance from the bottom */
-  left: 230px; /* Position just to the right of the sidebar (sidebar width + margin) */
-  z-index: 105; /* Ensure it's above other elements */
-  transition: left 0.3s ease, bottom 0.3s ease; /* Smooth transition */
+  position: fixed;
+  bottom: 0px;
+  left: 230px;
+  z-index: 105;
+  transition: left 0.3s ease, bottom 0.3s ease;
   border-radius: 50%;
   background-color: #212121;
   display: flex;
@@ -254,20 +250,20 @@ h1 {
 
 @media (max-width: 768px) {
   .right-col {
-    left: 30px; /* Move to the bottom-left of the viewport */
+    left: 30px;
     bottom: -5px;
   }
 }
 
 #icon {
-  width: 50px; /* Set a consistent size for the icon */
+  width: 50px;
   height: auto;
   cursor: pointer;
-  transition: transform 0.2s ease-in-out; /* Add a hover effect */
+  transition: transform 0.2s ease-in-out;
 }
 
 #icon:hover {
-  transform: scale(1.2); /* Slightly enlarge the button on hover */
+  transform: scale(1.2);
 }
 
 #navbar {
@@ -288,35 +284,35 @@ h1 {
 }
   
 .selectButton {
-    background: rgba(24, 24, 24, 0.00);
-    color: white;
-    border: none;
-    display: inline-block;
-    text-align: center;
-    padding: 16px 20px;
-    text-decoration: none;
-    font-size: initial;
-    cursor: pointer;
-    z-index:300;
+  background: rgba(24, 24, 24, 0.00);
+  color: white;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+  font-size: initial;
+  cursor: pointer;
+  z-index:300;
 }
 
 .selectButton:hover {
-    border: none;
-    background-color: #252525;
-    color: white;
+  border: none;
+  background-color: #252525;
+  color: white;
 }
 
 .selectedButton {
-    background: rgb(158, 158, 158);
-    backdrop-filter: blur(2.5px);
-    color: black;
-    border: none;
-    display: inline-block;
-    text-align: center;
-    padding: 16px 20px;
-    text-decoration: none;
-    font-size: initial;
-    cursor: pointer;
+  background: rgb(158, 158, 158);
+  backdrop-filter: blur(2.5px);
+  color: black;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+  font-size: initial;
+  cursor: pointer;
 }
 
 .selected {
@@ -361,27 +357,27 @@ h4 {
 }
 
 .left-col {
-  margin: auto 0; /* Vertically center within remaining space */
-  opacity: 1; /* Fully visible by default */
-  transform: translateY(0); /* No vertical shift by default */
-  transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition for opacity and position */
+  margin: auto 0;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .left-col img {
   display: block;
-  max-width: 100%; /* Ensure it doesn’t overflow */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 100%;
+  height: auto;
 }
 #go-to-top-button {
-  margin-bottom: auto; /* Push other elements down */
+  margin-bottom: auto;
   cursor: pointer;
 }
 
 @media (max-height: 600px) {
   .left-col {
-    opacity: 0; /* Fade out */
-    transform: translateY(20px); /* Slide down slightly */
-    pointer-events: none; /* Prevent interaction when hidden */
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
   }
 }
 
@@ -389,20 +385,20 @@ h4 {
   position: fixed;
   top: 0;
   left: 0;
-  height: 1.5px; /* Thickness of the loading bar */
-  width: 0%; /* Initially 0%, grows as the page loads */
-  background-color: red; /* YouTube-style red */
-  z-index: 9999; /* Ensure it's above other elements */
-  transition: width 0.2s ease; /* Smooth transition effect */
+  height: 1.5px;
+  width: 0%;
+  background-color: red;
+  z-index: 9999;
+  transition: width 0.2s ease;
 }
 
 .settings-column {
   float: left;
   width: 25.00%;
   display: table-cell;
-  flex-direction: column; /* Stack content vertically */
-  align-items: center; /* Center horizontally */
-  margin: 10px; /* Add spacing between columns */
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
 }
 
 .settings-content {
@@ -426,46 +422,45 @@ h4 {
 }
 
 .settings-content h4 {
-  font-size: 16px; /* Uniform font size */
-  margin: 0; /* Reset margin */
+  font-size: 16px;
+  margin: 0;
   text-align: center;
-  line-height: 1.4; /* Better line spacing */
-  overflow: hidden; /* Prevent content overflow */
+  line-height: 1.4;
+  overflow: hidden;
 }
 
 .settings-content:hover {
-  background: rgba(59, 59, 59, 0.8); /* Darker background on hover */
-  transform: scale(1.02); /* Subtle zoom effect */
+  background: rgba(59, 59, 59, 0.8);
+  transform: scale(1.02);
 }
 
 .settings-content:active {
-  transform: scale(0.98); /* Pressed effect */
+  transform: scale(0.98);
 }
 
 .settings-content input[type="checkbox"] {
   display: none;
 }
 
-/* Style the custom checkbox */
 .settings-content label {
   display: inline-flex;
   align-items: center;
-  gap: 8px; /* Optional spacing between checkbox and text */
+  gap: 8px;
 }
 
 label[for="christmas-theme-toggle"]::before {
   content: "";
   display: inline-block;
-  width: 20px; /* Custom checkbox size */
+  width: 20px;
   height: 20px;
-  background: rgba(255, 255, 255, 0.2); /* Default background */
-  border: 2px solid #f5f5f5; /* Border matches the theme */
-  border-radius: 4px; /* Rounded corners */
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid #f5f5f5;
+  border-radius: 4px;
   transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .settings-content input[type="checkbox"]:checked + label::before {
-  background: #00c853; /* Green background when checked */
+  background: #00c853;
   border-color: #00c853;
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M9 16.17l-4.24-4.24-1.41 1.41L9 19 21 7 19.59 5.59 9 16.17z"/></svg>');
   background-size: 16px 16px;
@@ -474,7 +469,7 @@ label[for="christmas-theme-toggle"]::before {
 }
 
 .settings-content input[type="checkbox"]:focus + label::before {
-  outline: 2px solid rgba(255, 255, 255, 0.5); /* Focus outline */
+  outline: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .settings-content input[type="file"] {
