@@ -1,24 +1,24 @@
-/* Christmas theme styles */
-body.christmas-theme {
-    background-color: #f0e68c;
-    background-image: url('../img/christmas-bg.jpg'); /* Example festive background */
-    color: #008000; /* Festive green text */
-}
+/* Christmas theme style */
 
 body.christmas-theme .sidebar {
-    background: #ff0000; /* Bright red sidebar */
-    color: white;
+    background: rgba(104, 19, 19, 0.8);
+    backdrop-filter: blur(2.5px);
 }
 
 body.christmas-theme .sidebar ul li {
-    color: white;
+     color: rgb(0, 135, 50);
 }
 
-body.christmas-theme .sidebar ul li:hover {
-    background-color: #008000; /* Festive green hover */
+body.christmas-theme .wrapper .sidebar ul a li:hover {
+  background: #4e0a0a;
+  color: rgb(0, 135, 50);
 }
 
-body.christmas-theme .main_content {
-    background-color: #f7f0e1; /* Soft festive background */
-    color: #ff4500; /* Orange festive text */
+body.christmas-theme .sidebar h2 {
+  color: rgb(0, 104, 174);
+}
+  
+body.christmas-theme .wrapper .sidebar ul a li.selectedButton {
+  background: rgb(0, 135, 50); /* Highlighted background for selected button */
+  color: black;
 }

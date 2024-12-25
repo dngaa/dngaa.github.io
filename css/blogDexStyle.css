@@ -68,8 +68,13 @@
   word-break: break-word;        /* Break long words */
 }
 
+.content:hover {
+  background: rgba(59, 59, 59, 0.3);
+  backdrop-filter: blur(2px);
+}
+
 .content:active {
-  background: rgba(61, 61, 61, .3);
+  background: rgba(92, 92, 92, 0.3);
   backdrop-filter: blur(2px);
 }
 
