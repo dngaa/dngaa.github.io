@@ -410,4 +410,5 @@ h4 {
   word-break: break-word;
   line-height: 1.5;     
   font-size: 16px; 
+  cursor: pointer;
 }
