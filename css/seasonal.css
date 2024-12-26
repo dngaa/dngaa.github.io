@@ -1,78 +1,80 @@
 /* Christmas theme style */
+body.christmas-theme body {
+  background: #00873E;
+}
+
+body.christmas-theme .title {
+  color: white;
+}
 
 body.christmas-theme .sidebar {
-    background: rgba(104, 19, 19, 0.8);
+    background: rgba(57, 100, 255, 0.5);
     backdrop-filter: blur(2.5px);
 }
 
 body.christmas-theme .sidebar ul li {
-     color: rgb(0, 135, 50);
+     color: rgb(255, 255, 255);
 }
 
 body.christmas-theme .wrapper .sidebar ul a li:hover {
-  background: #4e0a0a;
-  color: rgb(0, 135, 50);
+  background: rgba(0, 8, 38, 0.5);
+  color: rgb(255, 255, 255);
 }
 
 body.christmas-theme .sidebar h2 {
-  color: #aaaaaa;
+  color: white;
 }
   
 body.christmas-theme .wrapper .sidebar ul a li.selectedButton {
-  background: rgb(0, 135, 50); /* Highlighted background for selected button */
+  background: #00d161; /* Highlighted background for selected button */
   color: black;
 }
 
 body.christmas-theme::-webkit-scrollbar-thumb {
-  background: rgb(0, 135, 50);
+  background: rgba(57, 100, 255, 0.5);
 }
 
 body.christmas-theme::-webkit-scrollbar-thumb:hover {
-  background: rgb(0, 90, 33);
+  background: rgba(38, 67, 173, 0.5);
 }
 
 body.christmas-theme::-webkit-scrollbar-thumb:active {
-  background: rgb(0, 67, 25);
+  background: rgba(25, 44, 113, 0.5);
+}
+
+body.christmas-theme::-webkit-scrollbar-track {  
+  background-color: #00873E;
 }
 
 body.christmas-theme .alert {
-  background-color: rgb(0, 104, 174);
+  background-color: rgba(57, 100, 255, 0.5);
 }
 
 body.christmas-theme #navbar {
-  background: rgba(104, 19, 19, 0.8);
+  background: rgba(57, 100, 255, 0.5);
   backdrop-filter: blur(2.5px);
-}
-
-body.christmas-theme li button {
-  color: rgb(0, 135, 50);
 }
 
 .selectButton:hover {
     border: none;
-    background-color: #4e0a0a;
-    color: rgb(0, 135, 50);
+    background-color: rgba(0, 8, 38, 0.5);
 }
 
 body.christmas-theme .selectedButton {
-    background: rgb(0, 135, 50);
-    color: black;
-}
-
-body.christmas-theme .selected {
-  background: rgb(0, 135, 50);
+    background: #00d161;
 }
 
 body.christmas-theme input[type=text] {
-  border: 2px solid rgb(0, 81, 30);
-  background-color: rgb(0, 135, 50);
+  border: 2px rgba(255, 255, 255, 0.5);
+  background-color: rgba(57, 100, 255, 0.5);
   background-image: url('https://img.icons8.com/material-outlined/24/000000/search--v1.png');
 }
 
-body.christmas-theme #loading-bar {
-  background-color: rgb(0, 195, 255); /* YouTube-style red */
+body.christmas-theme #myinput::placeholder {
+  color: white;
 }
 
-body.christmas-theme #myinput::placeholder {
-  color: black;
+body.christmas-theme .settings-content {
+  background: rgba(57, 100, 255, 0.5);
+  backdrop-filter: blur(2px);
 }

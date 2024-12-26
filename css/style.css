@@ -395,3 +395,19 @@ h4 {
   z-index: 9999; /* Ensure it's above other elements */
   transition: width 0.2s ease; /* Smooth transition effect */
 }
+
+.settings-content {
+  background: rgba(59, 59, 59, 0.3);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;              
+  text-overflow: ellipsis;       
+  white-space: nowrap; 
+  max-height: calc(1.5em * 2);
+  margin: 5px 0;
+  word-break: break-word;
+  line-height: 1.5;     
+  font-size: 16px; 
+}

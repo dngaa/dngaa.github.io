@@ -27,11 +27,51 @@ document.addEventListener('DOMContentLoaded', () => {
     const applyChristmasTheme = () => {
         console.log("Applying Christmas theme");
         document.body.classList.add('christmas-theme');
+        
+        // Dynamically load Christmas script
+        const script = document.createElement('script');
+        script.type = 'text/javascript';
+        
+        // Determine script path based on current location
+        const currentPath = window.location.pathname;
+        script.src = currentPath.includes('/pages/') 
+            ? '../js/christmas.js'  // If in pages directory
+            : './js/christmas.js';  // If in root directory
+        
+        script.id = 'dynamic-particles-script';
+        
+        // Remove existing script if any
+        const existingScript = document.getElementById('dynamic-particles-script');
+        if (existingScript) {
+            existingScript.remove();
+        }
+        
+        document.head.appendChild(script);
     };
 
     const removeChristmasTheme = () => {
         console.log("Removing Christmas theme");
         document.body.classList.remove('christmas-theme');
+        
+        // Dynamically load Usual script
+        const script = document.createElement('script');
+        script.type = 'text/javascript';
+        
+        // Determine script path based on current location
+        const currentPath = window.location.pathname;
+        script.src = currentPath.includes('/pages/') 
+            ? '../js/usual.js'  // If in pages directory
+            : './js/usual.js';  // If in root directory
+        
+        script.id = 'dynamic-particles-script';
+        
+        // Remove existing script if any
+        const existingScript = document.getElementById('dynamic-particles-script');
+        if (existingScript) {
+            existingScript.remove();
+        }
+        
+        document.head.appendChild(script);
     };
 
     // Retrieve user's theme preference
@@ -83,16 +123,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (toggleCheckbox.checked) {
                 // User wants the theme
                 localStorage.setItem('christmasThemePreference', 'enabled');
-                
-                // Only apply theme if it's Christmas time
-                if (isWithinChristmasPeriod()) {
-                    applyChristmasTheme();
-                }
             } else {
                 // User doesn't want the theme
                 localStorage.setItem('christmasThemePreference', 'disabled');
-                removeChristmasTheme();
             }
+            location.reload(); // Reload the page
         });
     }
 });
