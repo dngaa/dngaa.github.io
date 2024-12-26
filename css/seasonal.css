@@ -44,18 +44,19 @@ body.christmas-theme #navbar {
   backdrop-filter: blur(2.5px);
 }
 
+body.christmas-theme li button {
+  color: rgb(0, 135, 50);
+}
+
 .selectButton:hover {
     border: none;
     background-color: #4e0a0a;
-    color: white;
+    color: rgb(0, 135, 50);
 }
 
 body.christmas-theme .selectedButton {
     background: rgb(0, 135, 50);
-}
-
-body.christmas-theme .selectable {
-  color: rgb(0, 135, 50);
+    color: black;
 }
 
 body.christmas-theme .selected {
