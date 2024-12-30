@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentMonth === 11 && currentDay >= 1 && currentDay <= 31) {
             return true;
         }
-        if (currentMonth === 0 && currentDay >= 1 && currentDay <= 15) {
+        if (currentMonth === 11 && currentDay >= 1 && currentDay <= 0) {
             return true;
         }
         return false;

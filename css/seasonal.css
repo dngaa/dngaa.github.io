@@ -5,7 +5,7 @@ body.christmas-theme body {
 
 body.christmas-theme .title {
   color: #ffcc00;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 body.christmas-theme .sidebar {
@@ -37,7 +37,6 @@ body.christmas-theme .sidebar::after {
 body.christmas-theme .sidebar ul li {
   background: rgba(0, 0, 0, 0.5); /* Black semi-transparent background */
   color: white;
-  padding: 10px;
   border-radius: 5px;
 }
 
@@ -51,8 +50,8 @@ body.christmas-theme .sidebar ul li:hover {
 body.christmas-theme .sidebar h2 {
   position: relative;
     font-size: 28px;
-    color: #ffcc00; /* Golden color */
-    text-shadow: 0px 0px 10px rgba(255, 204, 0, 0.8); /* Glow effect */
+    color: #ffcc00;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     margin-bottom: 20px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
@@ -122,8 +121,7 @@ body.christmas-theme .settings-content {
 
 body.christmas-theme .left-col img {
   border-radius: 50%; /* Circular frame */
-  box-shadow: 0px 0px 15px rgba(255, 204, 0, 0.8); /* Glow effect */
-  background: rgba(143, 143, 143, 0.8); /* Optional: Background behind the icon */
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Background behind the icon */
 }
 
 body.christmas-theme .left-col img:hover {
@@ -142,4 +140,15 @@ body.christmas-theme .left-col img:hover {
 
 body.christmas-theme .left-col img {
   animation: bounce 2s infinite;
+}
+
+
+body.christmas-theme .search-bar input[type="text"] {
+  color: #dddddd; /* Change placeholder text color */
+  opacity: 1; /* Ensure visibility */
+}
+
+body.christmas-theme .search-bar input[type="text"]::placeholder {
+  color: #dddddd; /* Change placeholder text color */
+  opacity: 1; /* Ensure visibility */
 }
