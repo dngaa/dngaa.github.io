@@ -4,107 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jet Yeh's | 404</title>
-    <link rel='icon' href="https://dngaa.github.io/img/favicon-32x32.png">
-    <link rel="stylesheet" href="https://dngaa.github.io/css/particles.css">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
-      * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        font-family: 'Press Start 2P';
-        color: #FFFFFF;
-        text-align: center;
-      }
-
-      body {
-        background-color: #000000;
-        background-image: url("data:image/svg+xml,%3Csvgxmlns='http://www.w3.org/2000/svg'width='42'height='58'viewBox='0 0 42 58'%3E%3Cg fill='%23dddcdd'fill-opacity='0.23'%3E%3Cpath fill-rule='evenodd'd='M12 18h12v18h6v4H18V22h-6v-4zm-6-2v-4H0V0h36v6h6v36h-6v4h6v12H6v-6H0V16h6zM34 2H2v8h24v24h8V2zM6 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm8 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM2 50h32v-8H10V18H2v32zm28-6a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0-8a2 2 0 1 0 0 4 2 2 0 0 0 0-4z'/%3E%3C/g%3E%3C/svg%3E");
-
-        }
-
-        section.notFound {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin: 0 5%;
-          height: 100vh;
-        }
-
-        section.notFound h1 {
-          color: red;
-          font-size: 100px;
-        }
-
-        section.notFound h2 {
-          font-size: 50px;
-        }
-
-        section.notFound h1,h2,h3 {
-          margin-bottom: 40px;
-        }
-
-        div.text {
-          height: 50vh;
-        }
-
-        div.text a {
-          text-decoration: none;
-          margin-right: 20px;
-        }
-
-        div.text a:hover {
-          color: red;
-          text-decoration: underline;
-        }
-
-        @media only screen and (max-width: 768px) {
-          section.notFound {
-            flex-direction: column;
-            justify-content: space-around;
-          }
-
-          section.notFound div.img img {
-            width: 50%; /* Adjust the size to be responsive */
-            max-width: 600px; /* Maximum width to maintain consistency */
-            height: auto; /* Maintain aspect ratio */
-          }
-
-          section.notFound h1 {
-            font-size: 50px;
-          }
-
-          section.notFound h2 {
-            font-size: 25px;
-          }
-
-          div.text a:active {
-            color: red;
-            text-decoration: underline;
-          }
-          
-          @media only screen and (max-width: 768px) {
-  section.notFound div.img img {
-    width: 70%; /* Adjust for tablets or smaller screens */
-    max-width: 300px; /* Further limit the maximum size */
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  section.notFound div.img img {
-    width: 90%; /* For mobile phones, use almost full width */
-    max-width: 200px; /* Maximum size for very small screens */
-  }
-}
-        }
-    </style>
+    <link rel='icon' href="img/favicon-32x32.png">
+    <link rel="stylesheet" href="css/404.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div id="particles-js"></div>
     <section class="notFound">
       <div class="img">
-        <img style="width:600px;" src="https://dngaa.github.io/img/404.png" alt="icon" />
+        <img style="width:600px;" src="img/404.png" alt="icon" />
       </div>
       <div class="text">
         <h1>404</h1>
@@ -121,7 +28,11 @@
         }
     </script>
 
-    <script type="text/javascript" src="https://dngaa.github.io/js/particles.js"></script>
-    <script type="text/javascript" src="https://dngaa.github.io/js/seasonal.js"></script>
+    <script type="text/javascript" src="js/seasonal.js"></script>
+    <!--tsParticles-->
+    <div id="tsparticles"></div>
+    <script src="/js/tsparticles.bundle.min.js"></script>
+    <script src="/js/app.js"></script>
+    <!--tsParticles-->
   </body>
 </html>
