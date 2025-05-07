@@ -1,98 +1,97 @@
 * {
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 .bodyMain {
-  background: opacity 1;
-  padding: 20px;
-  font-family: Arial;
+   background: opacity 1;
+   padding: 20px;
+   font-family: Arial;
 }
 
 /* Center website */
 .main {
-  max-width: 1000px;
-  margin: auto;
+   max-width: 1000px;
+   margin: auto;
 }
 
 .row {
-  margin: 20px 5px;
-    display: table;
-    width: 100%;
+   margin: 20px 5px;
+   display: table;
+   width: 100%;
 }
 
 .blogLink {
-    background-color: white;
-    color: black;
+   background-color: white;
+   color: black;
 }
 
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-  padding: 4px;
+   padding: 4px;
 }
 
 /* Create four equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 25.00%;
-  display: table-cell;
+   float: left;
+   width: 25.00%;
+   display: table-cell;
 }
-
 
 /* Clear floats after rows */ 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+   content: "";
+   display: table;
+   clear: both;
 }
 
 /* Content */
 .content {
-  color: white;
-  padding: 5px;
-  border-radius: 5px;
+   color: white;
+   padding: 5px;
+   border-radius: 5px;
 }
 
 .content h4 {
-         /* Use WebKit box model for multiline truncation */
-         /* Number of lines to display */
- /* Ensure vertical layout */
-  overflow: hidden;              /* Hide overflowing text */
-  text-overflow: ellipsis;       /* Add ellipsis at the end */
-  white-space: nowrap;           /* Ensure the text wraps */
-  font-size: 16px;               /* Adjust font size as needed */
-  line-height: 1.5;              /* Set line height for better spacing */
-  max-height: calc(1.5em * 2);   /* Limit height to match two lines */
-  margin: 5px 0;                 /* Add spacing around */
-  text-align: center;            /* Center-align text */
-  word-break: break-word;        /* Break long words */
+   /* Use WebKit box model for multiline truncation */
+   /* Number of lines to display */
+   /* Ensure vertical layout */
+   overflow: hidden;              /* Hide overflowing text */
+   text-overflow: ellipsis;       /* Add ellipsis at the end */
+   white-space: nowrap;           /* Ensure the text wraps */
+   font-size: 16px;               /* Adjust font size as needed */
+   line-height: 1.5;              /* Set line height for better spacing */
+   max-height: calc(1.5em * 2);   /* Limit height to match two lines */
+   margin: 5px 0;                 /* Add spacing around */
+   text-align: center;            /* Center-align text */
+   word-break: break-word;        /* Break long words */
 }
 
 .content:hover {
-  background: rgba(59, 59, 59, 0.3);
-  backdrop-filter: blur(2px);
+   background: rgba(59, 59, 59, 0.3);
+   backdrop-filter: blur(2px);
 }
 
 .content:active {
-  background: rgba(92, 92, 92, 0.3);
-  backdrop-filter: blur(2px);
+   background: rgba(92, 92, 92, 0.3);
+   backdrop-filter: blur(2px);
 }
 
 /* The "show" class is added to the filtered elements */
 .show {
-  display: block;
+   display: block;
 }
 
 @media screen and (max-width: 1000px) {
-.column {
-  float: left;
-  width: 33.33%;
-  }
+   .column {
+      float: left;
+      width: 33.33%;
+   }
 }
 
 @media screen and (max-width: 800px) {
-.column {
-  float: left;
-  width: 50.00%;
-  }
+   .column {
+      float: left;
+      width: 50.00%;
+   }
 }
