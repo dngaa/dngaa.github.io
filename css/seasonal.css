@@ -1,149 +1,148 @@
 /* Christmas theme style */
 body.christmas-theme body {
-  background: #00873E;
+   background: #00873E;
 }
 
 body.christmas-theme .title {
-  color: #ffcc00;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+   color: #ffcc00;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 body.christmas-theme .sidebar {
-  background: repeating-linear-gradient(
-        45deg,
-        rgba(255, 59, 63, 0.7),
-        rgba(255, 59, 63, 0.7) 10px,
-        rgba(255, 255, 255, 0.7) 10px,
-        rgba(255, 255, 255, 0.7) 20px
-    );
-  border-right: 5px solid #ffcc00; /* Gold border to enhance */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds a soft glowing effect */
+   background: repeating-linear-gradient(
+      45deg,
+      rgba(255, 59, 63, 0.7),
+      rgba(255, 59, 63, 0.7) 10px,
+      rgba(255, 255, 255, 0.7) 10px,
+      rgba(255, 255, 255, 0.7) 20px
+   );
+   border-right: 5px solid #ffcc00; /* Gold border to enhance */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds a soft glowing effect */
 }
 
 body.christmas-theme .sidebar::after {
-    content: 'Merry Christmas!';
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    width: 95%;
-    text-align: center;
-    font-size: 16px;
-    color: white;
-    background: rgba(0, 8, 35, 0.5);
-    padding: 5px;
-    border-top: 2px solid #ffcc00;
+   content: 'Merry Christmas!';
+   position: absolute;
+   bottom: 10px;
+   left: 0;
+   width: 95%;
+   text-align: center;
+   font-size: 16px;
+   color: white;
+   background: rgba(0, 8, 35, 0.5);
+   padding: 5px;
+   border-top: 2px solid #ffcc00;
 }
 
 body.christmas-theme .sidebar ul li {
-  background: white; /* Black semi-transparent background */
-  color: rgb(210, 38, 41);
-  border-radius: 5px;
+   background: white; /* Black semi-transparent background */
+   color: rgb(210, 38, 41);
+   border-radius: 5px;
 }
 
 body.christmas-theme .sidebar ul li:hover {
-  background: rgba(255, 255, 255);
-  color: rgb(210, 38, 41); /* Golden text on hover */
-  transition: background 0.3s, color 0.3s;
-  transform: scale(1.1); /* Slight zoom effect */
+   background: rgba(255, 255, 255);
+   color: rgb(210, 38, 41); /* Golden text on hover */
+   transition: background 0.3s, color 0.3s;
+   transform: scale(1.1); /* Slight zoom effect */
 }
 
 body.christmas-theme .sidebar h2 {
-  position: relative;
-    font-size: 28px;
-    color: #ffcc00;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-    margin-bottom: 20px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px;
+   position: relative;
+   font-size: 28px;
+   color: #ffcc00;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+   margin-bottom: 20px;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.5);
+   padding: 5px;
 }
 
 body.christmas-theme .sidebar h2::after {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60%;
-  height: 2px;
-  background: linear-gradient(90deg, red, green);
+   content: '';
+   position: absolute;
+   bottom: -10px;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 60%;
+   height: 2px;
+   background: linear-gradient(90deg, red, green);
 }
   
 body.christmas-theme .wrapper .sidebar ul a li.selectedButton {
-  background: rgb(210, 38, 41); /* Highlighted background for selected button */
-  color: white;
+   background: rgb(210, 38, 41); /* Highlighted background for selected button */
+   color: white;
 }
 
 body.christmas-theme::-webkit-scrollbar-thumb {
-  background: repeating-linear-gradient(
-        45deg,
-        rgba(255, 59, 63, 0.7),
-        rgba(255, 59, 63, 0.7) 10px,
-        rgba(255, 255, 255, 0.7) 10px,
-        rgba(255, 255, 255, 0.7) 20px
-    );
-    border-left: 5px solid #ffcc00; /* Gold border to enhance */
+   background: repeating-linear-gradient(
+      45deg,
+      rgba(255, 59, 63, 0.7),
+      rgba(255, 59, 63, 0.7) 10px,
+      rgba(255, 255, 255, 0.7) 10px,
+      rgba(255, 255, 255, 0.7) 20px
+   );
+   border-left: 5px solid #ffcc00; /* Gold border to enhance */
 }
 
 body.christmas-theme::-webkit-scrollbar-track {  
-  background-color: #00873E;
+   background-color: #00873E;
 }
 
 body.christmas-theme .alert {
-  background-color: rgb(210, 38, 41);
-  border-top: 5px solid #ffcc00;
+   background-color: rgb(210, 38, 41);
+   border-top: 5px solid #ffcc00;
 }
 
 body.christmas-theme #navbar {
-  background: rgba(57, 100, 255, 0.5);
-  backdrop-filter: blur(2.5px);
+   background: rgba(57, 100, 255, 0.5);
+   backdrop-filter: blur(2.5px);
 }
 
 body.christmas-theme .selectButton:hover {
-    border: none;
-    background-color: rgba(0, 8, 38, 0.5);
+   border: none;
+   background-color: rgba(0, 8, 38, 0.5);
 }
 
 body.christmas-theme .selectedButton {
-    background: #00d161;
+   background: #00d161;
 }
 
 body.christmas-theme input[type=text] {
-  border: 2px rgba(255, 255, 255, 0.5);
-  background-color: rgba(57, 100, 255, 0.5);
-  background-image: url('https://img.icons8.com/material-outlined/24/000000/search--v1.png');
+   border: 2px rgba(255, 255, 255, 0.5);
+   background-color: rgba(57, 100, 255, 0.5);
+   background-image: url('https://img.icons8.com/material-outlined/24/000000/search--v1.png');
 }
 
 body.christmas-theme .settings-content {
-  background: rgba(57, 100, 255, 0.5);
-  backdrop-filter: blur(2px);
+   background: rgba(57, 100, 255, 0.5);
+   backdrop-filter: blur(2px);
 }
 
 body.christmas-theme .left-col img {
-  border-radius: 50%; /* Circular frame */
-  background-color: rgba(0, 0, 0, 0.5); /* Optional: Background behind the icon */
+   border-radius: 50%; /* Circular frame */
+   background-color: rgba(0, 0, 0, 0.5); /* Optional: Background behind the icon */
 }
 
 @keyframes bounce {
-  0%, 100% {
+   0%, 100% {
       transform: translateY(0);
-  }
-  50% {
+   }
+   50% {
       transform: translateY(-10px);
-  }
+   }
 }
 
 body.christmas-theme .left-col img {
-  animation: bounce 2s infinite;
+   animation: bounce 2s infinite;
 }
 
-
 body.christmas-theme .search-bar input[type="text"] {
-  color: #dddddd; /* Change placeholder text color */
-  opacity: 1; /* Ensure visibility */
+   color: #dddddd; /* Change placeholder text color */
+   opacity: 1; /* Ensure visibility */
 }
 
 body.christmas-theme .search-bar input[type="text"]::placeholder {
-  color: #dddddd; /* Change placeholder text color */
-  opacity: 1; /* Ensure visibility */
+   color: #dddddd; /* Change placeholder text color */
+   opacity: 1; /* Ensure visibility */
 }
