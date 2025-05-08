@@ -22,13 +22,20 @@ document.addEventListener('DOMContentLoaded', () => {
    const currentDay = today.getDate();
 
    const isWithinChristmasPeriod = () => {
-      if (currentMonth === 11 && currentDay >= 1 && currentDay <= 31) {
-         return true;
+      return currentMonth === 11 && currentDay >= 1 && currentDay <= 31; // Valid between Dec 1-31
+   };
+
+   // Function to dynamically load and run the theme (a JS file)
+   const loadThemeScript = (scriptPath) => {
+      const existingScript = document.getElementById('dynamic-theme-script');
+      if (existingScript) {
+         existingScript.remove();
       }
-      if (currentMonth === 11 && currentDay >= 1 && currentDay <= 0) {
-         return true;
-      }
-      return false;
+      const script = document.createElement('script');
+      script.id = 'dynamic-theme-script';
+      script.src = scriptPath;
+      script.async = true;
+      document.head.appendChild(script);
    };
 
    const applyChristmasTheme = () => {
@@ -36,19 +43,9 @@ document.addEventListener('DOMContentLoaded', () => {
       document.body.classList.add('christmas-theme');
       updateIcon();
 
-      const script = document.createElement('script');
-      script.type = 'text/javascript';
-      const currentPath = window.location.pathname;
-      script.src = currentPath.includes('/pages/') 
-         ? '../js/christmas.js' 
-         : './js/christmas.js';
-      script.id = 'dynamic-particles-script';
-
-      const existingScript = document.getElementById('dynamic-particles-script');
-      if (existingScript) {
-         existingScript.remove();
-      }
-      document.head.appendChild(script);
+      // Load `christmas.js` for Christmas particle effects
+      const basePath = window.location.pathname.includes('/pages/') ? '../js/' : './js/';
+      loadThemeScript(`${basePath}christmas.js`);
    };
 
    const removeChristmasTheme = () => {
@@ -56,19 +53,9 @@ document.addEventListener('DOMContentLoaded', () => {
       document.body.classList.remove('christmas-theme');
       updateIcon();
 
-      const script = document.createElement('script');
-      script.type = 'text/javascript';
-      const currentPath = window.location.pathname;
-      script.src = currentPath.includes('/pages/') 
-         ? '../js/usual.js' 
-         : './js/usual.js';
-      script.id = 'dynamic-particles-script';
-
-      const existingScript = document.getElementById('dynamic-particles-script');
-      if (existingScript) {
-         existingScript.remove();
-      }
-      document.head.appendChild(script);
+      // Load `usual.js` for usual particle effects
+      const basePath = window.location.pathname.includes('/pages/') ? '../js/' : './js/';
+      loadThemeScript(`${basePath}usual.js`);
    };
 
    const storedThemePreference = localStorage.getItem('christmasThemePreference');
@@ -96,10 +83,11 @@ document.addEventListener('DOMContentLoaded', () => {
       toggleCheckbox.addEventListener('change', () => {
          if (toggleCheckbox.checked) {
             localStorage.setItem('christmasThemePreference', 'enabled');
+            applyChristmasTheme();
          } else {
             localStorage.setItem('christmasThemePreference', 'disabled');
+            removeChristmasTheme();
          }
-         location.reload();
       });
    }
 
