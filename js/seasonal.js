@@ -3,14 +3,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
    const isWithinChristmasPeriod = () => {
       const today = new Date();
-      const currentMonth = today.getMonth();
+      const currentMonth = today.getMonth(); // 0 = January, 11 = December
       const currentDay = today.getDate();
-      return currentMonth === 11 && currentDay >= 1 && currentDay <= 31;
+      return currentMonth === 11 && currentDay >= 1 && currentDay <= 31; // Valid between Dec 1-31
    };
 
    const updateIcon = () => {
       const iconElement = document.querySelector('.sidebar img[title="icon"]');
-      if (!iconElement) return;
+      if (!iconElement) return; // Safeguard in case the icon isn't found
+      // Adjust paths dynamically based on the current location
       const basePath = window.location.pathname.includes('/pages/') ? '../img/' : './img/';
       if (localStorage.getItem('christmasThemePreference') === 'enabled') {
          iconElement.src = `${basePath}icon-christmas.png`;
@@ -18,7 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
          iconElement.src = `${basePath}icon.png`;
       }
    };
-
+   
+   // Function to dynamically load and run the theme (a JS file)
    const loadThemeScript = (scriptPath) => {
       const existingScript = document.getElementById('dynamic-theme-script');
       if (existingScript) {
@@ -35,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log("Applying Christmas theme");
       document.body.classList.add('christmas-theme');
       updateIcon();
+      // Load `christmas.js` for Christmas particle effects
       const basePath = window.location.pathname.includes('/pages/') ? '../js/' : './js/';
       loadThemeScript(`${basePath}christmas.js`);
    };
@@ -43,6 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log("Removing Christmas theme");
       document.body.classList.remove('christmas-theme');
       updateIcon();
+      // Load `usual.js` for usual particle effects
       const basePath = window.location.pathname.includes('/pages/') ? '../js/' : './js/';
       loadThemeScript(`${basePath}usual.js`);
    };
@@ -77,5 +81,5 @@ document.addEventListener('DOMContentLoaded', () => {
       });
    }
 
-   updateIcon();
+   updateIcon(); // Ensure the icon is updated on load
 });
