@@ -1,31 +1,24 @@
 document.addEventListener('DOMContentLoaded', () => {
    console.log("Seasonal script initialized");
 
+   const isWithinChristmasPeriod = () => {
+      const today = new Date();
+      const currentMonth = today.getMonth();
+      const currentDay = today.getDate();
+      return currentMonth === 11 && currentDay >= 1 && currentDay <= 31;
+   };
+
    const updateIcon = () => {
       const iconElement = document.querySelector('.sidebar img[title="icon"]');
-      if (!iconElement) return; // Safeguard in case the icon isn't found
-
-      // Adjust paths dynamically based on the current location
+      if (!iconElement) return;
       const basePath = window.location.pathname.includes('/pages/') ? '../img/' : './img/';
-
-      if (isWithinChristmasPeriod() && localStorage.getItem('christmasThemePreference') === 'enabled') {
+      if (localStorage.getItem('christmasThemePreference') === 'enabled') {
          iconElement.src = `${basePath}icon-christmas.png`;
       } else {
          iconElement.src = `${basePath}icon.png`;
       }
    };
 
-   const toggleCheckbox = document.getElementById('christmas-theme-toggle');
-
-   const today = new Date();
-   const currentMonth = today.getMonth(); // 0 = January, 11 = December
-   const currentDay = today.getDate();
-
-   const isWithinChristmasPeriod = () => {
-      return currentMonth === 11 && currentDay >= 1 && currentDay <= 31; // Valid between Dec 1-31
-   };
-
-   // Function to dynamically load and run the theme (a JS file)
    const loadThemeScript = (scriptPath) => {
       const existingScript = document.getElementById('dynamic-theme-script');
       if (existingScript) {
@@ -42,8 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log("Applying Christmas theme");
       document.body.classList.add('christmas-theme');
       updateIcon();
-
-      // Load `christmas.js` for Christmas particle effects
       const basePath = window.location.pathname.includes('/pages/') ? '../js/' : './js/';
       loadThemeScript(`${basePath}christmas.js`);
    };
@@ -52,31 +43,26 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log("Removing Christmas theme");
       document.body.classList.remove('christmas-theme');
       updateIcon();
-
-      // Load `usual.js` for usual particle effects
       const basePath = window.location.pathname.includes('/pages/') ? '../js/' : './js/';
       loadThemeScript(`${basePath}usual.js`);
    };
 
+   const toggleCheckbox = document.getElementById('christmas-theme-toggle');
    const storedThemePreference = localStorage.getItem('christmasThemePreference');
 
-   if (isWithinChristmasPeriod()) {
-      if (storedThemePreference === null) {
-         applyChristmasTheme();
-         if (toggleCheckbox) toggleCheckbox.checked = true;
-         localStorage.setItem('christmasThemePreference', 'enabled');
-      } else if (storedThemePreference === 'enabled') {
-         applyChristmasTheme();
-         if (toggleCheckbox) toggleCheckbox.checked = true;
-      } else {
-         removeChristmasTheme();
-         if (toggleCheckbox) toggleCheckbox.checked = false;
-      }
+   if (storedThemePreference === 'enabled') {
+      applyChristmasTheme();
+      if (toggleCheckbox) toggleCheckbox.checked = true;
+   } else if (storedThemePreference === 'disabled') {
+      removeChristmasTheme();
+      if (toggleCheckbox) toggleCheckbox.checked = false;
+   } else if (isWithinChristmasPeriod()) {
+      applyChristmasTheme();
+      if (toggleCheckbox) toggleCheckbox.checked = true;
+      localStorage.setItem('christmasThemePreference', 'enabled');
    } else {
       removeChristmasTheme();
-      if (toggleCheckbox) {
-         toggleCheckbox.checked = storedThemePreference === 'enabled';
-      }
+      if (toggleCheckbox) toggleCheckbox.checked = false;
    }
 
    if (toggleCheckbox) {
@@ -91,5 +77,5 @@ document.addEventListener('DOMContentLoaded', () => {
       });
    }
 
-   updateIcon(); // Ensure the icon is updated on load
+   updateIcon();
 });
