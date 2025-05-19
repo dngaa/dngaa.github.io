@@ -21,10 +21,34 @@
             <a href="https://www.youtube.com/watch?v=G3AfIvJBcGo">NO</a>
          </div>
       </section>
+      <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.8.1/tsparticles.bundle.min.js"></script>
+      <script>
+         window.onload = function () {
+            tsParticles.load("tsparticles", {
+               particles: {
+                  number: { value: 80 },
+                  size: { value: 3 },
+                  color: { value: "#ffffff" },
+                  line_linked: {
+                     enable: true,
+                     distance: 150,
+                     color: "#ffffff",
+                     opacity: 0.4,
+                     width: 1
+                  }
+               },
+               interactivity: {
+                  events: {
+                     onhover: { enable: true, mode: "repulse" }
+                  }
+               }
+            });
+         };
+      </script>
       <script type="text/javascript" src="/js/seasonal.js"></script>
    </body>
-   <!--tsParticles-->
+   <!--tsParticles
    <div id="tsparticles"></div>
    <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.8.1/tsparticles.bundle.min.js"></script>
-   <!--tsParticles-->
+   tsParticles-->
 </html>
