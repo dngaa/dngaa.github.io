@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const iconElement = document.querySelector('.sidebar img[title="icon"]');
       if (!iconElement) return; // Safeguard in case the icon isn't found
       // Adjust paths dynamically based on the current location
-      const basePath = window.location.pathname.includes('/pages/') ? '../img/' : './img/';
+      const basePath = '/img/';
       if (localStorage.getItem('christmasThemePreference') === 'enabled') {
          iconElement.src = `${basePath}icon-christmas.png`;
       } else {
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
       updateIcon();
       // Load `christmas.js` for Christmas particle effects
       const basePath = window.location.pathname.includes('/pages/') ? '../js/' : './js/';
-      loadThemeScript(`${basePath}christmas.js`);
+      loadThemeScript('/js/christmas.js');
    };
 
    const removeChristmasTheme = () => {
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
       updateIcon();
       // Load `usual.js` for usual particle effects
       const basePath = window.location.pathname.includes('/pages/') ? '../js/' : './js/';
-      loadThemeScript(`${basePath}usual.js`);
+      loadThemeScript('/js/usual.js');
    };
 
    const toggleCheckbox = document.getElementById('christmas-theme-toggle');
