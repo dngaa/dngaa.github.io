@@ -1,3 +1,10 @@
+/*
+ * quotes.js
+ *
+ * This script fetches a random quote from a local JSON file and displays it on the page
+ * - uses a typewriter effect. The quote and author are randomly selected and typed out
+ * - character-by-character in a specified DOM element.
+ */
 async function fetchQuotes() {
    try {
       // Fetch the JSON file
