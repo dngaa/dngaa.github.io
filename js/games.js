@@ -38,7 +38,7 @@ const games = [
 },
 { // done
     "name": "A Dark Room",
-    "img": "img/a_dark_room.png",
+    "img": "img/cover-art/a_dark_room.png",
     "link": "/pages/player.html?src=/games/a-dark-room/",
     "classes": "all"
 },
