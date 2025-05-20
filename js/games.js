@@ -152,7 +152,7 @@ const games = [
 },
 { // done
     "name": "Bomberman Tournament",
-    "img": "img/cover-art/bomberman-tournament",
+    "img": "img/cover-art/bomberman-tournament.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23bomberman-tournament",
     "classes": "all gba"
 },
@@ -167,12 +167,6 @@ const games = [
     "img": "img/boxing-random.jpg",
     "link": "/games/boxing-random/",
     "classes": "all multi"
-},
-{
-    "name": "Bubble Bobble: Old and New",
-    "img": "img/place-holder.jpg",
-    "link": "/pages/player.html?src=/gba/launcher.html%23bubblebobble",
-    "classes": "all new gba"
 },
 {
     "name": "Bullet Bill",
