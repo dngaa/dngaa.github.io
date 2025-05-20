@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,62 +11,37 @@
    <link rel="icon" href="/img/favicon-32x32.png">
    <script src="/js/disguise.js"></script>
    <style>
-      html, body {
+      html,
+      body {
+         height: 100%;
          margin: 0;
          padding: 0;
-         height: 100%;
          background-color: black;
-         font-family: 'Open Sans', sans-serif;
       }
 
       .wrapper {
          display: flex;
-         height: 100vh;
-         width: 100vw;
+         height: 100%;
+         width: 100%;
          overflow: hidden;
       }
 
       .sidebar {
          width: 200px;
-         background-color: #1e1e1e;
-         color: white;
-         display: flex;
-         flex-direction: column;
-         padding: 20px 0;
-         box-sizing: border-box;
+         height: 100%;
          overflow-y: auto;
-      }
-
-      .sidebar h2 {
-         text-align: center;
-         margin-bottom: 20px;
-      }
-
-      .sidebar ul {
-         list-style: none;
-         padding: 0;
-         margin: 0;
-      }
-
-      .sidebar ul a {
-         color: white;
-         text-decoration: none;
-      }
-
-      .sidebar ul a li {
-         padding: 15px;
-         text-align: center;
-         transition: background 0.3s;
-         cursor: pointer;
-      }
-
-      .sidebar ul a li:hover {
-         background-color: #333;
+         flex-shrink: 0;
+         background-color: #1e1e1e;
+         position: relative;
+         z-index: 1;
       }
 
       .iframe-container {
          flex-grow: 1;
          height: 100%;
+         display: flex;
+         position: relative;
+         z-index: 0;
       }
 
       #game-frame {
@@ -76,23 +52,34 @@
       }
    </style>
 </head>
+
 <body>
    <div class="wrapper">
       <div class="sidebar">
          <h2>Jet Yeh's</h2>
          <ul>
-            <a href="/index.html"><li><i class="fa-solid fa-house"></i> Home</li></a>
-            <a href="https://github.com/dngaa/dngaa.github.io/issues/new?labels=bug&title=Bug%20Report"><li><i class="fa-solid fa-bug"></i> Bug Report</li></a>
-            <a href="https://github.com/dngaa/dngaa.github.io/issues/new?labels=game%20request&title=Game%20Request"><li><i class="fa-solid fa-ghost"></i> Game Request</li></a>
-            <a href="/pages/settings.html"><li><i class="fa-solid fa-gear"></i> Settings</li></a>
-            <li id="go-to-top-button"><i class="fa-solid fa-up-long"></i> Top</li>
+            <a href="/index.html">
+               <li class="selectedButton"><i class="fa-solid fa-house"></i> Home</li>
+            </a>
+            <a href="https://github.com/dngaa/dngaa.github.io/issues/new?labels=bug&title=Bug%20Report">
+               <li><i class="fa-solid fa-bug"></i> Bug Report</li>
+            </a>
+            <a href="https://github.com/dngaa/dngaa.github.io/issues/new?labels=game%20request&title=Game%20Request">
+               <li><i class="fa-solid fa-ghost"></i> Game Request</li>
+            </a>
+            <a href="/pages/settings.html">
+               <li><i class="fa-solid fa-gear"></i> Settings</li>
+            </a>
+            <a>
+               <li id="go-to-top-button"><i class="fa-solid fa-up-long"></i> Top</li>
+            </a>
          </ul>
          <div class="left-col">
-            <img src="/img/icon.png" width="180px" title="icon">
+            <img title="icon" src="/img/icon.png" width="199px">
          </div>
       </div>
 
-      <div class="iframe-container">
+      <div class="bodyMain">
          <iframe id="game-frame" src="" allowfullscreen></iframe>
       </div>
    </div>
@@ -100,11 +87,14 @@
    <script>
       const params = new URLSearchParams(window.location.search);
       const gameUrl = params.get("src");
-      if (gameUrl) {
+
+      const container = document.querySelector(".iframe-container");
+      if (gameUrl && container) {
          document.getElementById("game-frame").src = decodeURIComponent(gameUrl);
-      } else {
-         document.querySelector(".iframe-container").innerHTML = "<h1 style='color:white;text-align:center;margin:auto;'>No game selected.</h1>";
+      } else if (container) {
+         container.innerHTML = "<h1 style='color:white;text-align:center;margin:auto;'>No game selected.</h1>";
       }
    </script>
 </body>
+
 </html>
