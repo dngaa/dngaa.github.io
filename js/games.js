@@ -1,11 +1,18 @@
+/*
+ * games.js
+ *
+ * Hold data whick is used by renderGames.js
+ * classes = all gba flash multi new
+ */  
+
 const games = [
-{
+{ // done
     "name": "007",
-    "img": "img/007.jpg",
+    "img": "img/cover-art/007.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23007",
     "classes": "all gba"
 },
-{
+{ 
     "name": "1 on 1 Soccer",
     "img": "img/1-on-1-soccer.jpg",
     "link": "/pages/player.html?src=/flash/%3Fswf%3D1on1soccer.swf",
@@ -35,16 +42,16 @@ const games = [
     "link": "games/a-dark-room/",
     "classes": "all"
 },
-{
+{ // done
     "name": "Advance Wars",
-    "img": "img/advance-wars.jpg",
-    "link": "/pages/player.html?src=/gba/launcher.html%23advancewars",
+    "img": "img/cover-art/advance-wars.png",
+    "link": "/pages/player.html?src=/gba/launcher.html%23advance-wars",
     "classes": "all gba"
 },
-{
+{ // done
     "name": "Advance Wars 2",
-    "img": "img/Advance-Wars2.jpg",
-    "link": "/pages/player.html?src=/gba/launcher.html%23advancewars2",
+    "img": "img/cover-art/advance-wars-two.png",
+    "link": "/pages/player.html?src=/gba/launcher.html%23advance-wars-two",
     "classes": "all gba"
 },
 {
@@ -59,29 +66,17 @@ const games = [
     "link": "games/flash/?swf=ageofwar.swf",
     "classes": "all flash"
 },
-{
-    "name": "Aladdin",
-    "img": "img/aladdin.jpg",
-    "link": "/pages/player.html?src=/gba/launcher.html%23aladdin",
-    "classes": "all gba"
-},
-{
+{ // done
     "name": "Alien Hominid",
-    "img": "img/alien-hominid.jpg",
-    "link": "/pages/player.html?src=/gba/launcher.html%23alienhominid",
+    "img": "img/cover-art/alien-hominid.png",
+    "link": "/pages/player.html?src=/gba/launcher.html%23alien-hominid",
     "classes": "all gba"
 },
-{
-    "name": "Among Us Clicker",
-    "img": "img/among-us-clicker.jpg",
-    "link": "https://amonguredimposter.github.io/Among-U-Red-Imposter-Clicker/",
-    "classes": "all"
-},
-{
+{ // done
     "name": "Atari Anniversary Advance",
-    "img": "img/atari.jpg",
+    "img": "img/cover-art/atari.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23atari",
-    "classes": "all new gba"
+    "classes": "all gba"
 },
 {
     "name": "Bad Ice-Cream",
@@ -149,17 +144,17 @@ const games = [
     "link": "games/flash/?swf=bloxorz.swf",
     "classes": "all flash"
 },
-{
+{ // done
     "name": "Bomberman Max 2 Blue Advance",
-    "img": "img/place-holder.jpg",
-    "link": "/pages/player.html?src=/gba/launcher.html%23bomberman_max2blue",
-    "classes": "all new gba"
+    "img": "img/cover-art/bomberman-blue.png",
+    "link": "/pages/player.html?src=/gba/launcher.html%23bomberman-blue",
+    "classes": "all gba"
 },
-{
+{ // done
     "name": "Bomberman Tournament",
-    "img": "img/place-holder.jpg",
-    "link": "/pages/player.html?src=/gba/launcher.html%23bomberman_tournament",
-    "classes": "all new gba"
+    "img": "img/cover-art/bomberman-tournament",
+    "link": "/pages/player.html?src=/gba/launcher.html%23bomberman-tournament",
+    "classes": "all gba"
 },
 {
     "name": "Bounce Back",
@@ -233,23 +228,23 @@ const games = [
     "link": "games/craftmine/",
     "classes": "all"
 },
-{
+{ 
     "name": "Crash Bandicoot 2",
-    "img": "img/place-holder.jpg",
-    "link": "/pages/player.html?src=/gba/launcher.html%23cb2",
-    "classes": "all new gba"
+    "img": "img/cover-art/crash-two.png",
+    "link": "/pages/player.html?src=/gba/launcher.html%23crash-two",
+    "classes": "all gba"
 },
 {
-    "name": "Crash Bandicoot: Huge Adventure",
-    "img": "img/place-holder.jpg",
-    "link": "/pages/player.html?src=/gba/launcher.html%23cbha",
-    "classes": "all new gba"
+    "name": "Crash Bandicoot: The Huge Adventure",
+    "img": "img/cover-art/crash-adventure.png",
+    "link": "/pages/player.html?src=/gba/launcher.html%23crash-rampage",
+    "classes": "all gba"
 },
 {
     "name": "Crash Bandicoot: Ripto's Rampage",
-    "img": "img/place-holder.jpg",
-    "link": "/pages/player.html?src=/gba/launcher.html%23cbprr",
-    "classes": "all new gba"
+    "img": "img/cover-art/crash-rampage.png",
+    "link": "/pages/player.html?src=/gba/launcher.html%23crash-rampage",
+    "classes": "all gba"
 },
 {
     "name": "Connect Four: Perfection",
@@ -1818,3 +1813,4 @@ const games = [
     "classes": "all new gba"
 }
 ];
+
