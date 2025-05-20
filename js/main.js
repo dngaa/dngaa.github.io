@@ -38,6 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
       progress.style.background = `conic-gradient(#A61414 ${scrollValue}%, #3D3D3D ${scrollValue}%)`;
    });
 
+   window.dispatchEvent(new Event('scroll'));
+
    // Game filtering
    filterSelection("all");
 
