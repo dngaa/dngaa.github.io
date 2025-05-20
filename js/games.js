@@ -481,7 +481,7 @@ const games = [
 },
 {
     "name": "Family Feud",
-    "img": "img/",
+    "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23ffeud",
     "classes": "all new gba"
 },
