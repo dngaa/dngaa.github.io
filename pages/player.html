@@ -10,8 +10,21 @@
    <link rel='icon' href="/img/favicon-32x32.png">
    <script src="/js/disguise.js"></script>
    <style>
+      *, *::before, *::after {
+         box-sizing: border-box;
+      }
+      html, body {
+         margin: 0;
+         padding: 0;
+         width: 100%;
+         height: 100%;
+         overflow: hidden;
+         background: black;
+      }
       iframe {
-         flex: 1;
+         position: absolute;
+         top: 0;
+         left: 0;
          width: 100%;
          height: 100%;
          border: none;
@@ -45,7 +58,7 @@
          </ul>
          </div>
          <div class="left-col">
-            <img title="icon" src="/img/icon.png" width="160px">
+            <img title="icon" src="/img/icon.png" width="199px">
          </div>
       </div>
 
