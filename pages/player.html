@@ -22,6 +22,8 @@
       .wrapper {
          display: flex;
          height: 100%;
+         width: 100%;
+         overflow: hidden;
       }
 
       .sidebar {
@@ -29,18 +31,24 @@
          height: 100%;
          overflow-y: auto;
          flex-shrink: 0;
+         background-color: #1e1e1e;
+         position: relative;
+         z-index: 1;
       }
 
       .iframe-container {
          flex-grow: 1;
          height: 100%;
          display: flex;
+         position: relative;
+         z-index: 0;
       }
 
       #game-frame {
          width: 100%;
          height: 100%;
          border: none;
+         display: block;
       }
    </style>
 </head>
