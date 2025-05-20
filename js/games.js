@@ -54,35 +54,35 @@ const games = [
     "link": "/pages/player.html?src=/gba/launcher.html%23advance_wars_2",
     "classes": "all gba"
 },
-{
+{ // done
     "name": "Adventure Capitalist",
-    "img": "img/adventure-capitalist.jpg",
-    "link": "/games/adventure-capitalist/",
+    "img": "img/cover-art/adventure_capitalist.png",
+    "link": "/pages/player.html?src=/games/adventure-capitalist/",
     "classes": "all"
 },
-{
+{ // done
     "name": "Age of War",
-    "img": "img/age-of-war.jpg",
-    "link": "games/flash/?swf=ageofwar.swf",
+    "img": "img/cover-art/age_of_war.png",
+    "link": "/pages/player.html?src=/flash/%3Fswf%ageofwar.swf",
     "classes": "all flash"
 },
-{ 
+{ // done
     "name": "Alien Hominid",
     "img": "img/cover-art/alien_hominid.png",
-    "link": "/pages/player.html?src=/gba/launcher.html%23alien-hominid",
+    "link": "/pages/player.html?src=/gba/launcher.html%23alien_hominid",
     "classes": "all gba"
 },
-{ 
+{ // done
     "name": "Atari Anniversary Advance",
     "img": "img/cover-art/atari.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23atari",
     "classes": "all gba"
 },
-{
+{ // done
     "name": "Bad Ice-Cream",
-    "img": "img/badicecream.jpg",
-    "link": "/games/badicecream/",
-    "classes": "all new multi"
+    "img": "img/cover-art/bad_ice_cream.png",
+    "link": "/pages/player.html?src=/games/badicecream/",
+    "classes": "all multi"
 },
 {
     "name": "Bad Ice-Cream 2",
