@@ -2,31 +2,31 @@ const games = [
     {
         "name": "007",
         "img": "img/007.jpg",
-        "link": "https://dngaa.github.io/pages/player.html?src=/GBA/launcher.html%23007",
+        "link": "/pages/player.html?src=/gba/launcher.html%23007",
         "classes": "all gba"
     },
     {
         "name": "1 on 1 Soccer",
         "img": "img/1-on-1-soccer.jpg",
-        "link": "https://dngaa.github.io/pages/player.html?src=/flash/%3Fswf%3D1on1soccer.swf",
+        "link": "/pages/player.html?src=/flash/%3Fswf%3D1on1soccer.swf",
         "classes": "all flash"
     },
     {
         "name": "2048",
         "img": "img/2048.jpg",
-        "link": "games/2048/",
+        "link": "/pages/player.html?src=/games/2048/",
         "classes": "all"
     },
     {
         "name": "60 Second Burger Run",
         "img": "img/60sburgerrun.jpg",
-        "link": "/games/60sburgerrun/",
+        "link": "/pages/player.html?src=/games/60sburgerrun/",
         "classes": "all"
     },
     {
         "name": "8 Ball Pool",
         "img": "img/8-ball-pool.jpg",
-        "link": "games/8ball/",
+        "link": "/pages/player.html?src=/games/8ball/",
         "classes": "all sport"
     },
     {
