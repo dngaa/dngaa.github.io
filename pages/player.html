@@ -2,33 +2,113 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>Game Loader | Jet Yeh's</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link rel="stylesheet" href="/css/style.css">
+   <link rel="stylesheet" href="/css/index.css">
+   <link rel='icon' href="/img/favicon-32x32.png">
    <script src="/js/disguise.js"></script>
    <style>
-      *, *::before, *::after {
-         box-sizing: border-box;
-      }
-      html, body {
+      * {
          margin: 0;
          padding: 0;
-         width: 100%;
+         box-sizing: border-box;
+      }
+
+      html, body {
          height: 100%;
          overflow: hidden;
+         font-family: sans-serif;
          background: black;
       }
-      iframe {
-         position: absolute;
-         top: 0;
-         left: 0;
-         width: 100%;
+
+      .wrapper {
+         display: flex;
+         height: 100vh;
+         width: 100vw;
+      }
+
+      .sidebar {
+         width: 200px;
+         background: rgba(24, 24, 24, 0.9);
+         color: white;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+      }
+
+      .sidebar h2 {
+         text-align: center;
+         padding: 20px 10px;
+         font-size: 20px;
+         border-bottom: 1px solid #444;
+      }
+
+      .sidebar ul {
+         list-style: none;
+         padding: 0;
+         margin: 0;
+      }
+
+      .sidebar ul a {
+         text-decoration: none;
+         color: white;
+      }
+
+      .sidebar ul li {
+         padding: 12px 20px;
+         border-bottom: 1px solid #333;
+         cursor: pointer;
+      }
+
+      .sidebar ul li:hover {
+         background-color: #333;
+      }
+
+      .left-col {
+         padding: 10px;
+         text-align: center;
+      }
+
+      .main_content {
+         flex: 1;
+         display: flex;
+         flex-direction: column;
          height: 100%;
+         background: black;
+      }
+
+      iframe {
+         flex: 1;
+         width: 100%;
          border: none;
          display: block;
       }
    </style>
 </head>
 <body>
-   <iframe id="game-frame" src="" allowfullscreen></iframe>
+   <div class="wrapper">
+      <div class="sidebar">
+         <div>
+            <h2>Jet Yeh's</h2>
+            <ul>
+               <a href="/index.html"><li><i class="fa-solid fa-house"></i> Home</li></a>
+               <a href="https://github.com/dngaa/dngaa.github.io/issues/new?labels=bug&title=Bug%20Report"><li><i class="fa-solid fa-bug"></i> Bug Report</li></a>
+               <a href="https://github.com/dngaa/dngaa.github.io/issues/new?labels=game%20request&title=Game%20Request"><li><i class="fa-solid fa-ghost"></i> Game Request</li></a>
+               <a href="pages/settings.html"><li><i class="fa-solid fa-gear"></i> Settings</li></a>
+               <a><li id="go-to-top-button"><i class="fa-solid fa-up-long"></i> Top</li></a>
+            </ul>
+         </div>
+         <div class="left-col">
+            <img title="icon" src="/img/icon.png" width="160px">
+         </div>
+      </div>
+
+      <div class="main_content">
+         <iframe id="game-frame" src="" allowfullscreen></iframe>
+      </div>
+   </div>
 
    <script>
       const params = new URLSearchParams(window.location.search);
@@ -37,7 +117,7 @@
       if (gameUrl) {
          document.getElementById("game-frame").src = decodeURIComponent(gameUrl);
       } else {
-         document.body.innerHTML = "<h1 style='color:white;text-align:center;margin-top:20%;'>No game selected.</h1>";
+         document.querySelector(".main_content").innerHTML = "<h1 style='color:white;text-align:center;margin-top:20%;'>No game selected.</h1>";
       }
    </script>
 </body>
