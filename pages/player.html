@@ -11,8 +11,7 @@
    <link rel="icon" href="/img/favicon-32x32.png">
    <script src="/js/disguise.js"></script>
    <style>
-      html,
-      body {
+      html, body {
          height: 100%;
          margin: 0;
          padding: 0;
@@ -30,18 +29,16 @@
          width: 200px;
          height: 100%;
          overflow-y: auto;
-         flex-shrink: 0;
          background-color: #1e1e1e;
-         position: relative;
          z-index: 1;
+         flex-shrink: 0;
       }
 
-      .iframe-container {
+      .bodyMain {
          flex-grow: 1;
          height: 100%;
-         display: flex;
-         position: relative;
          z-index: 0;
+         display: flex;
       }
 
       #game-frame {
@@ -88,11 +85,11 @@
       const params = new URLSearchParams(window.location.search);
       const gameUrl = params.get("src");
 
-      const container = document.querySelector(".iframe-container");
-      if (gameUrl && container) {
-         document.getElementById("game-frame").src = decodeURIComponent(gameUrl);
-      } else if (container) {
-         container.innerHTML = "<h1 style='color:white;text-align:center;margin:auto;'>No game selected.</h1>";
+      const iframe = document.getElementById("game-frame");
+      if (gameUrl && iframe) {
+         iframe.src = decodeURIComponent(gameUrl);
+      } else if (iframe) {
+         iframe.outerHTML = "<h1 style='color:white;text-align:center;margin:auto;'>No game selected.</h1>";
       }
    </script>
 </body>
