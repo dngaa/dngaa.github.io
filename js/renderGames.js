@@ -6,11 +6,6 @@
  * Renders first 8 with 220ms delay, rest with 60ms delay.
  */
 
-// Inject disguise.js for all pages that include renderGames.js (i.e., game pages)
-const disguiseScript = document.createElement("script");
-disguiseScript.src = "/js/disguise.js";  // path from /games/ to /js/
-document.head.appendChild(disguiseScript);
-
 const container = document.getElementById("game-container");
 
 games.forEach((game, index) => {
