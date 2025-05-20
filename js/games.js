@@ -68,7 +68,7 @@ const games = [
 {
     "name": "Alien Hominid",
     "img": "img/alien-hominid.jpg",
-    "link": "/pages/player.html?src=/gba/launcher.html%23akienhominid",
+    "link": "/pages/player.html?src=/gba/launcher.html%23alienhominid",
     "classes": "all gba"
 },
 {
@@ -78,14 +78,8 @@ const games = [
     "classes": "all"
 },
 {
-    "name": "Atari",
-    "img": "img/atari.jpg",
-    "link": "games/gba/launcher.html#atari",
-    "classes": "all gba"
-},
-{
     "name": "Atari Anniversary Advance",
-    "img": "img/place-holder.jpg",
+    "img": "img/atari.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23atari",
     "classes": "all new gba"
 },
@@ -252,13 +246,13 @@ const games = [
     "classes": "all new gba"
 },
 {
-    "name": "Crash Bandicoot: Purple Ripto's Rampage",
+    "name": "Crash Bandicoot: Ripto's Rampage",
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23cbprr",
     "classes": "all new gba"
 },
 {
-    "name": "Crash Fusion: Purple + Orange",
+    "name": "Connect Four: Perfection",
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23cfpt",
     "classes": "all new gba"
@@ -324,7 +318,7 @@ const games = [
     "classes": "all"
 },
 {
-    "name": "Dexter's Laboratory: Deesaster Strikes!",
+    "name": "Duke Nukem Advance",
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23dna",
     "classes": "all new gba"
@@ -336,7 +330,7 @@ const games = [
     "classes": "all new gba"
 },
 {
-    "name": "Disney's Magical Quest",
+    "name": "Dr Mario & Puzzle League",
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23dmpl",
     "classes": "all new gba"
@@ -444,7 +438,7 @@ const games = [
     "classes": "all new gba"
 },
 {
-    "name": "Ecks vs. Sever",
+    "name": "Pokemon: Emerald",
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23eprp",
     "classes": "all new gba"
@@ -487,7 +481,7 @@ const games = [
 },
 {
     "name": "Family Feud",
-    "img": "img/place-holder.jpg",
+    "img": "img/",
     "link": "/pages/player.html?src=/gba/launcher.html%23ffeud",
     "classes": "all new gba"
 },
@@ -542,13 +536,7 @@ const games = [
 {
     "name": "Final Fantasy IV (S)",
     "img": "img/place-holder.jpg",
-    "link": "/pages/player.html?src=/gba/launcher.html%23ff4s",
-    "classes": "all new gba"
-},
-{
-    "name": "Final Fantasy IV Advance",
-    "img": "img/place-holder.jpg",
-    "link": "/pages/player.html?src=/gba/launcher.html%23ff4",
+    "link": "/pages/player.html?src=/gba/launcher.html%23ff4S",
     "classes": "all new gba"
 },
 {
@@ -642,7 +630,7 @@ const games = [
     "classes": "all new"
 },
 {
-    "name": "Gaia: The Ultimate RPG",
+    "name": "Pokemon: Gaia",
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23gaia",
     "classes": "all new gba"
@@ -660,25 +648,25 @@ const games = [
     "classes": "all"
 },
 {
-    "name": "Gba Video Pokemon 1",
+    "name": "Pokemon Video 1",
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23gba_video_pokemon_1",
     "classes": "all new gba"
 },
 {
-    "name": "Gba Video Pokemon 2",
+    "name": "Pokemon Video 2",
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23gba_video_pokemon_2",
     "classes": "all new gba"
 },
 {
-    "name": "Gba Video Pokemon 3",
+    "name": "Pokemon Video 3",
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23gba_video_pokemon_3",
     "classes": "all new gba"
 },
 {
-    "name": "Gba Video Pokemon 4",
+    "name": "Pokemon Video 4",
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23gba_video_pokemon_4",
     "classes": "all new gba"
@@ -690,7 +678,7 @@ const games = [
     "classes": "all multi"
 },
 {
-    "name": "Goldensun",
+    "name": "Golden Sun",
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23goldensun",
     "classes": "all new gba"
@@ -726,21 +714,21 @@ const games = [
     "classes": "all new gba"
 },
 {
-    "name": "Hamtaro Heartbreak",
+    "name": "Hamtaro Ham-Ham Heartbreak",
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23hamtaro_heartbreak",
     "classes": "all new gba"
 },
 {
-    "name": "Hnmfmt",
+    "name": "Harvest Moon: Friends of Mineral Town",
     "img": "img/place-holder.jpg",
-    "link": "/pages/player.html?src=/gba/launcher.html%23hnmfmt",
+    "link": "/pages/player.html?src=/gba/launcher.html%23hmfmt",
     "classes": "all new gba"
 },
 {
-    "name": "Hnmfmtt",
+    "name": "Harvest Moon: More Friends of Mineral Town",
     "img": "img/place-holder.jpg",
-    "link": "/pages/player.html?src=/gba/launcher.html%23hnmfmtt",
+    "link": "/pages/player.html?src=/gba/launcher.html%23hmmfmt",
     "classes": "all new gba"
 },
 {
@@ -792,19 +780,19 @@ const games = [
     "classes": "all"
 },
 {
-    "name": "Iridion",
+    "name": "Iridion 3D",
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23iridion",
     "classes": "all new gba"
 },
 {
-    "name": "Jbn",
+    "name": "007: Nightfire",
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23jbn",
     "classes": "all new gba"
 },
 {
-    "name": "Jca",
+    "name": "Jackie Chan: Legend of the Dark Hand",
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23jca",
     "classes": "all new gba"
