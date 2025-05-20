@@ -30,28 +30,28 @@ const games = [
     "link": "/pages/player.html?src=/games/60sburgerrun/",
     "classes": "all"
 },
-{
+{ // done
     "name": "8 Ball Pool",
-    "img": "img/8-ball-pool.jpg",
+    "img": "img/cover-art/8_ball.png",
     "link": "/pages/player.html?src=/games/8ball/",
-    "classes": "all sport"
+    "classes": "all multi"
 },
-{
+{ // done
     "name": "A Dark Room",
-    "img": "img/a-dark-room.jpg",
-    "link": "games/a-dark-room/",
+    "img": "img/a_dark_room.png",
+    "link": "/pages/player.html?src=/games/a-dark-room/",
     "classes": "all"
 },
-{ 
+{ // done
     "name": "Advance Wars",
     "img": "img/cover-art/advance_wars.png",
-    "link": "/pages/player.html?src=/gba/launcher.html%23advance-wars",
+    "link": "/pages/player.html?src=/gba/launcher.html%23advance_wars",
     "classes": "all gba"
 },
-{ 
+{ // done
     "name": "Advance Wars 2",
-    "img": "img/cover-art/advance_wars_two.png",
-    "link": "/pages/player.html?src=/gba/launcher.html%23advance-wars-two",
+    "img": "img/cover-art/advance_wars_2.png",
+    "link": "/pages/player.html?src=/gba/launcher.html%23advance_wars_2",
     "classes": "all gba"
 },
 {
