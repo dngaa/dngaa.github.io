@@ -12,21 +12,21 @@ const games = [
     "link": "/pages/player.html?src=/gba/launcher.html%23007",
     "classes": "all gba"
 },
-{ 
+{ // done
     "name": "1 on 1 Soccer",
-    "img": "img/1-on-1-soccer.jpg",
+    "img": "img/cover-art/1_on_1_soccer.png",
     "link": "/pages/player.html?src=/flash/%3Fswf%3D1on1soccer.swf",
-    "classes": "all flash"
+    "classes": "all multi flash"
 },
-{
+{ // done
     "name": "2048",
-    "img": "img/2048.jpg",
+    "img": "img/cover-art/2048.png",
     "link": "/pages/player.html?src=/games/2048/",
     "classes": "all"
 },
 {
-    "name": "60 Second Burger Run",
-    "img": "img/60sburgerrun.jpg",
+    "name": "60 Seconds Burger Run",
+    "img": "img/cover-art/60_seconds_burger_run.png",
     "link": "/pages/player.html?src=/games/60sburgerrun/",
     "classes": "all"
 },
@@ -42,13 +42,13 @@ const games = [
     "link": "games/a-dark-room/",
     "classes": "all"
 },
-{ // done
+{ 
     "name": "Advance Wars",
     "img": "img/cover-art/advance-wars.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23advance-wars",
     "classes": "all gba"
 },
-{ // done
+{ 
     "name": "Advance Wars 2",
     "img": "img/cover-art/advance-wars-two.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23advance-wars-two",
@@ -66,13 +66,13 @@ const games = [
     "link": "games/flash/?swf=ageofwar.swf",
     "classes": "all flash"
 },
-{ // done
+{ 
     "name": "Alien Hominid",
     "img": "img/cover-art/alien-hominid.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23alien-hominid",
     "classes": "all gba"
 },
-{ // done
+{ 
     "name": "Atari Anniversary Advance",
     "img": "img/cover-art/atari.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23atari",
@@ -144,13 +144,13 @@ const games = [
     "link": "games/flash/?swf=bloxorz.swf",
     "classes": "all flash"
 },
-{ // done
+{ 
     "name": "Bomberman Max 2 Blue Advance",
     "img": "img/cover-art/bomberman-blue.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23bomberman-blue",
     "classes": "all gba"
 },
-{ // done
+{ 
     "name": "Bomberman Tournament",
     "img": "img/cover-art/bomberman-tournament.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23bomberman-tournament",
