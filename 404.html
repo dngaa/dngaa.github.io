@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Jet Yeh's | 404</title>
-      <link rel='icon' href="/img/favicon-32x32.png">
-      <link rel="stylesheet" href="/css/404.css">
-      <link rel="stylesheet" href="/css/style.css">
-   </head>
-   <body>
-      <section class="notFound">
-         <div class="img">
-            <img style="width:600px;" src="/img/404.png" alt="icon" />
-         </div>
-         <div class="text">
-            <h1>404</h1>
-            <h2>PAGE NOT FOUND</h2>
-            <h3>BACK TO HOME?</h3>
-            <a onclick href="/" class="yes">YES</a>
-            <a href="https://www.youtube.com/watch?v=G3AfIvJBcGo">NO</a>
-         </div>
-      </section>
-      <script src="/js/disguise.js"></script>
-      <script type="text/javascript" src="/js/seasonal.js"></script>
-   </body>
-   <!--tsParticles-->
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Jet Yeh's | 404</title>
+
+   <script>
+      // Dynamically get the root of the repo (e.g., /, /dngaa/, /myrepo/)
+      const repoRoot = "/" + window.location.pathname.split("/")[1] + "/";
+      document.write(`
+         <link rel="icon" href="${repoRoot}img/favicon-32x32.png">
+         <link rel="stylesheet" href="${repoRoot}css/404.css">
+         <link rel="stylesheet" href="${repoRoot}css/style.css">
+      `);
+   </script>
+</head>
+<body>
+   <section class="notFound">
+      <div class="img">
+         <img id="err-img" style="width:600px;" alt="404 image">
+      </div>
+      <div class="text">
+         <h1>404</h1>
+         <h2>PAGE NOT FOUND</h2>
+         <h3>BACK TO HOME?</h3>
+         <a href="/" class="yes">YES</a>
+         <a href="https://www.youtube.com/watch?v=G3AfIvJBcGo">NO</a>
+      </div>
+   </section>
+
+   <script>
+      const repoBase = "/" + window.location.pathname.split("/")[1] + "/";
+      document.getElementById("err-img").src = repoBase + "img/404.png";
+
+      ["js/disguise.js", "js/seasonal.js"].forEach(script => {
+         const s = document.createElement("script");
+         s.src = repoBase + script;
+         document.body.appendChild(s);
+      });
+   </script>
+
+   <!-- tsParticles (remains static, it's from CDN) -->
    <div id="tsparticles"></div>
    <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.8.1/tsparticles.bundle.min.js"></script>
-   <!--tsParticles-->
+</body>
 </html>

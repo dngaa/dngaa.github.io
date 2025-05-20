@@ -38,13 +38,13 @@ const games = [
 {
     "name": "Advance Wars",
     "img": "img/advance-wars.jpg",
-    "link": "games/gba/launcher.html#advancewars",
+    "link": "/pages/player.html?src=/gba/launcher.html%23advancewars",
     "classes": "all gba"
 },
 {
     "name": "Advance Wars 2",
     "img": "img/Advance-Wars2.jpg",
-    "link": "games/gba/launcher.html#advancewars2",
+    "link": "/pages/player.html?src=/gba/launcher.html%23advancewars2",
     "classes": "all gba"
 },
 {
@@ -62,13 +62,13 @@ const games = [
 {
     "name": "Aladdin",
     "img": "img/aladdin.jpg",
-    "link": "games/gba/launcher.html#aladdin",
+    "link": "/pages/player.html?src=/gba/launcher.html%23aladdin",
     "classes": "all gba"
 },
 {
     "name": "Alien Hominid",
     "img": "img/alien-hominid.jpg",
-    "link": "games/gba/launcher.html#alienhominid",
+    "link": "/pages/player.html?src=/gba/launcher.html%23akienhominid",
     "classes": "all gba"
 },
 {
@@ -710,14 +710,8 @@ const games = [
 {
     "name": "Grand Theft Auto",
     "img": "img/gta.jpg",
-    "link": "games/gba/launcher.html#gta",
-    "classes": "all gba"
-},
-{
-    "name": "Gta",
-    "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23gta",
-    "classes": "all new gba"
+    "classes": "all gba"
 },
 {
     "name": "GunBlood",
@@ -1100,7 +1094,7 @@ const games = [
 {
     "name": "Monopoly",
     "img": "img/monoply.jpg",
-    "link": "games/gba/launcher.html#monopoly",
+    "link": "/pages/player.html?src=/gba/launcher.html%23monopoly",
     "classes": "all gba multi"
 },
 {
@@ -1246,12 +1240,6 @@ const games = [
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23pokemon_emerald",
     "classes": "all new gba"
-},
-{
-    "name": "Pokemon FireRed",
-    "img": "img/pokemon-Fired-Red.jpg",
-    "link": "games/gba/launcher.html#pokemonred",
-    "classes": "all gba"
 },
 {
     "name": "Pokemon Florsky",
@@ -1436,7 +1424,7 @@ const games = [
 {
     "name": "Sonic Advance",
     "img": "img/sonic-Advance.jpg",
-    "link": "games/gba/launcher.html#sonic_advance",
+    "link": "/pages/player.html?src=/gba/launcher.html%23sonic_advance",
     "classes": "all gba"
 },
 {
@@ -1530,12 +1518,6 @@ const games = [
     "classes": "all"
 },
 {
-    "name": "Super Monkey Ball Jr",
-    "img": "img/super-Monkey-Ball.jpg",
-    "link": "games/gba/launcher.html#supermonkeyballjr",
-    "classes": "all gba"
-},
-{
     "name": "Super Street Fighter 2 Turbo",
     "img": "img/place-holder.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23super_street_fighter_2_turbo",
@@ -1579,7 +1561,7 @@ const games = [
 },
 {
     "name": "Supermonkeyballjr",
-    "img": "img/place-holder.jpg",
+    "img": "img/super-Monkey-Ball.jpg",
     "link": "/pages/player.html?src=/gba/launcher.html%23supermonkeyballjr",
     "classes": "all new gba"
 },
@@ -1640,7 +1622,7 @@ const games = [
 {
     "name": "Tetris Worlds",
     "img": "img/tetris-Worlds.jpg",
-    "link": "games/gba/launcher.html#tetris_worlds",
+    "link": "/pages/player.html?src=/gba/launcher.html%23tetris_worlds",
     "classes": "all gba"
 },
 {
