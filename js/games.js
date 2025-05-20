@@ -24,7 +24,7 @@ const games = [
     "link": "/pages/player.html?src=/games/2048/",
     "classes": "all"
 },
-{
+{ // done
     "name": "60 Seconds Burger Run",
     "img": "img/cover-art/60_seconds_burger_run.png",
     "link": "/pages/player.html?src=/games/60sburgerrun/",
