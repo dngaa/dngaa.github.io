@@ -1,27 +1,46 @@
 document.addEventListener("DOMContentLoaded", () => {
    const checkbox = document.getElementById("gc-disguise-toggle");
 
-   // Apply disguise if previously set to true
-   if (localStorage.getItem("gcDisguise") === "true") {
+   const enableDisguise = () => {
       document.title = "Google Classroom";
+
+      let link = document.querySelector("link[rel~='icon']");
+      if (!link) {
+         link = document.createElement("link");
+         link.rel = "icon";
+         document.head.appendChild(link);
+      }
+      link.href = "/img/favicon-gc-16x16.png";
+   };
+
+   const disableDisguise = () => {
+      document.title = "Jet Yeh's";
+
+      let link = document.querySelector("link[rel~='icon']");
+      if (link) {
+         link.href = "/img/favicon-32x32.png"; // default icon
+      }
+   };
+
+   if (localStorage.getItem("gcDisguise") === "true") {
+      enableDisguise();
       if (checkbox) checkbox.checked = true;
    }
 
-   // Only add listener if checkbox exists (to prevent errors on pages without it)
    if (checkbox) {
       checkbox.addEventListener("change", () => {
          if (checkbox.checked) {
             localStorage.setItem("gcDisguise", "true");
-            document.title = "Google Classroom";
+            enableDisguise();
          } else {
             localStorage.setItem("gcDisguise", "false");
-            document.title = "Jet Yeh's"; // or your default page title
+            disableDisguise();
          }
       });
    } else {
-      // Still apply the disguise on pages that don't have the checkbox but use this script
+      // Fallback if disguise is on but no checkbox exists
       if (localStorage.getItem("gcDisguise") === "true") {
-         document.title = "Google Classroom";
+         enableDisguise();
       }
    }
 });
