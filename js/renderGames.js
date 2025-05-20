@@ -1,10 +1,9 @@
-
-/**
+/*
  * renderGames.js
  *
  * Dynamically renders the games defined in games.js into the #game-container.
  * Applies a fade-in animation with increasing delay from top to bottom.
- * Slower animation version for smoother appearance.
+ * Renders first 8 with 220ms delay, rest with 60ms delay.
  */
 
 const container = document.getElementById("game-container");
@@ -16,7 +15,9 @@ games.forEach((game, index) => {
    div.style.opacity = 0;
    div.style.transform = "translateY(30px)";
    div.style.transition = "opacity 0.8s ease, transform 0.8s ease";
-   div.style.transitionDelay = (index * 40) + "ms";
+
+   const delay = index < 8 ? index * 220 : (8 * 220) + ((index - 8) * 60);
+   div.style.transitionDelay = delay + "ms";
 
    div.innerHTML = `
       <a class="blogLink" href="${game.link}">

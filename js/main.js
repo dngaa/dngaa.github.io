@@ -1,4 +1,4 @@
-/**
+/*
  * main.js
  *
  * Handles interactive functionality for the Jet Yeh game website.

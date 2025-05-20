@@ -1,82 +1,80 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>Settings | Jet Yeh's</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-      <link rel="stylesheet" href="../css/index.css">
-      <link rel="stylesheet" href="../css/style.css">
-      <link rel="stylesheet" href="../css/blogDexStyle.css">
-      <link rel="stylesheet" href="../css/seasonal.css">
-      <link rel='icon' href="../img/favicon-32x32.png">
-   </head>
-   <body>
-      <div id="loading-bar"></div>
-      <div class="wrapper">
-         <div class="sidebar">
-            <h2>Jet Yeh's</h2>
-            <ul>
-               <a href="../index.html">
-                  <li><i class="fa-solid fa-house"></i> Home</li>
-               </a>
-               <a href="report.html">
-                  <li><i class="fa-solid fa-bug"></i> Bug Report</li>
-               </a>
-               <a href="request.html">
-                  <li><i class="fa-solid fa-ghost"></i> Game Request</li>
-               </a>
-               <a href="settings.html">
-                  <li class="selectedButton"><i class="fa-solid fa-gear"></i> Settings</li>
-               </a>
-               <a>
-                  <li id="go-to-top-button"><i class="fa-solid fa-up-long"></i> Top</li>
-               </a>
-            </ul>
-            <div class="left-col">
-               <img title="icon" src="../img/icon.png" width="199px">
+
+<head>
+   <title>Settings | Jet Yeh's</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link rel="stylesheet" href="../css/index.css">
+   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="../css/blogDexStyle.css">
+   <link rel="stylesheet" href="../css/seasonal.css">
+   <link rel='icon' href="../img/favicon-32x32.png">
+</head>
+
+<body>
+   <div id="loading-bar"></div>
+   <div class="wrapper">
+      <div class="sidebar">
+         <h2>Jet Yeh's</h2>
+         <ul>
+            <a href="../index.html">
+               <li><i class="fa-solid fa-house"></i> Home</li>
+            </a>
+            <a
+               href="https://github.com/dngaa/dngaa.github.io/issues/new?labels=bug&title=Bug%20Report&body=-%20**Describe%20the%20bug**%20A%20clear%20and%20concise%20description%20of%20what%20the%20bug%20is.%0A-%20**To%20Reproduce**%20Steps%20to%20reproduce%20the%20behavior%3A%0A%20%20%201.%20Go%20to%20...%0A%20%20%202.%20Click%20on%20...%0A%20%20%203.%20Scroll%20down%20to%20...%0A%20%20%204.%20See%20error%0A-%20**Expected%20behavior**%20A%20clear%20and%20concise%20description%20of%20what%20you%20expected%20to%20happen.%0A-%20**Screenshots**%20If%20applicable%2C%20add%20screenshots%20to%20help%20explain%20your%20problem.%0A-%20**Environment**%20(please%20complete%20the%20following%20information)%3A%0A%20%20%20-%20OS%3A%20%0A%20%20%20-%20Browser%3A%20%0A%20%20%20-%20Version%3A%20%0A-%20**Additional%20context**%20Add%20any%20other%20context%20about%20the%20problem%20here.">
+               <li><i class="fa-solid fa-bug"></i> Bug Report</li>
+            </a>
+            <a
+               href="https://github.com/dngaa/dngaa.github.io/issues/new?labels=game%20request&title=Game%20Request&body=-%20**Game%20Title**%3A%20The%20name%20of%20the%20game%20you%20would%20like%20to%20request.%0A-%20**Description**%3A%20Why%20do%20you%20want%20this%20game%3F%20What%20features%20or%20gameplay%20elements%20are%20important%3F%0A-%20**Source%20Code**%3A%20If%20available%2C%20please%20provide%20a%20link%20to%20the%20original%20game%20source%20code.%0A-%20**Additional%20Notes**%3A%20Any%20extra%20details%20or%20context%20about%20the%20request.">
+               <li><i class="fa-solid fa-ghost"></i> Game Request</li>
+            </a>
+            <a href=" ">
+               <li class="selectedButton"><i class="fa-solid fa-gear"></i> Settings</li>
+            </a>
+            <a>
+               <li id="go-to-top-button"><i class="fa-solid fa-up-long"></i> Top</li>
+            </a>
+         </ul>
+         <div class="left-col">
+            <img title="icon" src="../img/icon.png" width="199px">
+         </div>
+      </div>
+   </div>
+   <div class="main_content">
+      <h1>
+         <div class="title">
+            Settings
+         </div>
+      </h1>
+      <div class="main">
+         <!-- Portfolio Gallery Grid -->
+         <div class="row">
+            <div class="settings-column">
+               <div class="settings-content">
+                  <input id="christmas-theme-toggle" type="checkbox">
+                  <label for="christmas-theme-toggle">
+                     Seasonal Theme (Beta)
+                  </label>
+               </div>
+            </div>
+            <div class="settings-column">
+               <div class="settings-content">
+                  <input id="gc-disguise-toggle" type="checkbox">
+                  <label for="gc-disguise-toggle">
+                     Google Classroom Disguise (Early Beta)
+                  </label>
+               </div>
             </div>
          </div>
       </div>
-      <div class="main_content">
-         <h1>
-            <div class="title">
-               Settings
-            </div>
-         </h1>
-         <div class="main">
-            <!-- Portfolio Gallery Grid -->
-            <div class="row">
-               <div class="settings-column">
-                  <div class="settings-content">
-                    <input id="christmas-theme-toggle" type="checkbox">
-                    <label for="christmas-theme-toggle">
-                      Seasonal Theme (Beta)
-                    </label>
-                  </div>
-                </div>
-                <div class="settings-column">
-                  <div class="settings-content">
-                    <label for="upload-background">
-                      Upload your own background (WIP)
-                    </label>
-                    <input id="upload-background" type="file" accept="image/*">
-                  </div>
-                </div>
-                <div class="settings-column">
-                  <div class="settings-content">
-                    <input type="checkbox">
-                    <label for="google-classroom-disguise">
-                      Google Classroom Disguise (WIP)
-                    </label>
-                  </div>
-                </div>
-            </div>
-         </div>
-      </div>
-      <script type="text/javascript" src="../js/main.js"></script>
-      <script type="text/javascript" src="../js/seasonal.js"></script>
-   </body>
-   <!--tsParticles-->
-   <div id="tsparticles"></div>
-   <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.8.1/tsparticles.bundle.min.js"></script>
-   <!--tsParticles-->
+   </div>
+   <script src="../js/disguise.js"></script>
+   <script type="text/javascript" src="../js/main.js"></script>
+   <script type="text/javascript" src="../js/seasonal.js"></script>
+</body>
+<!--tsParticles-->
+<div id="tsparticles"></div>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@3.8.1/tsparticles.bundle.min.js"></script>
+<!--tsParticles-->
+
 </html>
