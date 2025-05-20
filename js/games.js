@@ -44,13 +44,13 @@ const games = [
 },
 { 
     "name": "Advance Wars",
-    "img": "img/cover-art/advance-wars.png",
+    "img": "img/cover-art/advance_wars.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23advance-wars",
     "classes": "all gba"
 },
 { 
     "name": "Advance Wars 2",
-    "img": "img/cover-art/advance-wars-two.png",
+    "img": "img/cover-art/advance_wars_two.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23advance-wars-two",
     "classes": "all gba"
 },
@@ -68,7 +68,7 @@ const games = [
 },
 { 
     "name": "Alien Hominid",
-    "img": "img/cover-art/alien-hominid.png",
+    "img": "img/cover-art/alien_hominid.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23alien-hominid",
     "classes": "all gba"
 },
@@ -146,13 +146,13 @@ const games = [
 },
 { 
     "name": "Bomberman Max 2 Blue Advance",
-    "img": "img/cover-art/bomberman-blue.png",
+    "img": "img/cover-art/bomberman_blue.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23bomberman-blue",
     "classes": "all gba"
 },
 { 
     "name": "Bomberman Tournament",
-    "img": "img/cover-art/bomberman-tournament.png",
+    "img": "img/cover-art/bomberman_tournament.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23bomberman-tournament",
     "classes": "all gba"
 },
@@ -224,19 +224,19 @@ const games = [
 },
 { 
     "name": "Crash Bandicoot 2",
-    "img": "img/cover-art/crash-two.png",
+    "img": "img/cover-art/crash_two.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23crash-two",
     "classes": "all gba"
 },
 {
     "name": "Crash Bandicoot: The Huge Adventure",
-    "img": "img/cover-art/crash-adventure.png",
+    "img": "img/cover-art/crash_adventure.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23crash-rampage",
     "classes": "all gba"
 },
 {
     "name": "Crash Bandicoot: Ripto's Rampage",
-    "img": "img/cover-art/crash-rampage.png",
+    "img": "img/cover-art/crash_rampage.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23crash-rampage",
     "classes": "all gba"
 },
