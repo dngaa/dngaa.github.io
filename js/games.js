@@ -224,7 +224,7 @@ const games = [
 },
 { 
     "name": "Crash Bandicoot 2",
-    "img": "img/cover-art/crash_two.png",
+    "img": "img/cover-art/crash_2.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23cb2",
     "classes": "all gba"
 },
