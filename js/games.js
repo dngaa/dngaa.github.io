@@ -63,7 +63,7 @@ const games = [
 { // done
     "name": "Age of War",
     "img": "img/cover-art/age_of_war.png",
-    "link": "/pages/player.html?src=/flash/%3Fswf%ageofwar.swf",
+    "link": "/pages/player.html?src=/flash/%3Fswf%3Dageofwar.swf",
     "classes": "all flash"
 },
 { // done
@@ -84,17 +84,17 @@ const games = [
     "link": "/pages/player.html?src=/games/badicecream/",
     "classes": "all multi"
 },
-{
+{ // done
     "name": "Bad Ice-Cream 2",
-    "img": "img/badicecream2.jpg",
-    "link": "/games/badicecream2/",
-    "classes": "all new multi"
+    "img": "img/cover-art/bad_ice_cream_2.png",
+    "link": "/pages/player.html?src=/games/badicecream2/",
+    "classes": "all multi"
 },
-{
+{ // done
     "name": "Bad Ice-Cream 3",
-    "img": "img/badicecream3.jpg",
-    "link": "/games/badicecream3/",
-    "classes": "all new multi"
+    "img": "img/cover-art/bad_ice_cream_3.png",
+    "link": "/pages/player.html?src=/games/badicecream3/",
+    "classes": "all multi"
 },
 {
     "name": "Basket Random",
