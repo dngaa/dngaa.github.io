@@ -45,13 +45,13 @@ const games = [
 { // done
     "name": "Advance Wars",
     "img": "img/cover-art/advance_wars.png",
-    "link": "/pages/player.html?src=/gba/launcher.html%23advance_wars",
+    "link": "/pages/player.html?src=/gba/launcher.html%23advancewars",
     "classes": "all gba"
 },
 { // done
     "name": "Advance Wars 2",
     "img": "img/cover-art/advance_wars_2.png",
-    "link": "/pages/player.html?src=/gba/launcher.html%23advance_wars_2",
+    "link": "/pages/player.html?src=/gba/launcher.html%23advancewars2",
     "classes": "all gba"
 },
 { // done
@@ -69,7 +69,7 @@ const games = [
 { // done
     "name": "Alien Hominid",
     "img": "img/cover-art/alien_hominid.png",
-    "link": "/pages/player.html?src=/gba/launcher.html%23alien_hominid",
+    "link": "/pages/player.html?src=/gba/launcher.html%23alienhominid",
     "classes": "all gba"
 },
 { // done
@@ -147,13 +147,13 @@ const games = [
 { 
     "name": "Bomberman Max 2 Blue Advance",
     "img": "img/cover-art/bomberman_blue.png",
-    "link": "/pages/player.html?src=/gba/launcher.html%23bomberman-blue",
+    "link": "/pages/player.html?src=/gba/launcher.html%23bomberman_max2blue",
     "classes": "all gba"
 },
 { 
     "name": "Bomberman Tournament",
     "img": "img/cover-art/bomberman_tournament.png",
-    "link": "/pages/player.html?src=/gba/launcher.html%23bomberman-tournament",
+    "link": "/pages/player.html?src=/gba/launcher.html%23bomberman_tournament",
     "classes": "all gba"
 },
 {
@@ -225,19 +225,19 @@ const games = [
 { 
     "name": "Crash Bandicoot 2",
     "img": "img/cover-art/crash_two.png",
-    "link": "/pages/player.html?src=/gba/launcher.html%23crash-two",
+    "link": "/pages/player.html?src=/gba/launcher.html%23cb2",
     "classes": "all gba"
 },
 {
     "name": "Crash Bandicoot: The Huge Adventure",
     "img": "img/cover-art/crash_adventure.png",
-    "link": "/pages/player.html?src=/gba/launcher.html%23crash-rampage",
+    "link": "/pages/player.html?src=/gba/launcher.html%23cbha",
     "classes": "all gba"
 },
 {
     "name": "Crash Bandicoot: Ripto's Rampage",
     "img": "img/cover-art/crash_rampage.png",
-    "link": "/pages/player.html?src=/gba/launcher.html%23crash-rampage",
+    "link": "/pages/player.html?src=/gba/launcher.html%23cbprr",
     "classes": "all gba"
 },
 {
