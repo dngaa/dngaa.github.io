@@ -212,7 +212,7 @@ const games = [
 },
 {
     "name": "Cookie Clicker",
-    "img": "img/cookie_clicker.png",
+    "img": "img/cover-art/cookie_clicker.png",
     "link": "games/cookie-clicker/",
     "classes": "all"
 },
