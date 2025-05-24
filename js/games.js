@@ -110,7 +110,7 @@ const games = [
 },
 {
     "name": "Big Tower Tiny Square",
-    "img": "img/cover-art/big_tower_tiny_square",
+    "img": "img/cover-art/big_tower_tiny_square.png",
     "link": "games/btts/index.html",
     "classes": "all"
 },
@@ -182,7 +182,7 @@ const games = [
 },
 {
     "name": "Chess",
-    "img": "img/cover-art/chess.jpg",
+    "img": "img/cover-art/chess.png",
     "link": "/games/chess/",
     "classes": "all new multi"
 },
@@ -206,13 +206,13 @@ const games = [
 },
 {
     "name": "Clicker Heroes",
-    "img": "img/cover-art/clicker_heroes.jpg",
+    "img": "img/cover-art/clicker_heroes.png",
     "link": "/games/clickerheroes/",
     "classes": "all new"
 },
 {
     "name": "Cookie Clicker",
-    "img": "img/cookie_clicker.jpg",
+    "img": "img/cookie_clicker.png",
     "link": "games/cookie-clicker/",
     "classes": "all"
 },
