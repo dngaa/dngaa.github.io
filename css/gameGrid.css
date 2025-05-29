@@ -1,0 +1,57 @@
+* {
+   box-sizing: border-box;
+}
+
+.row {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 3px;
+}
+
+.row > * {
+   max-width: 300px; /* must be same px count as minmax */
+   justify-self: center;
+}
+
+.bodyMain {
+   background: opacity 1;
+   padding: 20px;
+   font-family: Arial;
+}
+
+.main {
+   max-width: 100%;
+   margin: auto;
+   padding: 0 20px;
+}
+
+.content {
+   color: white;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+.content img {
+   height: 180px;
+}
+
+.content h4 {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   word-break: break-word;
+}
+
+.content:hover {
+   background: rgba(59, 59, 59, 0.3);
+   backdrop-filter: blur(2px);
+}
+
+.content:active {
+   background: rgba(92, 92, 92, 0.3);
+   backdrop-filter: blur(2px);
+}
+
+.show {
+   display: block;
+}
