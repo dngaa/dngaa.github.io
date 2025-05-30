@@ -25,3 +25,7 @@ Originial Website:
 
 <b>V6</b>
 ![v6](img/archive/v6.png)<hr>
+
+<b>V7</b>
+![v7](img/archive/v7.png)<hr>
+
