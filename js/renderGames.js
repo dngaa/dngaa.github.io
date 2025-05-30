@@ -20,7 +20,7 @@ games.forEach((game, index) => {
    div.style.transitionDelay = delay + "ms";
 
    div.innerHTML = `
-      <a class="blogLink" href="${game.link}">
+      <a href="${game.link}">
          <div class="content">
             <img loading="lazy" src="${game.img}" alt="${game.name}" style="width:100%">
             <h4>${game.name}</h4>

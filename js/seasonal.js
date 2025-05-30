@@ -7,7 +7,7 @@
  * - The user's preference is saved using localStorage.
  * - Applies seasonal styling and dynamically loads related particle effects (e.g., snow).
  * - Updates the site icon based on the current theme and time of year.
-*/
+ */
 
 document.addEventListener('DOMContentLoaded', () => {
    console.log("Seasonal script initialized");
