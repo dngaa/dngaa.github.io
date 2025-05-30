@@ -210,10 +210,10 @@ const games = [
     "link": "/games/clickerheroes/",
     "classes": "all new"
 },
-{
+{ // done
     "name": "Cookie Clicker",
     "img": "img/cover-art/cookie_clicker.png",
-    "link": "games/cookie-clicker/",
+    "link": "/pages/player.html?src=/games/cookie-clicker/",
     "classes": "all"
 },
 {
@@ -222,27 +222,27 @@ const games = [
     "link": "games/craftmine/",
     "classes": "all"
 },
-{ 
+{ // done
     "name": "Crash Bandicoot 2",
     "img": "img/cover-art/crash_2.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23cb2",
     "classes": "all gba"
 },
-{
+{ // done
     "name": "Crash Bandicoot: The Huge Adventure",
     "img": "img/cover-art/crash_adventure.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23cbha",
     "classes": "all gba"
 },
-{
+{ // done
     "name": "Crash Bandicoot: Ripto's Rampage",
     "img": "img/cover-art/crash_rampage.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23cbprr",
     "classes": "all gba"
 },
-{
+{ // done
     "name": "Connect Four: Perfection",
-    "img": "img/place-holder.jpg",
+    "img": "img/cover-art/connect_four_perfection.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23cfpt",
     "classes": "all new gba"
 },
