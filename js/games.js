@@ -246,33 +246,33 @@ const games = [
     "link": "/pages/player.html?src=/gba/launcher.html%23cfpt",
     "classes": "all new gba"
 },
-{
+{ // done
     "name": "Crash Nitro Kart",
-    "img": "img/place-holder.jpg",
+    "img": "img/cover-art/crash_nitro_kart.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23cnk",
     "classes": "all new gba"
 },
-{
+{ // done
     "name": "Croket! 1",
-    "img": "img/place-holder.jpg",
+    "img": "img/cover-art/croket!_1.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23croket1",
     "classes": "all new gba"
 },
-{
+{ // done
     "name": "Croket! 2",
-    "img": "img/place-holder.jpg",
+    "img": "img/cover-art/croket!_2.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23croket2",
     "classes": "all new gba"
 },
-{
+{ // done
     "name": "Croket! 3",
-    "img": "img/place-holder.jpg",
+    "img": "img/cover-art/croket!_3.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23croket3",
     "classes": "all new gba"
 },
-{
+{ // done
     "name": "Croket! 4",
-    "img": "img/place-holder.jpg",
+    "img": "img/cover-art/croket!_4.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23croket4",
     "classes": "all new gba"
 },
