@@ -96,34 +96,34 @@ const games = [
     "link": "/pages/player.html?src=/games/badicecream3/",
     "classes": "all multi"
 },
-{
+{ // done
     "name": "Basket Random",
-    "img": "img/basketball-random.jpg",
-    "link": "/games/basket-random/",
+    "img": "img/cover-art/basketball_random.jpg",
+    "link": "/pages/player.html?src=/games/basket-random/",
     "classes": "all multi"
 },
-{
-    "name": "Basketball Legends",
-    "img": "img/basketball-Legends.jpg",
-    "link": "games/basketball-stars/",
+{ // done
+    "name": "Basketball Stars",
+    "img": "img/cover-art/basketball_stars.png",
+    "link": "/pages/player.html?src=/games/basketball-stars/",
     "classes": "all multi sport"
 },
-{
+{ // done
     "name": "Big Tower Tiny Square",
     "img": "img/cover-art/big_tower_tiny_square.png",
     "link": "/pages/player.html?src=/games/btts/",
     "classes": "all"
 },
-{
+{ // done
     "name": "BitLife",
-    "img": "img/bitlife.jpg",
-    "link": "/games/bitlife/",
+    "img": "img/cover-art/bitlife.jpg",
+    "link": "/pages/player.html?src=/games/bitlife/",
     "classes": "all"
 },
-{
+{ // done
     "name": "Black Hole Square",
-    "img": "img/black-hole-square.jpg",
-    "link": "games/black-hole-square/",
+    "img": "img/cover-art/black_hole_square.png",
+    "link": "/pages/player.html?src=/games/black-hole-square/",
     "classes": "all"
 },
 {
