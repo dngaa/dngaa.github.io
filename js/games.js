@@ -111,7 +111,7 @@ const games = [
 {
     "name": "Big Tower Tiny Square",
     "img": "img/cover-art/big_tower_tiny_square.png",
-    "link": "games/btts/index.html",
+    "link": "/pages/player.html?src=/games/btts/",
     "classes": "all"
 },
 {
@@ -150,7 +150,7 @@ const games = [
     "link": "/pages/player.html?src=/gba/launcher.html%23bomberman_max2blue",
     "classes": "all gba"
 },
-{ 
+{
     "name": "Bomberman Tournament",
     "img": "img/cover-art/bomberman_tournament.png",
     "link": "/pages/player.html?src=/gba/launcher.html%23bomberman_tournament",
@@ -180,10 +180,10 @@ const games = [
     "link": "games/cell-machine/",
     "classes": "all"
 },
-{
+{ // done
     "name": "Chess",
     "img": "img/cover-art/chess.png",
-    "link": "/games/chess/",
+    "link": "/pages/player.html?src=/games/chess/",
     "classes": "all new multi"
 },
 {
@@ -192,10 +192,10 @@ const games = [
     "link": "games/choppyorc/docs/",
     "classes": "all edd"
 },
-{
+{ // done
     "name": "Chrome Dinosaur",
-    "img": "img/dino.jpg",
-    "link": "games/cover-art/chrome-dino/",
+    "img": "img/cover-art/chrome_dino.png",
+    "link": "/pages/player.html?src=/games/chrome-dino/",
     "classes": "all"
 },
 {
