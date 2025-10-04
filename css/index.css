@@ -1,6 +1,6 @@
 .alert {
    padding: 20px;
-   background-color: rgb(166,20,20, .6);
+   background-color: rgb(166, 20, 20, 0.6);
    backdrop-filter: blur(2.5px);
    color: white;
    margin-bottom: 15px;
@@ -12,7 +12,7 @@
 }
 
 .closebtn {
-   top:100px;
+   top: 100px;
    margin-left: 15px;
    color: white;
    font-weight: bold;
@@ -24,7 +24,7 @@
 }
 
 .closebtn:hover {
-   color: rgb(48, 48, 48); 
+   color: rgb(48, 48, 48);
 }
 
 #progress {
@@ -86,20 +86,20 @@
    list-style-type: none;
    margin-top: -15px;
    padding: 0;
-   background: rgb(24, 24, 24, .7);
+   background: rgb(24, 24, 24, 0.7);
    backdrop-filter: blur(2.5px);
    font-size: 0;
    list-style-type: none;
    top: 0;
-   z-index:300;
+   z-index: 300;
 }
 
 .nav {
    display: inline-block;
 }
-  
+
 .selectButton {
-   background: rgba(24, 24, 24, 0.00);
+   background: rgba(24, 24, 24, 0);
    color: white;
    border: none;
    display: inline-block;
@@ -108,7 +108,7 @@
    text-decoration: none;
    font-size: initial;
    cursor: pointer;
-   z-index:300;
+   z-index: 300;
 }
 
 .selectButton:hover {
@@ -133,22 +133,22 @@
    display: inline-block;
 }
 
-input[type=text] {
+input[type="text"] {
    outline: none;
    width: 130px;
-   float:top;
+   float: top;
    box-sizing: border-box;
    border: 2px solid darkgrey;
    font-size: 16px;
    background-color: #ccc;
-   background-image: url('https://img.icons8.com/material-outlined/24/000000/search--v1.png');
-   background-position: 10px 10px; 
+   background-image: url("https://img.icons8.com/material-outlined/24/000000/search--v1.png");
+   background-position: 10px 10px;
    background-repeat: no-repeat;
    padding: 12px 20px 12px 48px;
    transition: width 0.4s ease-in-out;
 }
 
-input[type=text]:focus {
+input[type="text"]:focus {
    width: 100%;
 }
 

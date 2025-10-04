@@ -16,7 +16,7 @@ games.forEach((game, index) => {
    div.style.transform = "translateY(30px)";
    div.style.transition = "opacity 0.8s ease, transform 0.8s ease";
 
-   const delay = index < 8 ? index * 220 : (8 * 220) + ((index - 8) * 60);
+   const delay = index < 8 ? index * 220 : 8 * 220 + (index - 8) * 60;
    div.style.transitionDelay = delay + "ms";
 
    div.innerHTML = `

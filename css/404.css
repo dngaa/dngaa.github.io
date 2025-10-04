@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 * {
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-   font-family: 'Press Start 2P';
-   color: #FFFFFF;
+   font-family: "Press Start 2P";
+   color: #ffffff;
    text-align: center;
 }
 

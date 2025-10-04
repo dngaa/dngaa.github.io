@@ -38,13 +38,13 @@ document.addEventListener("DOMContentLoaded", () => {
       progress.style.background = `conic-gradient(#A61414 ${scrollValue}%, #3D3D3D ${scrollValue}%)`;
    });
 
-   window.dispatchEvent(new Event('scroll'));
+   window.dispatchEvent(new Event("scroll"));
 
    // Game filtering
    filterSelection("all");
 
-   const buttons = document.getElementsByClassName('selectable');
-   const games = document.getElementsByClassName('gameDiv');
+   const buttons = document.getElementsByClassName("selectable");
+   const games = document.getElementsByClassName("gameDiv");
 
    function filterSelection(c) {
       const x = document.getElementsByClassName("column");
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
    function w3RemoveClass(element, name) {
       let arr1 = element.className.split(" ");
       const arr2 = name.split(" ");
-      arr1 = arr1.filter(cls => !arr2.includes(cls));
+      arr1 = arr1.filter((cls) => !arr2.includes(cls));
       element.className = arr1.join(" ");
    }
 
@@ -79,23 +79,23 @@ document.addEventListener("DOMContentLoaded", () => {
       for (let i = 0; i < buttons.length; i++) {
          const buttonName = buttons[i].getAttribute("name");
          if (selectedTopic === buttonName) {
-            buttons[i].classList.add('selectedButton');
-            buttons[i].classList.remove('selectButton');
+            buttons[i].classList.add("selectedButton");
+            buttons[i].classList.remove("selectButton");
          } else {
-            buttons[i].classList.remove('selectedButton');
-            buttons[i].classList.add('selectButton');
+            buttons[i].classList.remove("selectedButton");
+            buttons[i].classList.add("selectButton");
          }
       }
 
       for (let i = 0; i < games.length; i++) {
          games[i].style.display = games[i].classList.contains(selectedTopic) ? "" : "none";
       }
-   }
+   };
 
    window.searchFunction = function () {
-      const input = document.getElementById('myinput');
+      const input = document.getElementById("myinput");
       const filter = input.value.toUpperCase();
-      const li = document.getElementsByClassName('gameDiv');
+      const li = document.getElementsByClassName("gameDiv");
       for (let i = 0; i < li.length; i++) {
          const gameName = li[i].getAttribute("name").toUpperCase();
          if (gameName.includes(filter) && li[i].classList.contains(selectedTopic)) {
@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
             li[i].style.display = "none";
          }
       }
-   }
+   };
 
    // Music toggle
    const mySong = document.getElementById("mySong");
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", () => {
  */
 async function fetchQuotes() {
    try {
-      const response = await fetch('../media/quotes.json');
+      const response = await fetch("../media/quotes.json");
       if (!response.ok) {
          throw new Error(`HTTP error! status: ${response.status}`);
       }
@@ -138,10 +138,10 @@ async function fetchQuotes() {
       const quotes = await response.json();
       const randomQuoteObj = quotes[Math.floor(Math.random() * quotes.length)];
       const fullQuote = `"${randomQuoteObj.quote}" - ${randomQuoteObj.author}`;
-      typeEffect(fullQuote, 'random-quote', 50);
+      typeEffect(fullQuote, "random-quote", 50);
    } catch (error) {
-      console.error('Error fetching quotes:', error);
-      document.getElementById('random-quote').innerHTML = `"Error loading quote."`;
+      console.error("Error fetching quotes:", error);
+      document.getElementById("random-quote").innerHTML = `"Error loading quote."`;
    }
 }
 
@@ -152,7 +152,7 @@ async function fetchQuotes() {
  */
 function typeEffect(text, elementId, delay) {
    const element = document.getElementById(elementId);
-   element.innerHTML = '';
+   element.innerHTML = "";
    let i = 0;
 
    function type() {

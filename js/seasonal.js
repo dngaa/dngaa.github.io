@@ -1,6 +1,6 @@
 /*
  * seasonal.js
- * 
+ *
  * This script manages the seasonal (Christmas) theme for the website.
  * - By default, the seasonal theme is **enabled** and activates only during December.
  * - Users can opt out by unchecking the "Seasonal Theme" toggle on the settings page.
@@ -9,10 +9,10 @@
  * - Updates the site icon based on the current theme and time of year.
  */
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
    console.log("Seasonal script initialized");
-   
-// Function to check if today's date is within the Christmas period (December)
+
+   // Function to check if today's date is within the Christmas period (December)
    const isWithinChristmasPeriod = () => {
       const today = new Date();
       const currentMonth = today.getMonth(); // 0 = January, 11 = December
@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
    const updateIcon = () => {
       const iconElement = document.querySelector('.sidebar img[title="icon"]');
       if (!iconElement) return;
-      const basePath = '/img/';
-      const enabled = localStorage.getItem('christmasThemePreference') === 'enabled';
+      const basePath = "/img/";
+      const enabled = localStorage.getItem("christmasThemePreference") === "enabled";
       if (enabled && isWithinChristmasPeriod()) {
          iconElement.src = `${basePath}icon-christmas.png`;
       } else {
@@ -34,10 +34,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
    // Function to dynamically load and run the theme (a JS file)
    const loadThemeScript = (scriptPath) => {
-      const existingScript = document.getElementById('dynamic-theme-script');
+      const existingScript = document.getElementById("dynamic-theme-script");
       if (existingScript) existingScript.remove();
-      const script = document.createElement('script');
-      script.id = 'dynamic-theme-script';
+      const script = document.createElement("script");
+      script.id = "dynamic-theme-script";
       script.src = scriptPath;
       script.async = true;
       document.head.appendChild(script);
@@ -46,30 +46,30 @@ document.addEventListener('DOMContentLoaded', () => {
    // loads christmas theme when appropriate
    const applyChristmasTheme = () => {
       console.log("Applying Christmas theme");
-      document.body.classList.add('christmas-theme');
+      document.body.classList.add("christmas-theme");
       updateIcon();
-      loadThemeScript('/js/christmas.js');
+      loadThemeScript("/js/christmas.js");
    };
 
    // loads usual theme when appropriate
    const removeChristmasTheme = () => {
       console.log("Removing Christmas theme");
-      document.body.classList.remove('christmas-theme');
+      document.body.classList.remove("christmas-theme");
       updateIcon();
-      loadThemeScript('/js/usual.js');
+      loadThemeScript("/js/usual.js");
    };
 
-   const toggleCheckbox = document.getElementById('christmas-theme-toggle');
+   const toggleCheckbox = document.getElementById("christmas-theme-toggle");
 
    // Load preference or default to "enabled"
-   let preference = localStorage.getItem('christmasThemePreference');
+   let preference = localStorage.getItem("christmasThemePreference");
    if (!preference) {
-      preference = 'enabled';
-      localStorage.setItem('christmasThemePreference', 'enabled');
+      preference = "enabled";
+      localStorage.setItem("christmasThemePreference", "enabled");
    }
 
    // Respect the stored preference
-   if (preference === 'enabled' && isWithinChristmasPeriod()) {
+   if (preference === "enabled" && isWithinChristmasPeriod()) {
       applyChristmasTheme();
    } else {
       removeChristmasTheme();
@@ -77,13 +77,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
    // Sync checkbox state with stored preference
    if (toggleCheckbox) {
-      toggleCheckbox.checked = preference === 'enabled';
+      toggleCheckbox.checked = preference === "enabled";
 
-      toggleCheckbox.addEventListener('change', () => {
-         const newPref = toggleCheckbox.checked ? 'enabled' : 'disabled';
-         localStorage.setItem('christmasThemePreference', newPref);
+      toggleCheckbox.addEventListener("change", () => {
+         const newPref = toggleCheckbox.checked ? "enabled" : "disabled";
+         localStorage.setItem("christmasThemePreference", newPref);
 
-         if (newPref === 'enabled' && isWithinChristmasPeriod()) {
+         if (newPref === "enabled" && isWithinChristmasPeriod()) {
             applyChristmasTheme();
          } else {
             removeChristmasTheme();

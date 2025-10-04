@@ -1,6 +1,6 @@
 (async () => {
    await loadFull(tsParticles);
-   
+
    await tsParticles.load({
       id: "tsparticles",
       options: {
@@ -28,4 +28,4 @@
    });
 })();
 
-console.log('callback - tsparticles.js config loaded');
+console.log("callback - tsparticles.js config loaded");
