@@ -9,140 +9,140 @@ const games = [
    {
       // done
       name: "007",
-      img: "img/cover-art/007.png",
+      img: "/img/cover-art/007.png",
       link: "/pages/player.html?src=/gba/launcher.html%23007",
       classes: "all gba",
    },
    {
       // done
       name: "1 on 1 Soccer",
-      img: "img/cover-art/1_on_1_soccer.png",
+      img: "/img/cover-art/1_on_1_soccer.png",
       link: "/pages/player.html?src=/flash/%3Fswf%3D1on1soccer.swf",
       classes: "all multi flash",
    },
    {
       // done
       name: "2048",
-      img: "img/cover-art/2048.png",
+      img: "/img/cover-art/2048.png",
       link: "/pages/player.html?src=/games/2048/",
       classes: "all",
    },
    {
       // done
       name: "60 Seconds Burger Run",
-      img: "img/cover-art/60_seconds_burger_run.png",
+      img: "/img/cover-art/60_seconds_burger_run.png",
       link: "/pages/player.html?src=/games/60sburgerrun/",
       classes: "all",
    },
    {
       // done
       name: "8 Ball Pool",
-      img: "img/cover-art/8_ball.png",
+      img: "/img/cover-art/8_ball.png",
       link: "/pages/player.html?src=/games/8ball/",
       classes: "all multi",
    },
    {
       // done
       name: "A Dark Room",
-      img: "img/cover-art/a_dark_room.png",
+      img: "/img/cover-art/a_dark_room.png",
       link: "/pages/player.html?src=/games/a-dark-room/",
       classes: "all",
    },
    {
       // done
       name: "Advance Wars",
-      img: "img/cover-art/advance_wars.png",
+      img: "/img/cover-art/advance_wars.png",
       link: "/pages/player.html?src=/gba/launcher.html%23advancewars",
       classes: "all gba",
    },
    {
       // done
       name: "Advance Wars 2",
-      img: "img/cover-art/advance_wars_2.png",
+      img: "/img/cover-art/advance_wars_2.png",
       link: "/pages/player.html?src=/gba/launcher.html%23advancewars2",
       classes: "all gba",
    },
    {
       // done
       name: "Adventure Capitalist",
-      img: "img/cover-art/adventure_capitalist.png",
+      img: "/img/cover-art/adventure_capitalist.png",
       link: "/pages/player.html?src=/games/adventure-capitalist/",
       classes: "all",
    },
    {
       // done
       name: "Age of War",
-      img: "img/cover-art/age_of_war.png",
+      img: "/img/cover-art/age_of_war.png",
       link: "/pages/player.html?src=/flash/%3Fswf%3Dageofwar.swf",
       classes: "all flash",
    },
    {
       // done
       name: "Alien Hominid",
-      img: "img/cover-art/alien_hominid.png",
+      img: "/img/cover-art/alien_hominid.png",
       link: "/pages/player.html?src=/gba/launcher.html%23alienhominid",
       classes: "all gba",
    },
    {
       // done
       name: "Atari Anniversary Advance",
-      img: "img/cover-art/atari.png",
+      img: "/img/cover-art/atari.png",
       link: "/pages/player.html?src=/gba/launcher.html%23atari",
       classes: "all gba",
    },
    {
       // done
       name: "Bad Ice-Cream",
-      img: "img/cover-art/bad_ice_cream.png",
+      img: "/img/cover-art/bad_ice_cream.png",
       link: "/pages/player.html?src=/games/badicecream/",
       classes: "all multi",
    },
    {
       // done
       name: "Bad Ice-Cream 2",
-      img: "img/cover-art/bad_ice_cream_2.png",
+      img: "/img/cover-art/bad_ice_cream_2.png",
       link: "/pages/player.html?src=/games/badicecream2/",
       classes: "all multi",
    },
    {
       // done
       name: "Bad Ice-Cream 3",
-      img: "img/cover-art/bad_ice_cream_3.png",
+      img: "/img/cover-art/bad_ice_cream_3.png",
       link: "/pages/player.html?src=/games/badicecream3/",
       classes: "all multi",
    },
    {
       // done
       name: "Basket Random",
-      img: "img/cover-art/basketball_random.jpg",
+      img: "/img/cover-art/basketball_random.jpg",
       link: "/pages/player.html?src=/games/basket-random/",
       classes: "all multi",
    },
    {
       // done
       name: "Basketball Stars",
-      img: "img/cover-art/basketball_stars.png",
+      img: "/img/cover-art/basketball_stars.png",
       link: "/pages/player.html?src=/games/basketball-stars/",
       classes: "all multi sport",
    },
    {
       // done
       name: "Big Tower Tiny Square",
-      img: "img/cover-art/big_tower_tiny_square.png",
+      img: "/img/cover-art/big_tower_tiny_square.png",
       link: "/pages/player.html?src=/games/btts/",
       classes: "all",
    },
    {
       // done
       name: "BitLife",
-      img: "img/cover-art/bitlife.jpg",
+      img: "/img/cover-art/bitlife.jpg",
       link: "/pages/player.html?src=/games/bitlife/",
       classes: "all",
    },
    {
       // done
       name: "Black Hole Square",
-      img: "img/cover-art/black_hole_square.png",
+      img: "/img/cover-art/black_hole_square.png",
       link: "/pages/player.html?src=/games/black-hole-square/",
       classes: "all",
    },
@@ -166,13 +166,13 @@ const games = [
    },
    {
       name: "Bomberman Max 2 Blue Advance",
-      img: "img/cover-art/bomberman_blue.png",
+      img: "/img/cover-art/bomberman_blue.png",
       link: "/pages/player.html?src=/gba/launcher.html%23bomberman_max2blue",
       classes: "all gba",
    },
    {
       name: "Bomberman Tournament",
-      img: "img/cover-art/bomberman_tournament.png",
+      img: "/img/cover-art/bomberman_tournament.png",
       link: "/pages/player.html?src=/gba/launcher.html%23bomberman_tournament",
       classes: "all gba",
    },
@@ -203,7 +203,7 @@ const games = [
    {
       // done
       name: "Chess",
-      img: "img/cover-art/chess.png",
+      img: "/img/cover-art/chess.png",
       link: "/pages/player.html?src=/games/chess/",
       classes: "all new multi",
    },
@@ -216,7 +216,7 @@ const games = [
    {
       // done
       name: "Chrome Dinosaur",
-      img: "img/cover-art/chrome_dino.png",
+      img: "/img/cover-art/chrome_dino.png",
       link: "/pages/player.html?src=/games/chrome-dino/",
       classes: "all",
    },
@@ -228,14 +228,14 @@ const games = [
    },
    {
       name: "Clicker Heroes",
-      img: "img/cover-art/clicker_heroes.png",
+      img: "/img/cover-art/clicker_heroes.png",
       link: "/games/clickerheroes/",
       classes: "all new",
    },
    {
       // done
       name: "Cookie Clicker",
-      img: "img/cover-art/cookie_clicker.png",
+      img: "/img/cover-art/cookie_clicker.png",
       link: "/pages/player.html?src=/games/cookie-clicker/",
       classes: "all",
    },
@@ -248,63 +248,63 @@ const games = [
    {
       // done
       name: "Crash Bandicoot 2",
-      img: "img/cover-art/crash_2.png",
+      img: "/img/cover-art/crash_2.png",
       link: "/pages/player.html?src=/gba/launcher.html%23cb2",
       classes: "all gba",
    },
    {
       // done
       name: "Crash Bandicoot: The Huge Adventure",
-      img: "img/cover-art/crash_adventure.png",
+      img: "/img/cover-art/crash_adventure.png",
       link: "/pages/player.html?src=/gba/launcher.html%23cbha",
       classes: "all gba",
    },
    {
       // done
       name: "Crash Bandicoot: Ripto's Rampage",
-      img: "img/cover-art/crash_rampage.png",
+      img: "/img/cover-art/crash_rampage.png",
       link: "/pages/player.html?src=/gba/launcher.html%23cbprr",
       classes: "all gba",
    },
    {
       // done
       name: "Connect Four: Perfection",
-      img: "img/cover-art/connect_four_perfection.png",
+      img: "/img/cover-art/connect_four_perfection.png",
       link: "/pages/player.html?src=/gba/launcher.html%23cfpt",
       classes: "all new gba",
    },
    {
       // done
       name: "Crash Nitro Kart",
-      img: "img/cover-art/crash_nitro_kart.png",
+      img: "/img/cover-art/crash_nitro_kart.png",
       link: "/pages/player.html?src=/gba/launcher.html%23cnk",
       classes: "all new gba",
    },
    {
       // done
       name: "Croket! 1",
-      img: "img/cover-art/croket!_1.png",
+      img: "/img/cover-art/croket!_1.png",
       link: "/pages/player.html?src=/gba/launcher.html%23croket1",
       classes: "all new gba",
    },
    {
       // done
       name: "Croket! 2",
-      img: "img/cover-art/croket!_2.png",
+      img: "/img/cover-art/croket!_2.png",
       link: "/pages/player.html?src=/gba/launcher.html%23croket2",
       classes: "all new gba",
    },
    {
       // done
       name: "Croket! 3",
-      img: "img/cover-art/croket!_3.png",
+      img: "/img/cover-art/croket!_3.png",
       link: "/pages/player.html?src=/gba/launcher.html%23croket3",
       classes: "all new gba",
    },
    {
       // done
       name: "Croket! 4",
-      img: "img/cover-art/croket!_4.png",
+      img: "/img/cover-art/croket!_4.png",
       link: "/pages/player.html?src=/gba/launcher.html%23croket4",
       classes: "all new gba",
    },
